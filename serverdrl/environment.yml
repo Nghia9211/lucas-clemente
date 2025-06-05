@@ -1,0 +1,12 @@
+name: pytorch_sandbox
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - flask
+  - matplotlib
+  - numpy
+  - pillow
+  - python
+  - pytorch
+  - torchvision

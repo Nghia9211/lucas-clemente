@@ -1,0 +1,15 @@
+2024/05/23 19:00:39 GET https://10.0.0.20:6121/files/demo2
+2024/05/23 19:00:39 Starting new connection to 10.0.0.20 ([::]:38219 -> 10.0.0.20:6121), connectionID 97d0a8618b18ce38, version 512
+2024/05/23 19:00:39 Queueing packet 0x7 for later decryption
+2024/05/23 19:00:41 Info for stream 5 of 97d0a8618b18ce38
+2024/05/23 19:00:41 Path 3: sent 697 retrans 3 lost 1; rcv 918; loss rate: 0.001435
+2024/05/23 19:00:41 Path 0: sent 25 retrans 0 lost 0; rcv 36; loss rate: 0.000000
+2024/05/23 19:00:41 Path 1: sent 983 retrans 4 lost 2; rcv 1285; loss rate: 0.002035
+2024/05/23 19:00:41 1257.832181
+2024/05/23 19:00:41 Info for stream 5 of 97d0a8618b18ce38
+2024/05/23 19:00:41 Path 0: sent 25 retrans 0 lost 0; rcv 36 rtt 35.751029ms; loss rate: 0.000000
+2024/05/23 19:00:41 Congestion Window: 46720
+2024/05/23 19:00:41 Path 1: sent 989 retrans 4 lost 2; rcv 1290 rtt 20.584ms; loss rate: 0.002022
+2024/05/23 19:00:41 Congestion Window: 39420
+2024/05/23 19:00:41 Path 3: sent 697 retrans 3 lost 1; rcv 918 rtt 35.105ms; loss rate: 0.001435
+2024/05/23 19:00:41 Congestion Window: 39420

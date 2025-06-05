@@ -1,0 +1,1797 @@
+2024/10/29 06:00:05 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:00:05 Starting new connection to 171.244.134.9 ([::]:41622 -> 171.244.134.9:6124), connectionID 68bc32db406c7824, version 512
+2024/10/29 06:00:05 Queueing packet 0x7 for later decryption
+2024/10/29 06:00:05 Info for stream 5 of 68bc32db406c7824
+2024/10/29 06:00:05 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:00:05 Path 1: sent 124 retrans 1 lost 0; rcv 234; loss rate: 0.000000
+2024/10/29 06:00:05 Path 3: sent 724 retrans 3 lost 0; rcv 1378; loss rate: 0.000000
+2024/10/29 06:00:05 314.255507
+2024/10/29 06:00:05 Info for stream 5 of 68bc32db406c7824
+2024/10/29 06:00:05 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 33.445ms; loss rate: 0.000000
+2024/10/29 06:00:05 Congestion Window: 46720
+2024/10/29 06:00:05 Path 1: sent 135 retrans 1 lost 0; rcv 257 rtt 27.555ms; loss rate: 0.000000
+2024/10/29 06:00:05 Congestion Window: 46720
+2024/10/29 06:00:05 Path 3: sent 727 retrans 3 lost 0; rcv 1380 rtt 8.893ms; loss rate: 0.000000
+2024/10/29 06:00:05 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:00:06 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:00:06 Starting new connection to 171.244.134.9 ([::]:41275 -> 171.244.134.9:6124), connectionID 420d03136c4880ad, version 512
+2024/10/29 06:00:06 Queueing packet 0x7 for later decryption
+2024/10/29 06:00:06 Info for stream 5 of 420d03136c4880ad
+2024/10/29 06:00:06 Path 1: sent 99 retrans 0 lost 0; rcv 185; loss rate: 0.000000
+2024/10/29 06:00:06 Path 3: sent 739 retrans 4 lost 0; rcv 1400; loss rate: 0.000000
+2024/10/29 06:00:06 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:00:06 314.843575
+2024/10/29 06:00:06 Info for stream 5 of 420d03136c4880ad
+2024/10/29 06:00:06 Path 3: sent 742 retrans 4 lost 0; rcv 1402 rtt 8.95ms; loss rate: 0.000000
+2024/10/29 06:00:06 Congestion Window: 46720
+2024/10/29 06:00:06 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 33.285ms; loss rate: 0.000000
+2024/10/29 06:00:06 Congestion Window: 46720
+2024/10/29 06:00:06 Path 1: sent 125 retrans 0 lost 0; rcv 237 rtt 28.244ms; loss rate: 0.000000
+2024/10/29 06:00:06 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:00:08 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:00:08 Starting new connection to 171.244.134.9 ([::]:57858 -> 171.244.134.9:6124), connectionID f57bc5570425fcc0, version 512
+2024/10/29 06:00:08 Queueing packet 0x7 for later decryption
+2024/10/29 06:00:08 Info for stream 5 of f57bc5570425fcc0
+2024/10/29 06:00:08 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:00:08 Path 1: sent 96 retrans 0 lost 0; rcv 176; loss rate: 0.000000
+2024/10/29 06:00:08 Path 3: sent 770 retrans 4 lost 0; rcv 1461; loss rate: 0.000000
+2024/10/29 06:00:08 322.659103
+2024/10/29 06:00:08 Info for stream 5 of f57bc5570425fcc0
+2024/10/29 06:00:08 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 47.268ms; loss rate: 0.000000
+2024/10/29 06:00:08 Congestion Window: 46720
+2024/10/29 06:00:08 Path 1: sent 97 retrans 0 lost 0; rcv 176 rtt 27.207ms; loss rate: 0.000000
+2024/10/29 06:00:08 Congestion Window: 46720
+2024/10/29 06:00:08 Path 3: sent 771 retrans 4 lost 0; rcv 1463 rtt 11.035ms; loss rate: 0.000000
+2024/10/29 06:00:08 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:00:10 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:00:10 Starting new connection to 171.244.134.9 ([::]:47636 -> 171.244.134.9:6124), connectionID 30fb88903006e6ab, version 512
+2024/10/29 06:00:11 Queueing packet 0x7 for later decryption
+2024/10/29 06:00:11 Info for stream 5 of 30fb88903006e6ab
+2024/10/29 06:00:11 Path 0: sent 7 retrans 0 lost 0; rcv 9; loss rate: 0.000000
+2024/10/29 06:00:11 Path 1: sent 96 retrans 1 lost 0; rcv 165; loss rate: 0.000000
+2024/10/29 06:00:11 Path 3: sent 770 retrans 7 lost 0; rcv 1466; loss rate: 0.000000
+2024/10/29 06:00:11 438.414020
+2024/10/29 06:00:11 Info for stream 5 of 30fb88903006e6ab
+2024/10/29 06:00:11 Path 0: sent 7 retrans 0 lost 0; rcv 9 rtt 41.6ms; loss rate: 0.000000
+2024/10/29 06:00:11 Congestion Window: 46720
+2024/10/29 06:00:11 Path 1: sent 98 retrans 1 lost 0; rcv 171 rtt 38.51ms; loss rate: 0.000000
+2024/10/29 06:00:11 Congestion Window: 46720
+2024/10/29 06:00:11 Path 3: sent 772 retrans 7 lost 0; rcv 1469 rtt 15.866ms; loss rate: 0.000000
+2024/10/29 06:00:11 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:00:14 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:00:14 Starting new connection to 171.244.134.9 ([::]:49188 -> 171.244.134.9:6124), connectionID dbdb0424c6e72550, version 512
+2024/10/29 06:00:14 Queueing packet 0x7 for later decryption
+2024/10/29 06:00:14 Info for stream 5 of dbdb0424c6e72550
+2024/10/29 06:00:14 Path 0: sent 9 retrans 2 lost 0; rcv 9; loss rate: 0.000000
+2024/10/29 06:00:14 Path 1: sent 99 retrans 0 lost 0; rcv 180; loss rate: 0.000000
+2024/10/29 06:00:14 Path 3: sent 767 retrans 4 lost 0; rcv 1457; loss rate: 0.000000
+2024/10/29 06:00:14 416.599549
+2024/10/29 06:00:14 Info for stream 5 of dbdb0424c6e72550
+2024/10/29 06:00:14 Path 0: sent 9 retrans 3 lost 1; rcv 9 rtt 29.902ms; loss rate: 0.111111
+2024/10/29 06:00:14 Congestion Window: 2920
+2024/10/29 06:00:14 Path 1: sent 100 retrans 0 lost 0; rcv 182 rtt 24.52ms; loss rate: 0.000000
+2024/10/29 06:00:14 Congestion Window: 46720
+2024/10/29 06:00:14 Path 3: sent 769 retrans 4 lost 0; rcv 1458 rtt 9.836ms; loss rate: 0.000000
+2024/10/29 06:00:14 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:00:16 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:00:16 Starting new connection to 171.244.134.9 ([::]:56217 -> 171.244.134.9:6124), connectionID 85c238afd53542ca, version 512
+2024/10/29 06:00:16 Queueing packet 0x7 for later decryption
+2024/10/29 06:00:17 Info for stream 5 of 85c238afd53542ca
+2024/10/29 06:00:17 Path 3: sent 737 retrans 6 lost 0; rcv 1433; loss rate: 0.000000
+2024/10/29 06:00:17 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:00:17 Path 1: sent 112 retrans 2 lost 0; rcv 188; loss rate: 0.000000
+2024/10/29 06:00:17 595.736754
+2024/10/29 06:00:17 Info for stream 5 of 85c238afd53542ca
+2024/10/29 06:00:17 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 62.586ms; loss rate: 0.000000
+2024/10/29 06:00:17 Congestion Window: 46720
+2024/10/29 06:00:17 Path 1: sent 118 retrans 2 lost 0; rcv 199 rtt 24.586ms; loss rate: 0.000000
+2024/10/29 06:00:17 Congestion Window: 46720
+2024/10/29 06:00:17 Path 3: sent 737 retrans 6 lost 0; rcv 1434 rtt 60.663ms; loss rate: 0.000000
+2024/10/29 06:00:17 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:00:19 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:00:19 Starting new connection to 171.244.134.9 ([::]:54276 -> 171.244.134.9:6124), connectionID a02eeb486cd70261, version 512
+2024/10/29 06:00:19 Queueing packet 0x7 for later decryption
+2024/10/29 06:00:19 Info for stream 5 of a02eeb486cd70261
+2024/10/29 06:00:19 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:00:19 Path 1: sent 169 retrans 0 lost 0; rcv 325; loss rate: 0.000000
+2024/10/29 06:00:19 Path 3: sent 705 retrans 2 lost 0; rcv 1335; loss rate: 0.000000
+2024/10/29 06:00:19 490.781501
+2024/10/29 06:00:19 Info for stream 5 of a02eeb486cd70261
+2024/10/29 06:00:19 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 151.552406ms; loss rate: 0.000000
+2024/10/29 06:00:19 Congestion Window: 46720
+2024/10/29 06:00:19 Path 1: sent 170 retrans 0 lost 0; rcv 325 rtt 135.447ms; loss rate: 0.000000
+2024/10/29 06:00:19 Congestion Window: 46720
+2024/10/29 06:00:19 Path 3: sent 706 retrans 2 lost 0; rcv 1335 rtt 9.116ms; loss rate: 0.000000
+2024/10/29 06:00:19 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:00:22 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:00:22 Starting new connection to 171.244.134.9 ([::]:53524 -> 171.244.134.9:6124), connectionID 597d3ec4f2279ca, version 512
+2024/10/29 06:00:22 Queueing packet 0x7 for later decryption
+2024/10/29 06:00:22 Info for stream 5 of 597d3ec4f2279ca
+2024/10/29 06:00:22 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:00:22 Path 1: sent 127 retrans 0 lost 0; rcv 218; loss rate: 0.000000
+2024/10/29 06:00:22 Path 3: sent 732 retrans 3 lost 0; rcv 1421; loss rate: 0.000000
+2024/10/29 06:00:22 436.890722
+2024/10/29 06:00:22 Info for stream 5 of 597d3ec4f2279ca
+2024/10/29 06:00:22 Path 1: sent 137 retrans 0 lost 0; rcv 237 rtt 30.52ms; loss rate: 0.000000
+2024/10/29 06:00:22 Congestion Window: 46720
+2024/10/29 06:00:22 Path 3: sent 732 retrans 3 lost 0; rcv 1422 rtt 37.111ms; loss rate: 0.000000
+2024/10/29 06:00:22 Congestion Window: 46720
+2024/10/29 06:00:22 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 47.455ms; loss rate: 0.000000
+2024/10/29 06:00:22 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:00:24 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:00:24 Starting new connection to 171.244.134.9 ([::]:47140 -> 171.244.134.9:6124), connectionID 1490848b072f116, version 512
+2024/10/29 06:00:24 Queueing packet 0x7 for later decryption
+2024/10/29 06:00:25 Info for stream 5 of 1490848b072f116
+2024/10/29 06:00:25 Path 1: sent 81 retrans 2 lost 0; rcv 127; loss rate: 0.000000
+2024/10/29 06:00:25 Path 3: sent 773 retrans 4 lost 0; rcv 1500; loss rate: 0.000000
+2024/10/29 06:00:25 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:00:25 465.358272
+2024/10/29 06:00:25 Info for stream 5 of 1490848b072f116
+2024/10/29 06:00:25 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 91.182ms; loss rate: 0.000000
+2024/10/29 06:00:25 Congestion Window: 46720
+2024/10/29 06:00:25 Path 1: sent 87 retrans 2 lost 0; rcv 137 rtt 39.905ms; loss rate: 0.000000
+2024/10/29 06:00:25 Congestion Window: 46720
+2024/10/29 06:00:25 Path 3: sent 773 retrans 4 lost 0; rcv 1500 rtt 80.409ms; loss rate: 0.000000
+2024/10/29 06:00:25 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:00:27 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:00:27 Starting new connection to 171.244.134.9 ([::]:36879 -> 171.244.134.9:6124), connectionID 856e3a5b6fc209b8, version 512
+2024/10/29 06:00:27 Queueing packet 0x8 for later decryption
+2024/10/29 06:00:27 Info for stream 5 of 856e3a5b6fc209b8
+2024/10/29 06:00:27 Path 3: sent 738 retrans 2 lost 0; rcv 1401; loss rate: 0.000000
+2024/10/29 06:00:27 Path 0: sent 10 retrans 2 lost 0; rcv 9; loss rate: 0.000000
+2024/10/29 06:00:27 Path 1: sent 103 retrans 1 lost 0; rcv 189; loss rate: 0.000000
+2024/10/29 06:00:27 732.703096
+2024/10/29 06:00:27 Info for stream 5 of 856e3a5b6fc209b8
+2024/10/29 06:00:27 Path 0: sent 10 retrans 2 lost 0; rcv 9 rtt 39.947ms; loss rate: 0.000000
+2024/10/29 06:00:27 Congestion Window: 46720
+2024/10/29 06:00:27 Path 1: sent 127 retrans 1 lost 0; rcv 234 rtt 25.621ms; loss rate: 0.000000
+2024/10/29 06:00:27 Congestion Window: 46720
+2024/10/29 06:00:27 Path 3: sent 738 retrans 2 lost 0; rcv 1402 rtt 39.947ms; loss rate: 0.000000
+2024/10/29 06:00:27 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:00:29 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:00:29 Starting new connection to 171.244.134.9 ([::]:50344 -> 171.244.134.9:6124), connectionID 1f2f310eb78af542, version 512
+2024/10/29 06:00:29 Queueing packet 0x7 for later decryption
+2024/10/29 06:00:30 Info for stream 5 of 1f2f310eb78af542
+2024/10/29 06:00:30 Path 1: sent 91 retrans 1 lost 0; rcv 159; loss rate: 0.000000
+2024/10/29 06:00:30 Path 3: sent 769 retrans 5 lost 0; rcv 1473; loss rate: 0.000000
+2024/10/29 06:00:30 Path 0: sent 9 retrans 2 lost 0; rcv 9; loss rate: 0.000000
+2024/10/29 06:00:30 663.315945
+2024/10/29 06:00:30 Info for stream 5 of 1f2f310eb78af542
+2024/10/29 06:00:30 Path 0: sent 9 retrans 2 lost 0; rcv 9 rtt 89.825ms; loss rate: 0.000000
+2024/10/29 06:00:30 Congestion Window: 46720
+2024/10/29 06:00:30 Path 1: sent 94 retrans 1 lost 0; rcv 161 rtt 28.99ms; loss rate: 0.000000
+2024/10/29 06:00:30 Congestion Window: 46720
+2024/10/29 06:00:30 Path 3: sent 771 retrans 5 lost 0; rcv 1473 rtt 89.825ms; loss rate: 0.000000
+2024/10/29 06:00:30 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:00:32 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:00:32 Starting new connection to 171.244.134.9 ([::]:33921 -> 171.244.134.9:6124), connectionID b4d42bff0274b68f, version 512
+2024/10/29 06:00:32 Queueing packet 0x7 for later decryption
+2024/10/29 06:00:32 Info for stream 5 of b4d42bff0274b68f
+2024/10/29 06:00:32 Path 0: sent 7 retrans 0 lost 0; rcv 9; loss rate: 0.000000
+2024/10/29 06:00:32 Path 1: sent 103 retrans 0 lost 0; rcv 175; loss rate: 0.000000
+2024/10/29 06:00:32 Path 3: sent 672 retrans 5 lost 0; rcv 1306; loss rate: 0.000000
+2024/10/29 06:00:32 449.029299
+2024/10/29 06:00:32 Info for stream 5 of b4d42bff0274b68f
+2024/10/29 06:00:32 Path 0: sent 7 retrans 0 lost 0; rcv 9 rtt 64.547ms; loss rate: 0.000000
+2024/10/29 06:00:32 Congestion Window: 46720
+2024/10/29 06:00:32 Path 1: sent 105 retrans 0 lost 0; rcv 176 rtt 37.082ms; loss rate: 0.000000
+2024/10/29 06:00:32 Congestion Window: 46720
+2024/10/29 06:00:32 Path 3: sent 749 retrans 5 lost 0; rcv 1460 rtt 54.484ms; loss rate: 0.000000
+2024/10/29 06:00:32 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:00:34 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:00:34 Starting new connection to 171.244.134.9 ([::]:51895 -> 171.244.134.9:6124), connectionID 89db7c5891de7228, version 512
+2024/10/29 06:00:34 Queueing packet 0x7 for later decryption
+2024/10/29 06:00:35 Closing session with error: InternalError: PacketPacker BUG: Handshake retransmissions must contain a StopWaitingFrame
+2024/10/29 06:00:35 Connection 89db7c5891de7228 closed.
+2024/10/29 06:00:35 Error getting response: Get "https://171.244.134.9:6124/files/2MB-3": HeadersStreamDataDecompressFailure: cannot read frame
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:00:37 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:00:37 Starting new connection to 171.244.134.9 ([::]:56458 -> 171.244.134.9:6124), connectionID dcbcbffdf50a0972, version 512
+2024/10/29 06:00:37 Queueing packet 0x7 for later decryption
+2024/10/29 06:00:37 Info for stream 5 of dcbcbffdf50a0972
+2024/10/29 06:00:37 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:00:37 Path 1: sent 132 retrans 0 lost 0; rcv 251; loss rate: 0.000000
+2024/10/29 06:00:37 Path 3: sent 711 retrans 6 lost 0; rcv 1340; loss rate: 0.000000
+2024/10/29 06:00:37 713.176194
+2024/10/29 06:00:37 Info for stream 5 of dcbcbffdf50a0972
+2024/10/29 06:00:37 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 321.914799ms; loss rate: 0.000000
+2024/10/29 06:00:37 Congestion Window: 46720
+2024/10/29 06:00:37 Path 1: sent 155 retrans 0 lost 0; rcv 297 rtt 282.395ms; loss rate: 0.000000
+2024/10/29 06:00:37 Congestion Window: 46720
+2024/10/29 06:00:37 Path 3: sent 713 retrans 6 lost 0; rcv 1341 rtt 13.094ms; loss rate: 0.000000
+2024/10/29 06:00:37 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:00:40 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:00:40 Starting new connection to 171.244.134.9 ([::]:33905 -> 171.244.134.9:6124), connectionID 30438fe1c4af0a7b, version 512
+2024/10/29 06:00:40 Queueing packet 0x7 for later decryption
+2024/10/29 06:00:41 Info for stream 5 of 30438fe1c4af0a7b
+2024/10/29 06:00:41 Path 0: sent 7 retrans 0 lost 0; rcv 9; loss rate: 0.000000
+2024/10/29 06:00:41 Path 1: sent 73 retrans 2 lost 0; rcv 111; loss rate: 0.000000
+2024/10/29 06:00:41 Path 3: sent 766 retrans 6 lost 0; rcv 1503; loss rate: 0.000000
+2024/10/29 06:00:41 608.015499
+2024/10/29 06:00:41 Info for stream 5 of 30438fe1c4af0a7b
+2024/10/29 06:00:41 Path 0: sent 7 retrans 0 lost 0; rcv 9 rtt 89.308ms; loss rate: 0.000000
+2024/10/29 06:00:41 Congestion Window: 46720
+2024/10/29 06:00:41 Path 1: sent 86 retrans 2 lost 0; rcv 134 rtt 31.271ms; loss rate: 0.000000
+2024/10/29 06:00:41 Congestion Window: 46720
+2024/10/29 06:00:41 Path 3: sent 766 retrans 6 lost 0; rcv 1504 rtt 89.308ms; loss rate: 0.000000
+2024/10/29 06:00:41 Congestion Window: 46720
+2024/10/29 06:00:41 Info for stream 5 of 30438fe1c4af0a7b
+2024/10/29 06:00:41 Path 0: sent 7 retrans 0 lost 0; rcv 9 rtt 89.308ms; loss rate: 0.000000
+2024/10/29 06:00:41 Congestion Window: 46720
+2024/10/29 06:00:41 Path 1: sent 87 retrans 3 lost 0; rcv 134 rtt 31.271ms; loss rate: 0.000000
+2024/10/29 06:00:41 Congestion Window: 46720
+2024/10/29 06:00:41 Path 3: sent 766 retrans 6 lost 0; rcv 1504 rtt 89.308ms; loss rate: 0.000000
+2024/10/29 06:00:41 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:00:43 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:00:43 Starting new connection to 171.244.134.9 ([::]:57371 -> 171.244.134.9:6124), connectionID e92d33fa3e4f73f3, version 512
+2024/10/29 06:00:43 Queueing packet 0x7 for later decryption
+2024/10/29 06:00:44 Info for stream 5 of e92d33fa3e4f73f3
+2024/10/29 06:00:44 Path 0: sent 7 retrans 0 lost 0; rcv 10; loss rate: 0.000000
+2024/10/29 06:00:44 Path 1: sent 167 retrans 1 lost 0; rcv 319; loss rate: 0.000000
+2024/10/29 06:00:44 Path 3: sent 690 retrans 6 lost 0; rcv 1308; loss rate: 0.000000
+2024/10/29 06:00:44 832.165578
+2024/10/29 06:00:44 Info for stream 5 of e92d33fa3e4f73f3
+2024/10/29 06:00:44 Path 0: sent 7 retrans 0 lost 0; rcv 10 rtt 182.393ms; loss rate: 0.000000
+2024/10/29 06:00:44 Congestion Window: 46720
+2024/10/29 06:00:44 Path 1: sent 168 retrans 1 lost 0; rcv 322 rtt 27.484ms; loss rate: 0.000000
+2024/10/29 06:00:44 Congestion Window: 46720
+2024/10/29 06:00:44 Path 3: sent 692 retrans 6 lost 0; rcv 1309 rtt 7.026ms; loss rate: 0.000000
+2024/10/29 06:00:44 Congestion Window: 46720
+2024/10/29 06:00:44 Info for stream 5 of e92d33fa3e4f73f3
+2024/10/29 06:00:44 Path 0: sent 7 retrans 0 lost 0; rcv 10 rtt 182.393ms; loss rate: 0.000000
+2024/10/29 06:00:44 Congestion Window: 46720
+2024/10/29 06:00:44 Path 1: sent 168 retrans 1 lost 0; rcv 322 rtt 27.484ms; loss rate: 0.000000
+2024/10/29 06:00:44 Congestion Window: 46720
+2024/10/29 06:00:44 Path 3: sent 693 retrans 7 lost 0; rcv 1309 rtt 7.026ms; loss rate: 0.000000
+2024/10/29 06:00:44 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:00:46 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:00:46 Starting new connection to 171.244.134.9 ([::]:46153 -> 171.244.134.9:6124), connectionID c08aed1f4eebf9cb, version 512
+2024/10/29 06:00:46 Queueing packet 0x8 for later decryption
+2024/10/29 06:00:46 Info for stream 5 of c08aed1f4eebf9cb
+2024/10/29 06:00:46 Path 0: sent 9 retrans 1 lost 0; rcv 11; loss rate: 0.000000
+2024/10/29 06:00:46 Path 1: sent 97 retrans 0 lost 0; rcv 177; loss rate: 0.000000
+2024/10/29 06:00:46 Path 3: sent 752 retrans 6 lost 0; rcv 1435; loss rate: 0.000000
+2024/10/29 06:00:46 599.244018
+2024/10/29 06:00:46 Info for stream 5 of c08aed1f4eebf9cb
+2024/10/29 06:00:46 Path 0: sent 9 retrans 1 lost 0; rcv 11 rtt 44.684ms; loss rate: 0.000000
+2024/10/29 06:00:46 Congestion Window: 46720
+2024/10/29 06:00:46 Path 1: sent 112 retrans 0 lost 0; rcv 202 rtt 24.269ms; loss rate: 0.000000
+2024/10/29 06:00:46 Congestion Window: 46720
+2024/10/29 06:00:46 Path 3: sent 753 retrans 6 lost 0; rcv 1436 rtt 33.607ms; loss rate: 0.000000
+2024/10/29 06:00:46 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:00:48 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:00:48 Starting new connection to 171.244.134.9 ([::]:58086 -> 171.244.134.9:6124), connectionID 5abe9a995b12aeff, version 512
+2024/10/29 06:00:48 Queueing packet 0x7 for later decryption
+2024/10/29 06:00:49 Info for stream 5 of 5abe9a995b12aeff
+2024/10/29 06:00:49 Path 3: sent 744 retrans 1 lost 0; rcv 1410; loss rate: 0.000000
+2024/10/29 06:00:49 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:00:49 Path 1: sent 134 retrans 0 lost 0; rcv 250; loss rate: 0.000000
+2024/10/29 06:00:49 518.005568
+2024/10/29 06:00:49 Info for stream 5 of 5abe9a995b12aeff
+2024/10/29 06:00:49 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 151.217448ms; loss rate: 0.000000
+2024/10/29 06:00:49 Congestion Window: 46720
+2024/10/29 06:00:49 Path 1: sent 134 retrans 0 lost 0; rcv 251 rtt 113.667ms; loss rate: 0.000000
+2024/10/29 06:00:49 Congestion Window: 46720
+2024/10/29 06:00:49 Path 3: sent 746 retrans 1 lost 0; rcv 1413 rtt 24.437ms; loss rate: 0.000000
+2024/10/29 06:00:49 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:00:50 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:00:50 Starting new connection to 171.244.134.9 ([::]:51795 -> 171.244.134.9:6124), connectionID 7ea8d8ca95f20c2f, version 512
+2024/10/29 06:00:51 Queueing packet 0x7 for later decryption
+2024/10/29 06:00:51 Info for stream 5 of 7ea8d8ca95f20c2f
+2024/10/29 06:00:51 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:00:51 Path 1: sent 110 retrans 1 lost 0; rcv 207; loss rate: 0.000000
+2024/10/29 06:00:51 Path 3: sent 751 retrans 3 lost 0; rcv 1429; loss rate: 0.000000
+2024/10/29 06:00:51 491.406166
+2024/10/29 06:00:51 Info for stream 5 of 7ea8d8ca95f20c2f
+2024/10/29 06:00:51 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 137.591ms; loss rate: 0.000000
+2024/10/29 06:00:51 Congestion Window: 46720
+2024/10/29 06:00:51 Path 1: sent 111 retrans 1 lost 0; rcv 208 rtt 26.196ms; loss rate: 0.000000
+2024/10/29 06:00:51 Congestion Window: 46720
+2024/10/29 06:00:51 Path 3: sent 752 retrans 3 lost 0; rcv 1429 rtt 8.623ms; loss rate: 0.000000
+2024/10/29 06:00:51 Congestion Window: 46720
+2024/10/29 06:00:51 Info for stream 5 of 7ea8d8ca95f20c2f
+2024/10/29 06:00:51 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 137.591ms; loss rate: 0.000000
+2024/10/29 06:00:51 Congestion Window: 46720
+2024/10/29 06:00:51 Path 1: sent 111 retrans 1 lost 0; rcv 208 rtt 26.196ms; loss rate: 0.000000
+2024/10/29 06:00:51 Congestion Window: 46720
+2024/10/29 06:00:51 Path 3: sent 753 retrans 4 lost 0; rcv 1429 rtt 8.623ms; loss rate: 0.000000
+2024/10/29 06:00:51 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:00:53 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:00:53 Starting new connection to 171.244.134.9 ([::]:35556 -> 171.244.134.9:6124), connectionID 7ef43101f91f8392, version 512
+2024/10/29 06:00:53 Queueing packet 0x7 for later decryption
+2024/10/29 06:00:53 Info for stream 5 of 7ef43101f91f8392
+2024/10/29 06:00:53 Path 1: sent 90 retrans 0 lost 0; rcv 156; loss rate: 0.000000
+2024/10/29 06:00:53 Path 3: sent 771 retrans 4 lost 0; rcv 1479; loss rate: 0.000000
+2024/10/29 06:00:53 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:00:53 492.971204
+2024/10/29 06:00:53 Info for stream 5 of 7ef43101f91f8392
+2024/10/29 06:00:53 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 76.405ms; loss rate: 0.000000
+2024/10/29 06:00:53 Congestion Window: 46720
+2024/10/29 06:00:53 Path 1: sent 92 retrans 0 lost 0; rcv 157 rtt 28.929ms; loss rate: 0.000000
+2024/10/29 06:00:53 Congestion Window: 46720
+2024/10/29 06:00:53 Path 3: sent 771 retrans 4 lost 0; rcv 1479 rtt 76.405ms; loss rate: 0.000000
+2024/10/29 06:00:53 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:00:55 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:00:55 Starting new connection to 171.244.134.9 ([::]:37168 -> 171.244.134.9:6124), connectionID c7645b419fdfb7e9, version 512
+2024/10/29 06:00:55 Queueing packet 0x7 for later decryption
+2024/10/29 06:00:55 Info for stream 5 of c7645b419fdfb7e9
+2024/10/29 06:00:55 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:00:55 Path 1: sent 103 retrans 0 lost 0; rcv 185; loss rate: 0.000000
+2024/10/29 06:00:55 Path 3: sent 765 retrans 4 lost 0; rcv 1454; loss rate: 0.000000
+2024/10/29 06:00:55 302.183455
+2024/10/29 06:00:55 Info for stream 5 of c7645b419fdfb7e9
+2024/10/29 06:00:55 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 30.498ms; loss rate: 0.000000
+2024/10/29 06:00:55 Congestion Window: 46720
+2024/10/29 06:00:55 Path 1: sent 103 retrans 0 lost 0; rcv 185 rtt 25.933ms; loss rate: 0.000000
+2024/10/29 06:00:55 Congestion Window: 46720
+2024/10/29 06:00:55 Path 3: sent 767 retrans 4 lost 0; rcv 1457 rtt 15.194ms; loss rate: 0.000000
+2024/10/29 06:00:55 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:00:58 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:00:58 Starting new connection to 171.244.134.9 ([::]:33537 -> 171.244.134.9:6124), connectionID 7c8446d0622721b5, version 512
+2024/10/29 06:00:58 Queueing packet 0x7 for later decryption
+2024/10/29 06:00:58 Info for stream 5 of 7c8446d0622721b5
+2024/10/29 06:00:58 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:00:58 Path 1: sent 117 retrans 1 lost 0; rcv 198; loss rate: 0.000000
+2024/10/29 06:00:58 Path 3: sent 736 retrans 8 lost 1; rcv 1432; loss rate: 0.001359
+2024/10/29 06:00:58 525.215955
+2024/10/29 06:00:58 Info for stream 5 of 7c8446d0622721b5
+2024/10/29 06:00:58 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 78.781ms; loss rate: 0.000000
+2024/10/29 06:00:58 Congestion Window: 46720
+2024/10/29 06:00:58 Path 1: sent 120 retrans 1 lost 0; rcv 203 rtt 31.851ms; loss rate: 0.000000
+2024/10/29 06:00:58 Congestion Window: 46720
+2024/10/29 06:00:58 Path 3: sent 736 retrans 8 lost 1; rcv 1433 rtt 69.556ms; loss rate: 0.001359
+2024/10/29 06:00:58 Congestion Window: 39420
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:01:00 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:01:00 Starting new connection to 171.244.134.9 ([::]:44755 -> 171.244.134.9:6124), connectionID 7990f80e970ebbb7, version 512
+2024/10/29 06:01:00 Queueing packet 0x7 for later decryption
+2024/10/29 06:01:01 Info for stream 5 of 7990f80e970ebbb7
+2024/10/29 06:01:01 Path 1: sent 112 retrans 0 lost 0; rcv 211; loss rate: 0.000000
+2024/10/29 06:01:01 Path 3: sent 768 retrans 1 lost 0; rcv 1449; loss rate: 0.000000
+2024/10/29 06:01:01 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:01:01 525.340713
+2024/10/29 06:01:01 Info for stream 5 of 7990f80e970ebbb7
+2024/10/29 06:01:01 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 142.508282ms; loss rate: 0.000000
+2024/10/29 06:01:01 Congestion Window: 46720
+2024/10/29 06:01:01 Path 1: sent 112 retrans 0 lost 0; rcv 211 rtt 106.589ms; loss rate: 0.000000
+2024/10/29 06:01:01 Congestion Window: 46720
+2024/10/29 06:01:01 Path 3: sent 769 retrans 1 lost 0; rcv 1454 rtt 34.63ms; loss rate: 0.000000
+2024/10/29 06:01:01 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:01:03 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:01:03 Starting new connection to 171.244.134.9 ([::]:43290 -> 171.244.134.9:6124), connectionID 4fb0858e977a1d75, version 512
+2024/10/29 06:01:03 Queueing packet 0x7 for later decryption
+2024/10/29 06:01:04 Info for stream 5 of 4fb0858e977a1d75
+2024/10/29 06:01:04 Path 1: sent 219 retrans 0 lost 0; rcv 430; loss rate: 0.000000
+2024/10/29 06:01:04 Path 3: sent 645 retrans 4 lost 0; rcv 1215; loss rate: 0.000000
+2024/10/29 06:01:04 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:01:04 825.922168
+2024/10/29 06:01:04 Info for stream 5 of 4fb0858e977a1d75
+2024/10/29 06:01:04 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 305.569401ms; loss rate: 0.000000
+2024/10/29 06:01:04 Congestion Window: 46720
+2024/10/29 06:01:04 Path 1: sent 228 retrans 0 lost 0; rcv 449 rtt 239.442ms; loss rate: 0.000000
+2024/10/29 06:01:04 Congestion Window: 46720
+2024/10/29 06:01:04 Path 3: sent 646 retrans 4 lost 0; rcv 1217 rtt 9.295ms; loss rate: 0.000000
+2024/10/29 06:01:04 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:01:06 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:01:06 Starting new connection to 171.244.134.9 ([::]:33746 -> 171.244.134.9:6124), connectionID 16d9a17e97205d48, version 512
+2024/10/29 06:01:06 Queueing packet 0x7 for later decryption
+2024/10/29 06:01:07 Info for stream 5 of 16d9a17e97205d48
+2024/10/29 06:01:07 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:01:07 Path 1: sent 104 retrans 3 lost 1; rcv 177; loss rate: 0.009615
+2024/10/29 06:01:07 Path 3: sent 753 retrans 1 lost 0; rcv 1461; loss rate: 0.000000
+2024/10/29 06:01:07 601.871901
+2024/10/29 06:01:07 Info for stream 5 of 16d9a17e97205d48
+2024/10/29 06:01:07 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 127.186ms; loss rate: 0.000000
+2024/10/29 06:01:07 Congestion Window: 46720
+2024/10/29 06:01:07 Path 1: sent 105 retrans 3 lost 1; rcv 178 rtt 31.382ms; loss rate: 0.009524
+2024/10/29 06:01:07 Congestion Window: 5840
+2024/10/29 06:01:07 Path 3: sent 753 retrans 1 lost 0; rcv 1461 rtt 127.186ms; loss rate: 0.000000
+2024/10/29 06:01:07 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:01:09 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:01:09 Starting new connection to 171.244.134.9 ([::]:56568 -> 171.244.134.9:6124), connectionID 65c39421904d5827, version 512
+2024/10/29 06:01:09 Queueing packet 0x7 for later decryption
+2024/10/29 06:01:09 Info for stream 5 of 65c39421904d5827
+2024/10/29 06:01:09 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:01:09 Path 1: sent 110 retrans 1 lost 0; rcv 192; loss rate: 0.000000
+2024/10/29 06:01:09 Path 3: sent 739 retrans 6 lost 0; rcv 1439; loss rate: 0.000000
+2024/10/29 06:01:09 463.610574
+2024/10/29 06:01:09 Info for stream 5 of 65c39421904d5827
+2024/10/29 06:01:09 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 31.904ms; loss rate: 0.000000
+2024/10/29 06:01:09 Congestion Window: 46720
+2024/10/29 06:01:09 Path 1: sent 110 retrans 1 lost 0; rcv 192 rtt 26.822ms; loss rate: 0.000000
+2024/10/29 06:01:09 Congestion Window: 46720
+2024/10/29 06:01:09 Path 3: sent 741 retrans 6 lost 0; rcv 1439 rtt 24.723ms; loss rate: 0.000000
+2024/10/29 06:01:09 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:01:11 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:01:11 Starting new connection to 171.244.134.9 ([::]:39484 -> 171.244.134.9:6124), connectionID afe7a0942b6c5b71, version 512
+2024/10/29 06:01:12 Queueing packet 0x8 for later decryption
+2024/10/29 06:01:12 Info for stream 5 of afe7a0942b6c5b71
+2024/10/29 06:01:12 Path 0: sent 10 retrans 2 lost 0; rcv 11; loss rate: 0.000000
+2024/10/29 06:01:12 Path 1: sent 144 retrans 2 lost 0; rcv 274; loss rate: 0.000000
+2024/10/29 06:01:12 Path 3: sent 684 retrans 9 lost 0; rcv 1300; loss rate: 0.000000
+2024/10/29 06:01:12 1100.255329
+2024/10/29 06:01:12 Info for stream 5 of afe7a0942b6c5b71
+2024/10/29 06:01:12 Path 0: sent 10 retrans 2 lost 0; rcv 11 rtt 82.807ms; loss rate: 0.000000
+2024/10/29 06:01:12 Congestion Window: 46720
+2024/10/29 06:01:12 Path 1: sent 172 retrans 2 lost 0; rcv 331 rtt 82.807ms; loss rate: 0.000000
+2024/10/29 06:01:12 Congestion Window: 46720
+2024/10/29 06:01:12 Path 3: sent 686 retrans 9 lost 0; rcv 1302 rtt 21.918ms; loss rate: 0.000000
+2024/10/29 06:01:12 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:01:14 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:01:14 Starting new connection to 171.244.134.9 ([::]:45882 -> 171.244.134.9:6124), connectionID 9264218f73cfd759, version 512
+2024/10/29 06:01:15 Queueing packet 0x7 for later decryption
+2024/10/29 06:01:15 Info for stream 5 of 9264218f73cfd759
+2024/10/29 06:01:15 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:01:15 Path 1: sent 81 retrans 0 lost 0; rcv 135; loss rate: 0.000000
+2024/10/29 06:01:15 Path 3: sent 769 retrans 3 lost 0; rcv 1499; loss rate: 0.000000
+2024/10/29 06:01:15 462.058813
+2024/10/29 06:01:15 Info for stream 5 of 9264218f73cfd759
+2024/10/29 06:01:15 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 69.671ms; loss rate: 0.000000
+2024/10/29 06:01:15 Congestion Window: 46720
+2024/10/29 06:01:15 Path 1: sent 82 retrans 0 lost 0; rcv 135 rtt 41.343ms; loss rate: 0.000000
+2024/10/29 06:01:15 Congestion Window: 46720
+2024/10/29 06:01:15 Path 3: sent 770 retrans 3 lost 0; rcv 1499 rtt 59.74ms; loss rate: 0.000000
+2024/10/29 06:01:15 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:01:17 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:01:17 Starting new connection to 171.244.134.9 ([::]:59588 -> 171.244.134.9:6124), connectionID 45ac4cfc279639da, version 512
+2024/10/29 06:01:17 Queueing packet 0x7 for later decryption
+2024/10/29 06:01:18 Info for stream 5 of 45ac4cfc279639da
+2024/10/29 06:01:18 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:01:18 Path 1: sent 122 retrans 1 lost 0; rcv 220; loss rate: 0.000000
+2024/10/29 06:01:18 Path 3: sent 723 retrans 4 lost 0; rcv 1389; loss rate: 0.000000
+2024/10/29 06:01:18 801.388396
+2024/10/29 06:01:18 Info for stream 5 of 45ac4cfc279639da
+2024/10/29 06:01:18 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 269.071ms; loss rate: 0.000000
+2024/10/29 06:01:18 Congestion Window: 46720
+2024/10/29 06:01:18 Path 1: sent 138 retrans 1 lost 0; rcv 249 rtt 29.074ms; loss rate: 0.000000
+2024/10/29 06:01:18 Congestion Window: 46720
+2024/10/29 06:01:18 Path 3: sent 724 retrans 4 lost 0; rcv 1390 rtt 59.239ms; loss rate: 0.000000
+2024/10/29 06:01:18 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:01:20 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:01:20 Starting new connection to 171.244.134.9 ([::]:56813 -> 171.244.134.9:6124), connectionID 4d50b21cb0878caf, version 512
+2024/10/29 06:01:20 Queueing packet 0x7 for later decryption
+2024/10/29 06:01:21 Info for stream 5 of 4d50b21cb0878caf
+2024/10/29 06:01:21 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:01:21 Path 1: sent 73 retrans 1 lost 0; rcv 122; loss rate: 0.000000
+2024/10/29 06:01:21 Path 3: sent 753 retrans 6 lost 0; rcv 1458; loss rate: 0.000000
+2024/10/29 06:01:21 911.575350
+2024/10/29 06:01:21 Info for stream 5 of 4d50b21cb0878caf
+2024/10/29 06:01:21 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 213.717ms; loss rate: 0.000000
+2024/10/29 06:01:21 Congestion Window: 46720
+2024/10/29 06:01:21 Path 1: sent 103 retrans 1 lost 0; rcv 176 rtt 28.882ms; loss rate: 0.000000
+2024/10/29 06:01:21 Congestion Window: 46720
+2024/10/29 06:01:21 Path 3: sent 754 retrans 6 lost 0; rcv 1459 rtt 120.336ms; loss rate: 0.000000
+2024/10/29 06:01:21 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:01:23 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:01:23 Starting new connection to 171.244.134.9 ([::]:46280 -> 171.244.134.9:6124), connectionID 41c9824f06e89fbf, version 512
+2024/10/29 06:01:23 Queueing packet 0x7 for later decryption
+2024/10/29 06:01:24 Info for stream 5 of 41c9824f06e89fbf
+2024/10/29 06:01:24 Path 3: sent 715 retrans 7 lost 0; rcv 1345; loss rate: 0.000000
+2024/10/29 06:01:24 Path 0: sent 7 retrans 0 lost 0; rcv 9; loss rate: 0.000000
+2024/10/29 06:01:24 Path 1: sent 160 retrans 0 lost 0; rcv 302; loss rate: 0.000000
+2024/10/29 06:01:24 744.117124
+2024/10/29 06:01:24 Info for stream 5 of 41c9824f06e89fbf
+2024/10/29 06:01:24 Path 0: sent 7 retrans 0 lost 0; rcv 9 rtt 62.405ms; loss rate: 0.000000
+2024/10/29 06:01:24 Congestion Window: 46720
+2024/10/29 06:01:24 Path 1: sent 160 retrans 0 lost 0; rcv 303 rtt 56.021ms; loss rate: 0.000000
+2024/10/29 06:01:24 Congestion Window: 46720
+2024/10/29 06:01:24 Path 3: sent 716 retrans 7 lost 0; rcv 1346 rtt 22.895ms; loss rate: 0.000000
+2024/10/29 06:01:24 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:01:26 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:01:26 Starting new connection to 171.244.134.9 ([::]:37142 -> 171.244.134.9:6124), connectionID c1cb1c53d1cf133b, version 512
+2024/10/29 06:01:26 Queueing packet 0x7 for later decryption
+2024/10/29 06:01:26 Info for stream 5 of c1cb1c53d1cf133b
+2024/10/29 06:01:26 Path 0: sent 7 retrans 0 lost 0; rcv 9; loss rate: 0.000000
+2024/10/29 06:01:26 Path 1: sent 123 retrans 0 lost 0; rcv 224; loss rate: 0.000000
+2024/10/29 06:01:26 Path 3: sent 718 retrans 8 lost 0; rcv 1371; loss rate: 0.000000
+2024/10/29 06:01:26 507.836288
+2024/10/29 06:01:26 Info for stream 5 of c1cb1c53d1cf133b
+2024/10/29 06:01:26 Path 0: sent 7 retrans 0 lost 0; rcv 9 rtt 107.048ms; loss rate: 0.000000
+2024/10/29 06:01:26 Congestion Window: 46720
+2024/10/29 06:01:26 Path 1: sent 144 retrans 0 lost 0; rcv 267 rtt 96.323ms; loss rate: 0.000000
+2024/10/29 06:01:26 Congestion Window: 46720
+2024/10/29 06:01:26 Path 3: sent 721 retrans 8 lost 0; rcv 1373 rtt 12.027ms; loss rate: 0.000000
+2024/10/29 06:01:26 Congestion Window: 46720
+2024/10/29 06:01:26 Info for stream 5 of c1cb1c53d1cf133b
+2024/10/29 06:01:26 Path 1: sent 145 retrans 0 lost 0; rcv 268 rtt 96.323ms; loss rate: 0.000000
+2024/10/29 06:01:26 Congestion Window: 46720
+2024/10/29 06:01:26 Path 3: sent 723 retrans 9 lost 0; rcv 1374 rtt 12.027ms; loss rate: 0.000000
+2024/10/29 06:01:26 Congestion Window: 46720
+2024/10/29 06:01:26 Path 0: sent 7 retrans 0 lost 0; rcv 9 rtt 107.048ms; loss rate: 0.000000
+2024/10/29 06:01:26 Congestion Window: 46720
+2024/10/29 06:01:26 Info for stream 5 of c1cb1c53d1cf133b
+2024/10/29 06:01:26 Path 0: sent 7 retrans 0 lost 0; rcv 9 rtt 107.048ms; loss rate: 0.000000
+2024/10/29 06:01:26 Congestion Window: 46720
+2024/10/29 06:01:26 Path 1: sent 145 retrans 0 lost 0; rcv 268 rtt 96.323ms; loss rate: 0.000000
+2024/10/29 06:01:26 Congestion Window: 46720
+2024/10/29 06:01:26 Path 3: sent 725 retrans 10 lost 0; rcv 1374 rtt 12.027ms; loss rate: 0.000000
+2024/10/29 06:01:26 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:01:28 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:01:28 Starting new connection to 171.244.134.9 ([::]:37656 -> 171.244.134.9:6124), connectionID 1e5532e8f3415ccc, version 512
+2024/10/29 06:01:28 Queueing packet 0x8 for later decryption
+2024/10/29 06:01:29 Info for stream 5 of 1e5532e8f3415ccc
+2024/10/29 06:01:29 Path 3: sent 767 retrans 5 lost 0; rcv 1466; loss rate: 0.000000
+2024/10/29 06:01:29 Path 0: sent 10 retrans 3 lost 1; rcv 10; loss rate: 0.100000
+2024/10/29 06:01:29 Path 1: sent 93 retrans 1 lost 0; rcv 165; loss rate: 0.000000
+2024/10/29 06:01:29 608.436969
+2024/10/29 06:01:29 Info for stream 5 of 1e5532e8f3415ccc
+2024/10/29 06:01:29 Path 0: sent 10 retrans 3 lost 1; rcv 10 rtt 65.611ms; loss rate: 0.100000
+2024/10/29 06:01:29 Congestion Window: 39420
+2024/10/29 06:01:29 Path 1: sent 98 retrans 1 lost 0; rcv 172 rtt 22.503ms; loss rate: 0.000000
+2024/10/29 06:01:29 Congestion Window: 46720
+2024/10/29 06:01:29 Path 3: sent 767 retrans 5 lost 0; rcv 1467 rtt 59.637ms; loss rate: 0.000000
+2024/10/29 06:01:29 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:01:31 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:01:31 Starting new connection to 171.244.134.9 ([::]:36771 -> 171.244.134.9:6124), connectionID 2427e24dd537fec2, version 512
+2024/10/29 06:01:31 Queueing packet 0x7 for later decryption
+2024/10/29 06:01:32 Info for stream 5 of 2427e24dd537fec2
+2024/10/29 06:01:32 Path 0: sent 7 retrans 0 lost 0; rcv 10; loss rate: 0.000000
+2024/10/29 06:01:32 Path 1: sent 190 retrans 1 lost 0; rcv 365; loss rate: 0.000000
+2024/10/29 06:01:32 Path 3: sent 666 retrans 5 lost 0; rcv 1264; loss rate: 0.000000
+2024/10/29 06:01:32 756.484057
+2024/10/29 06:01:32 Info for stream 5 of 2427e24dd537fec2
+2024/10/29 06:01:32 Path 0: sent 7 retrans 0 lost 0; rcv 10 rtt 169.765ms; loss rate: 0.000000
+2024/10/29 06:01:32 Congestion Window: 46720
+2024/10/29 06:01:32 Path 1: sent 190 retrans 1 lost 0; rcv 365 rtt 28.45ms; loss rate: 0.000000
+2024/10/29 06:01:32 Congestion Window: 46720
+2024/10/29 06:01:32 Path 3: sent 667 retrans 5 lost 0; rcv 1264 rtt 11.057ms; loss rate: 0.000000
+2024/10/29 06:01:32 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:01:34 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:01:34 Starting new connection to 171.244.134.9 ([::]:34875 -> 171.244.134.9:6124), connectionID bccd0002cf7a1f0b, version 512
+2024/10/29 06:01:34 Queueing packet 0x7 for later decryption
+2024/10/29 06:01:35 Info for stream 5 of bccd0002cf7a1f0b
+2024/10/29 06:01:35 Path 0: sent 7 retrans 0 lost 0; rcv 11; loss rate: 0.000000
+2024/10/29 06:01:35 Path 1: sent 196 retrans 0 lost 0; rcv 373; loss rate: 0.000000
+2024/10/29 06:01:35 Path 3: sent 651 retrans 13 lost 3; rcv 1230; loss rate: 0.004608
+2024/10/29 06:01:35 1111.326652
+2024/10/29 06:01:35 Info for stream 5 of bccd0002cf7a1f0b
+2024/10/29 06:01:35 Path 0: sent 7 retrans 0 lost 0; rcv 11 rtt 275.477ms; loss rate: 0.000000
+2024/10/29 06:01:35 Congestion Window: 46720
+2024/10/29 06:01:35 Path 1: sent 209 retrans 0 lost 0; rcv 400 rtt 36.482ms; loss rate: 0.000000
+2024/10/29 06:01:35 Congestion Window: 46720
+2024/10/29 06:01:35 Path 3: sent 652 retrans 13 lost 3; rcv 1231 rtt 8.334ms; loss rate: 0.004601
+2024/10/29 06:01:35 Congestion Window: 5840
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:01:39 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:01:39 Starting new connection to 171.244.134.9 ([::]:49502 -> 171.244.134.9:6124), connectionID 1f84c0a8542b3b14, version 512
+2024/10/29 06:01:39 Queueing packet 0x9 for later decryption
+2024/10/29 06:01:41 Info for stream 5 of 1f84c0a8542b3b14
+2024/10/29 06:01:41 Path 0: sent 12 retrans 3 lost 1; rcv 13; loss rate: 0.083333
+2024/10/29 06:01:41 Path 1: sent 250 retrans 0 lost 0; rcv 484; loss rate: 0.000000
+2024/10/29 06:01:41 Path 3: sent 611 retrans 10 lost 0; rcv 1150; loss rate: 0.000000
+2024/10/29 06:01:41 1757.665458
+2024/10/29 06:01:41 Info for stream 5 of 1f84c0a8542b3b14
+2024/10/29 06:01:41 Path 1: sent 250 retrans 0 lost 0; rcv 485 rtt 305.141ms; loss rate: 0.000000
+2024/10/29 06:01:41 Congestion Window: 46720
+2024/10/29 06:01:41 Path 3: sent 612 retrans 10 lost 0; rcv 1152 rtt 28.225ms; loss rate: 0.000000
+2024/10/29 06:01:41 Congestion Window: 46720
+2024/10/29 06:01:41 Path 0: sent 12 retrans 3 lost 1; rcv 13 rtt 318.859501ms; loss rate: 0.083333
+2024/10/29 06:01:41 Congestion Window: 5840
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:01:44 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:01:44 Starting new connection to 171.244.134.9 ([::]:54637 -> 171.244.134.9:6124), connectionID 6c67420f0fc1a005, version 512
+2024/10/29 06:01:44 Queueing packet 0x7 for later decryption
+2024/10/29 06:01:46 Info for stream 5 of 6c67420f0fc1a005
+2024/10/29 06:01:46 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:01:46 Path 1: sent 95 retrans 9 lost 7; rcv 159; loss rate: 0.073684
+2024/10/29 06:01:46 Path 3: sent 786 retrans 9 lost 3; rcv 1488; loss rate: 0.003817
+2024/10/29 06:01:46 1240.853033
+2024/10/29 06:01:46 Info for stream 5 of 6c67420f0fc1a005
+2024/10/29 06:01:46 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 76.313ms; loss rate: 0.000000
+2024/10/29 06:01:46 Congestion Window: 46720
+2024/10/29 06:01:46 Path 1: sent 96 retrans 9 lost 7; rcv 159 rtt 21.838ms; loss rate: 0.072917
+2024/10/29 06:01:46 Congestion Window: 2920
+2024/10/29 06:01:46 Path 3: sent 787 retrans 9 lost 3; rcv 1488 rtt 16.58ms; loss rate: 0.003812
+2024/10/29 06:01:46 Congestion Window: 4380
+2024/10/29 06:01:46 Info for stream 5 of 6c67420f0fc1a005
+2024/10/29 06:01:46 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 76.313ms; loss rate: 0.000000
+2024/10/29 06:01:46 Congestion Window: 46720
+2024/10/29 06:01:46 Path 1: sent 96 retrans 9 lost 7; rcv 159 rtt 21.838ms; loss rate: 0.072917
+2024/10/29 06:01:46 Congestion Window: 2920
+2024/10/29 06:01:46 Path 3: sent 788 retrans 10 lost 3; rcv 1488 rtt 16.58ms; loss rate: 0.003807
+2024/10/29 06:01:46 Congestion Window: 4380
+2024/10/29 06:01:46 Info for stream 5 of 6c67420f0fc1a005
+2024/10/29 06:01:46 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 76.313ms; loss rate: 0.000000
+2024/10/29 06:01:46 Congestion Window: 46720
+2024/10/29 06:01:46 Path 1: sent 96 retrans 9 lost 7; rcv 159 rtt 21.838ms; loss rate: 0.072917
+2024/10/29 06:01:46 Congestion Window: 2920
+2024/10/29 06:01:46 Path 3: sent 789 retrans 11 lost 3; rcv 1488 rtt 16.58ms; loss rate: 0.003802
+2024/10/29 06:01:46 Congestion Window: 4380
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:01:50 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:01:50 Starting new connection to 171.244.134.9 ([::]:56159 -> 171.244.134.9:6124), connectionID 8014089e008468c0, version 512
+2024/10/29 06:01:50 Queueing packet 0x8 for later decryption
+2024/10/29 06:01:51 Info for stream 5 of 8014089e008468c0
+2024/10/29 06:01:51 Path 0: sent 12 retrans 5 lost 3; rcv 10; loss rate: 0.250000
+2024/10/29 06:01:51 Path 1: sent 120 retrans 0 lost 0; rcv 227; loss rate: 0.000000
+2024/10/29 06:01:51 Path 3: sent 743 retrans 7 lost 0; rcv 1412; loss rate: 0.000000
+2024/10/29 06:01:51 1013.713229
+2024/10/29 06:01:51 Info for stream 5 of 8014089e008468c0
+2024/10/29 06:01:51 Path 0: sent 12 retrans 5 lost 3; rcv 10 rtt 41.32ms; loss rate: 0.250000
+2024/10/29 06:01:51 Congestion Window: 2920
+2024/10/29 06:01:51 Path 1: sent 120 retrans 0 lost 0; rcv 227 rtt 30.883ms; loss rate: 0.000000
+2024/10/29 06:01:51 Congestion Window: 46720
+2024/10/29 06:01:51 Path 3: sent 744 retrans 7 lost 0; rcv 1412 rtt 26.063ms; loss rate: 0.000000
+2024/10/29 06:01:51 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:01:53 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:01:53 Starting new connection to 171.244.134.9 ([::]:48674 -> 171.244.134.9:6124), connectionID 5c6a8ab46acc1186, version 512
+2024/10/29 06:01:53 Queueing packet 0x7 for later decryption
+2024/10/29 06:01:54 Info for stream 5 of 5c6a8ab46acc1186
+2024/10/29 06:01:54 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:01:54 Path 1: sent 95 retrans 3 lost 0; rcv 159; loss rate: 0.000000
+2024/10/29 06:01:54 Path 3: sent 767 retrans 5 lost 0; rcv 1476; loss rate: 0.000000
+2024/10/29 06:01:54 795.038451
+2024/10/29 06:01:54 Info for stream 5 of 5c6a8ab46acc1186
+2024/10/29 06:01:54 Path 3: sent 767 retrans 5 lost 0; rcv 1476 rtt 135.663ms; loss rate: 0.000000
+2024/10/29 06:01:54 Congestion Window: 46720
+2024/10/29 06:01:54 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 137.155ms; loss rate: 0.000000
+2024/10/29 06:01:54 Congestion Window: 46720
+2024/10/29 06:01:54 Path 1: sent 96 retrans 3 lost 0; rcv 159 rtt 27.046ms; loss rate: 0.000000
+2024/10/29 06:01:54 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:01:56 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:01:56 Starting new connection to 171.244.134.9 ([::]:44997 -> 171.244.134.9:6124), connectionID 7c444dfeecd5c325, version 512
+2024/10/29 06:01:56 Queueing packet 0x7 for later decryption
+2024/10/29 06:01:56 Info for stream 5 of 7c444dfeecd5c325
+2024/10/29 06:01:56 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:01:56 Path 1: sent 114 retrans 0 lost 0; rcv 211; loss rate: 0.000000
+2024/10/29 06:01:56 Path 3: sent 739 retrans 4 lost 0; rcv 1403; loss rate: 0.000000
+2024/10/29 06:01:56 366.292944
+2024/10/29 06:01:56 Info for stream 5 of 7c444dfeecd5c325
+2024/10/29 06:01:56 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 85.41ms; loss rate: 0.000000
+2024/10/29 06:01:56 Congestion Window: 46720
+2024/10/29 06:01:56 Path 1: sent 125 retrans 0 lost 0; rcv 233 rtt 23.897ms; loss rate: 0.000000
+2024/10/29 06:01:56 Congestion Window: 46720
+2024/10/29 06:01:56 Path 3: sent 740 retrans 4 lost 0; rcv 1405 rtt 14.095ms; loss rate: 0.000000
+2024/10/29 06:01:56 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:01:57 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:01:57 Starting new connection to 171.244.134.9 ([::]:50188 -> 171.244.134.9:6124), connectionID 42351d1bd91ea8c3, version 512
+2024/10/29 06:01:58 Queueing packet 0x7 for later decryption
+2024/10/29 06:01:58 Info for stream 5 of 42351d1bd91ea8c3
+2024/10/29 06:01:58 Path 1: sent 176 retrans 1 lost 0; rcv 336; loss rate: 0.000000
+2024/10/29 06:01:58 Path 3: sent 675 retrans 4 lost 0; rcv 1276; loss rate: 0.000000
+2024/10/29 06:01:58 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:01:58 712.240680
+2024/10/29 06:01:58 Info for stream 5 of 42351d1bd91ea8c3
+2024/10/29 06:01:58 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 79.219ms; loss rate: 0.000000
+2024/10/29 06:01:58 Congestion Window: 46720
+2024/10/29 06:01:58 Path 1: sent 184 retrans 1 lost 0; rcv 354 rtt 49.847ms; loss rate: 0.000000
+2024/10/29 06:01:58 Congestion Window: 46720
+2024/10/29 06:01:58 Path 3: sent 677 retrans 4 lost 0; rcv 1277 rtt 8.071ms; loss rate: 0.000000
+2024/10/29 06:01:58 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:02:00 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:02:00 Starting new connection to 171.244.134.9 ([::]:49726 -> 171.244.134.9:6124), connectionID 46e83f1a3ca04947, version 512
+2024/10/29 06:02:00 Queueing packet 0x7 for later decryption
+2024/10/29 06:02:00 Info for stream 5 of 46e83f1a3ca04947
+2024/10/29 06:02:00 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:02:00 Path 1: sent 117 retrans 0 lost 0; rcv 210; loss rate: 0.000000
+2024/10/29 06:02:00 Path 3: sent 700 retrans 5 lost 0; rcv 1327; loss rate: 0.000000
+2024/10/29 06:02:00 638.659454
+2024/10/29 06:02:00 Info for stream 5 of 46e83f1a3ca04947
+2024/10/29 06:02:00 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 91.933ms; loss rate: 0.000000
+2024/10/29 06:02:00 Congestion Window: 46720
+2024/10/29 06:02:00 Path 1: sent 165 retrans 0 lost 0; rcv 308 rtt 45.652ms; loss rate: 0.000000
+2024/10/29 06:02:00 Congestion Window: 46720
+2024/10/29 06:02:00 Path 3: sent 702 retrans 5 lost 0; rcv 1328 rtt 27.713ms; loss rate: 0.000000
+2024/10/29 06:02:00 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:02:02 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:02:02 Starting new connection to 171.244.134.9 ([::]:59170 -> 171.244.134.9:6124), connectionID 16134af5fb0bc6fa, version 512
+2024/10/29 06:02:03 Queueing packet 0x8 for later decryption
+2024/10/29 06:02:03 Info for stream 5 of 16134af5fb0bc6fa
+2024/10/29 06:02:03 Path 0: sent 10 retrans 2 lost 0; rcv 9; loss rate: 0.000000
+2024/10/29 06:02:03 Path 1: sent 126 retrans 0 lost 0; rcv 225; loss rate: 0.000000
+2024/10/29 06:02:03 Path 3: sent 726 retrans 3 lost 0; rcv 1405; loss rate: 0.000000
+2024/10/29 06:02:03 927.145914
+2024/10/29 06:02:03 Info for stream 5 of 16134af5fb0bc6fa
+2024/10/29 06:02:03 Path 3: sent 726 retrans 3 lost 0; rcv 1405 rtt 77.581ms; loss rate: 0.000000
+2024/10/29 06:02:03 Congestion Window: 46720
+2024/10/29 06:02:03 Path 0: sent 10 retrans 2 lost 0; rcv 9 rtt 78.577ms; loss rate: 0.000000
+2024/10/29 06:02:03 Congestion Window: 46720
+2024/10/29 06:02:03 Path 1: sent 128 retrans 0 lost 0; rcv 228 rtt 24.521ms; loss rate: 0.000000
+2024/10/29 06:02:03 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:02:07 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:02:07 Starting new connection to 171.244.134.9 ([::]:48938 -> 171.244.134.9:6124), connectionID c949d334a374521, version 512
+2024/10/29 06:02:08 Queueing packet 0x7 for later decryption
+2024/10/29 06:02:09 Info for stream 5 of c949d334a374521
+2024/10/29 06:02:09 Path 1: sent 147 retrans 0 lost 0; rcv 280; loss rate: 0.000000
+2024/10/29 06:02:09 Path 3: sent 732 retrans 7 lost 0; rcv 1391; loss rate: 0.000000
+2024/10/29 06:02:09 Path 0: sent 7 retrans 1 lost 0; rcv 9; loss rate: 0.000000
+2024/10/29 06:02:09 1025.053598
+2024/10/29 06:02:09 Info for stream 5 of c949d334a374521
+2024/10/29 06:02:09 Path 0: sent 7 retrans 1 lost 0; rcv 9 rtt 405.410889ms; loss rate: 0.000000
+2024/10/29 06:02:09 Congestion Window: 46720
+2024/10/29 06:02:09 Path 1: sent 147 retrans 0 lost 0; rcv 280 rtt 252.228ms; loss rate: 0.000000
+2024/10/29 06:02:09 Congestion Window: 46720
+2024/10/29 06:02:09 Path 3: sent 733 retrans 7 lost 0; rcv 1391 rtt 59.351ms; loss rate: 0.000000
+2024/10/29 06:02:09 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:02:12 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:02:12 Starting new connection to 171.244.134.9 ([::]:33605 -> 171.244.134.9:6124), connectionID e4ff6d21fa698a2a, version 512
+2024/10/29 06:02:12 Queueing packet 0x7 for later decryption
+2024/10/29 06:02:13 Info for stream 5 of e4ff6d21fa698a2a
+2024/10/29 06:02:13 Path 1: sent 105 retrans 0 lost 0; rcv 191; loss rate: 0.000000
+2024/10/29 06:02:13 Path 3: sent 764 retrans 3 lost 0; rcv 1450; loss rate: 0.000000
+2024/10/29 06:02:13 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:02:13 682.891701
+2024/10/29 06:02:13 Info for stream 5 of e4ff6d21fa698a2a
+2024/10/29 06:02:13 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 419.114358ms; loss rate: 0.000000
+2024/10/29 06:02:13 Congestion Window: 46720
+2024/10/29 06:02:13 Path 1: sent 116 retrans 0 lost 0; rcv 213 rtt 234.431ms; loss rate: 0.000000
+2024/10/29 06:02:13 Congestion Window: 46720
+2024/10/29 06:02:13 Path 3: sent 765 retrans 3 lost 0; rcv 1454 rtt 20.351ms; loss rate: 0.000000
+2024/10/29 06:02:13 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:02:15 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:02:15 Starting new connection to 171.244.134.9 ([::]:34701 -> 171.244.134.9:6124), connectionID 326635a70504a1e6, version 512
+2024/10/29 06:02:15 Queueing packet 0x7 for later decryption
+2024/10/29 06:02:16 Info for stream 5 of 326635a70504a1e6
+2024/10/29 06:02:16 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:02:16 Path 1: sent 97 retrans 2 lost 0; rcv 171; loss rate: 0.000000
+2024/10/29 06:02:16 Path 3: sent 766 retrans 5 lost 0; rcv 1458; loss rate: 0.000000
+2024/10/29 06:02:16 458.791518
+2024/10/29 06:02:16 Info for stream 5 of 326635a70504a1e6
+2024/10/29 06:02:16 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 49.032376ms; loss rate: 0.000000
+2024/10/29 06:02:16 Congestion Window: 46720
+2024/10/29 06:02:16 Path 1: sent 102 retrans 2 lost 0; rcv 181 rtt 42.23ms; loss rate: 0.000000
+2024/10/29 06:02:16 Congestion Window: 46720
+2024/10/29 06:02:16 Path 3: sent 769 retrans 5 lost 0; rcv 1461 rtt 26.054ms; loss rate: 0.000000
+2024/10/29 06:02:16 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:02:17 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:02:17 Starting new connection to 171.244.134.9 ([::]:40613 -> 171.244.134.9:6124), connectionID 8df40bbad15b6f31, version 512
+2024/10/29 06:02:17 Queueing packet 0x7 for later decryption
+2024/10/29 06:02:18 Info for stream 5 of 8df40bbad15b6f31
+2024/10/29 06:02:18 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:02:18 Path 1: sent 147 retrans 0 lost 0; rcv 279; loss rate: 0.000000
+2024/10/29 06:02:18 Path 3: sent 700 retrans 4 lost 0; rcv 1331; loss rate: 0.000000
+2024/10/29 06:02:18 343.327304
+2024/10/29 06:02:18 Info for stream 5 of 8df40bbad15b6f31
+2024/10/29 06:02:18 Path 3: sent 702 retrans 4 lost 0; rcv 1333 rtt 6.896ms; loss rate: 0.000000
+2024/10/29 06:02:18 Congestion Window: 46720
+2024/10/29 06:02:18 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 35.218179ms; loss rate: 0.000000
+2024/10/29 06:02:18 Congestion Window: 46720
+2024/10/29 06:02:18 Path 1: sent 157 retrans 0 lost 0; rcv 299 rtt 31.591ms; loss rate: 0.000000
+2024/10/29 06:02:18 Congestion Window: 46720
+2024/10/29 06:02:18 Info for stream 5 of 8df40bbad15b6f31
+2024/10/29 06:02:18 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 35.218179ms; loss rate: 0.000000
+2024/10/29 06:02:18 Congestion Window: 46720
+2024/10/29 06:02:18 Path 1: sent 157 retrans 0 lost 0; rcv 299 rtt 31.591ms; loss rate: 0.000000
+2024/10/29 06:02:18 Congestion Window: 46720
+2024/10/29 06:02:18 Path 3: sent 703 retrans 5 lost 0; rcv 1333 rtt 6.896ms; loss rate: 0.000000
+2024/10/29 06:02:18 Congestion Window: 46720
+2024/10/29 06:02:18 Info for stream 5 of 8df40bbad15b6f31
+2024/10/29 06:02:18 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 35.218179ms; loss rate: 0.000000
+2024/10/29 06:02:18 Congestion Window: 46720
+2024/10/29 06:02:18 Path 1: sent 157 retrans 0 lost 0; rcv 299 rtt 31.591ms; loss rate: 0.000000
+2024/10/29 06:02:18 Congestion Window: 46720
+2024/10/29 06:02:18 Path 3: sent 704 retrans 6 lost 0; rcv 1333 rtt 6.896ms; loss rate: 0.000000
+2024/10/29 06:02:18 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:02:20 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:02:20 Starting new connection to 171.244.134.9 ([::]:55645 -> 171.244.134.9:6124), connectionID c208adc1470edd87, version 512
+2024/10/29 06:02:21 Queueing packet 0x8 for later decryption
+2024/10/29 06:02:21 Info for stream 5 of c208adc1470edd87
+2024/10/29 06:02:21 Path 1: sent 185 retrans 1 lost 0; rcv 341; loss rate: 0.000000
+2024/10/29 06:02:21 Path 3: sent 663 retrans 6 lost 0; rcv 1283; loss rate: 0.000000
+2024/10/29 06:02:21 Path 0: sent 10 retrans 2 lost 0; rcv 11; loss rate: 0.000000
+2024/10/29 06:02:21 1052.013685
+2024/10/29 06:02:21 Info for stream 5 of c208adc1470edd87
+2024/10/29 06:02:21 Path 0: sent 10 retrans 2 lost 0; rcv 11 rtt 52.955ms; loss rate: 0.000000
+2024/10/29 06:02:21 Congestion Window: 46720
+2024/10/29 06:02:21 Path 1: sent 186 retrans 1 lost 0; rcv 341 rtt 23.146ms; loss rate: 0.000000
+2024/10/29 06:02:21 Congestion Window: 46720
+2024/10/29 06:02:21 Path 3: sent 663 retrans 6 lost 0; rcv 1283 rtt 52.955ms; loss rate: 0.000000
+2024/10/29 06:02:21 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:02:24 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:02:24 Starting new connection to 171.244.134.9 ([::]:58646 -> 171.244.134.9:6124), connectionID 7217727a244dd8d0, version 512
+2024/10/29 06:02:24 Queueing packet 0x7 for later decryption
+2024/10/29 06:02:25 Info for stream 5 of 7217727a244dd8d0
+2024/10/29 06:02:25 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:02:25 Path 1: sent 86 retrans 1 lost 0; rcv 151; loss rate: 0.000000
+2024/10/29 06:02:25 Path 3: sent 736 retrans 4 lost 0; rcv 1413; loss rate: 0.000000
+2024/10/29 06:02:25 773.714972
+2024/10/29 06:02:25 Info for stream 5 of 7217727a244dd8d0
+2024/10/29 06:02:25 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 157.474ms; loss rate: 0.000000
+2024/10/29 06:02:25 Congestion Window: 46720
+2024/10/29 06:02:25 Path 1: sent 127 retrans 1 lost 0; rcv 224 rtt 28.471ms; loss rate: 0.000000
+2024/10/29 06:02:25 Congestion Window: 46720
+2024/10/29 06:02:25 Path 3: sent 737 retrans 4 lost 0; rcv 1414 rtt 157.474ms; loss rate: 0.000000
+2024/10/29 06:02:25 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:02:28 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:02:28 Starting new connection to 171.244.134.9 ([::]:43182 -> 171.244.134.9:6124), connectionID bf09bf2b3e59437b, version 512
+2024/10/29 06:02:28 Queueing packet 0x7 for later decryption
+2024/10/29 06:02:29 Info for stream 5 of bf09bf2b3e59437b
+2024/10/29 06:02:29 Path 0: sent 9 retrans 2 lost 0; rcv 11; loss rate: 0.000000
+2024/10/29 06:02:29 Path 1: sent 186 retrans 2 lost 0; rcv 342; loss rate: 0.000000
+2024/10/29 06:02:29 Path 3: sent 652 retrans 9 lost 1; rcv 1251; loss rate: 0.001534
+2024/10/29 06:02:29 958.273650
+2024/10/29 06:02:29 Info for stream 5 of bf09bf2b3e59437b
+2024/10/29 06:02:29 Path 0: sent 9 retrans 2 lost 0; rcv 11 rtt 35.971ms; loss rate: 0.000000
+2024/10/29 06:02:29 Congestion Window: 46720
+2024/10/29 06:02:29 Path 1: sent 206 retrans 2 lost 0; rcv 379 rtt 33.402ms; loss rate: 0.000000
+2024/10/29 06:02:29 Congestion Window: 46720
+2024/10/29 06:02:29 Path 3: sent 652 retrans 9 lost 1; rcv 1252 rtt 35.971ms; loss rate: 0.001534
+2024/10/29 06:02:29 Congestion Window: 5840
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:02:32 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:02:32 Starting new connection to 171.244.134.9 ([::]:45058 -> 171.244.134.9:6124), connectionID fc6a0c04c155ab13, version 512
+2024/10/29 06:02:32 Queueing packet 0x7 for later decryption
+2024/10/29 06:02:33 Info for stream 5 of fc6a0c04c155ab13
+2024/10/29 06:02:33 Path 0: sent 7 retrans 0 lost 0; rcv 10; loss rate: 0.000000
+2024/10/29 06:02:33 Path 1: sent 235 retrans 2 lost 0; rcv 445; loss rate: 0.000000
+2024/10/29 06:02:33 Path 3: sent 619 retrans 8 lost 0; rcv 1173; loss rate: 0.000000
+2024/10/29 06:02:33 794.715641
+2024/10/29 06:02:33 Info for stream 5 of fc6a0c04c155ab13
+2024/10/29 06:02:33 Path 3: sent 620 retrans 8 lost 0; rcv 1173 rtt 38.747ms; loss rate: 0.000000
+2024/10/29 06:02:33 Congestion Window: 46720
+2024/10/29 06:02:33 Path 0: sent 7 retrans 0 lost 0; rcv 10 rtt 41.548ms; loss rate: 0.000000
+2024/10/29 06:02:33 Congestion Window: 46720
+2024/10/29 06:02:33 Path 1: sent 243 retrans 2 lost 0; rcv 461 rtt 39.821ms; loss rate: 0.000000
+2024/10/29 06:02:33 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:02:36 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:02:36 Starting new connection to 171.244.134.9 ([::]:39143 -> 171.244.134.9:6124), connectionID 8821d8ecdfb7c26e, version 512
+2024/10/29 06:02:36 Queueing packet 0x7 for later decryption
+2024/10/29 06:02:37 Info for stream 5 of 8821d8ecdfb7c26e
+2024/10/29 06:02:37 Path 0: sent 8 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:02:37 Path 1: sent 110 retrans 1 lost 0; rcv 193; loss rate: 0.000000
+2024/10/29 06:02:37 Path 3: sent 714 retrans 1 lost 0; rcv 1393; loss rate: 0.000000
+2024/10/29 06:02:37 1071.278155
+2024/10/29 06:02:37 Info for stream 5 of 8821d8ecdfb7c26e
+2024/10/29 06:02:37 Path 0: sent 8 retrans 0 lost 0; rcv 8 rtt 40.89ms; loss rate: 0.000000
+2024/10/29 06:02:37 Congestion Window: 46720
+2024/10/29 06:02:37 Path 1: sent 136 retrans 1 lost 0; rcv 240 rtt 31.696ms; loss rate: 0.000000
+2024/10/29 06:02:37 Congestion Window: 46720
+2024/10/29 06:02:37 Path 3: sent 714 retrans 1 lost 0; rcv 1394 rtt 31.831ms; loss rate: 0.000000
+2024/10/29 06:02:37 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:02:40 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:02:40 Starting new connection to 171.244.134.9 ([::]:56310 -> 171.244.134.9:6124), connectionID ae024900d44f7995, version 512
+2024/10/29 06:02:40 Queueing packet 0x8 for later decryption
+2024/10/29 06:02:41 Info for stream 5 of ae024900d44f7995
+2024/10/29 06:02:41 Path 0: sent 12 retrans 3 lost 1; rcv 10; loss rate: 0.083333
+2024/10/29 06:02:41 Path 1: sent 67 retrans 0 lost 0; rcv 112; loss rate: 0.000000
+2024/10/29 06:02:41 Path 3: sent 772 retrans 4 lost 0; rcv 1472; loss rate: 0.000000
+2024/10/29 06:02:41 694.641084
+2024/10/29 06:02:41 Info for stream 5 of ae024900d44f7995
+2024/10/29 06:02:41 Path 0: sent 12 retrans 3 lost 1; rcv 10 rtt 34.21ms; loss rate: 0.083333
+2024/10/29 06:02:41 Congestion Window: 5840
+2024/10/29 06:02:41 Path 1: sent 95 retrans 0 lost 0; rcv 164 rtt 26.95ms; loss rate: 0.000000
+2024/10/29 06:02:41 Congestion Window: 46720
+2024/10/29 06:02:41 Path 3: sent 772 retrans 4 lost 0; rcv 1473 rtt 29.48ms; loss rate: 0.000000
+2024/10/29 06:02:41 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:02:43 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:02:43 Starting new connection to 171.244.134.9 ([::]:48576 -> 171.244.134.9:6124), connectionID f958c4c02b4d3fa, version 512
+2024/10/29 06:02:44 Queueing packet 0x7 for later decryption
+2024/10/29 06:02:44 Info for stream 5 of f958c4c02b4d3fa
+2024/10/29 06:02:44 Path 0: sent 8 retrans 1 lost 0; rcv 9; loss rate: 0.000000
+2024/10/29 06:02:44 Path 1: sent 63 retrans 1 lost 0; rcv 103; loss rate: 0.000000
+2024/10/29 06:02:44 Path 3: sent 777 retrans 5 lost 0; rcv 1496; loss rate: 0.000000
+2024/10/29 06:02:44 588.850546
+2024/10/29 06:02:44 Info for stream 5 of f958c4c02b4d3fa
+2024/10/29 06:02:44 Path 0: sent 8 retrans 1 lost 0; rcv 9 rtt 113.374ms; loss rate: 0.000000
+2024/10/29 06:02:44 Congestion Window: 46720
+2024/10/29 06:02:44 Path 1: sent 86 retrans 1 lost 0; rcv 141 rtt 31.417ms; loss rate: 0.000000
+2024/10/29 06:02:44 Congestion Window: 46720
+2024/10/29 06:02:44 Path 3: sent 778 retrans 5 lost 0; rcv 1497 rtt 99.965ms; loss rate: 0.000000
+2024/10/29 06:02:44 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:02:47 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:02:47 Starting new connection to 171.244.134.9 ([::]:41816 -> 171.244.134.9:6124), connectionID 2e00e44cab61e6dc, version 512
+2024/10/29 06:02:47 Queueing packet 0x7 for later decryption
+2024/10/29 06:02:48 Info for stream 5 of 2e00e44cab61e6dc
+2024/10/29 06:02:48 Path 1: sent 133 retrans 6 lost 4; rcv 246; loss rate: 0.030075
+2024/10/29 06:02:48 Path 3: sent 707 retrans 7 lost 0; rcv 1339; loss rate: 0.000000
+2024/10/29 06:02:48 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:02:48 1157.343207
+2024/10/29 06:02:48 Info for stream 5 of 2e00e44cab61e6dc
+2024/10/29 06:02:48 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 89.299ms; loss rate: 0.000000
+2024/10/29 06:02:48 Congestion Window: 46720
+2024/10/29 06:02:48 Path 1: sent 162 retrans 6 lost 4; rcv 305 rtt 74.916ms; loss rate: 0.024691
+2024/10/29 06:02:48 Congestion Window: 5840
+2024/10/29 06:02:48 Path 3: sent 709 retrans 7 lost 0; rcv 1340 rtt 23.675ms; loss rate: 0.000000
+2024/10/29 06:02:48 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:02:50 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:02:50 Starting new connection to 171.244.134.9 ([::]:39413 -> 171.244.134.9:6124), connectionID 6f08afc1470efd74, version 512
+2024/10/29 06:02:50 Queueing packet 0x7 for later decryption
+2024/10/29 06:02:50 Info for stream 5 of 6f08afc1470efd74
+2024/10/29 06:02:50 Path 1: sent 126 retrans 0 lost 0; rcv 234; loss rate: 0.000000
+2024/10/29 06:02:50 Path 3: sent 730 retrans 3 lost 0; rcv 1387; loss rate: 0.000000
+2024/10/29 06:02:50 Path 0: sent 9 retrans 2 lost 0; rcv 9; loss rate: 0.000000
+2024/10/29 06:02:50 451.401332
+2024/10/29 06:02:50 Info for stream 5 of 6f08afc1470efd74
+2024/10/29 06:02:50 Path 0: sent 9 retrans 2 lost 0; rcv 9 rtt 31.763ms; loss rate: 0.000000
+2024/10/29 06:02:50 Congestion Window: 46720
+2024/10/29 06:02:50 Path 1: sent 133 retrans 0 lost 0; rcv 247 rtt 22.828ms; loss rate: 0.000000
+2024/10/29 06:02:50 Congestion Window: 46720
+2024/10/29 06:02:50 Path 3: sent 733 retrans 3 lost 0; rcv 1390 rtt 16.441ms; loss rate: 0.000000
+2024/10/29 06:02:50 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:02:53 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:02:53 Starting new connection to 171.244.134.9 ([::]:46451 -> 171.244.134.9:6124), connectionID f555f2da8aeef998, version 512
+2024/10/29 06:02:53 Queueing packet 0x7 for later decryption
+2024/10/29 06:02:54 Info for stream 5 of f555f2da8aeef998
+2024/10/29 06:02:54 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:02:54 Path 1: sent 135 retrans 1 lost 0; rcv 250; loss rate: 0.000000
+2024/10/29 06:02:54 Path 3: sent 699 retrans 7 lost 0; rcv 1319; loss rate: 0.000000
+2024/10/29 06:02:54 1791.489273
+2024/10/29 06:02:54 Info for stream 5 of f555f2da8aeef998
+2024/10/29 06:02:54 Path 3: sent 702 retrans 7 lost 0; rcv 1321 rtt 22.825ms; loss rate: 0.000000
+2024/10/29 06:02:54 Congestion Window: 46720
+2024/10/29 06:02:54 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 372.258ms; loss rate: 0.000000
+2024/10/29 06:02:54 Congestion Window: 46720
+2024/10/29 06:02:54 Path 1: sent 168 retrans 1 lost 0; rcv 317 rtt 278.091ms; loss rate: 0.000000
+2024/10/29 06:02:54 Congestion Window: 46720
+2024/10/29 06:02:54 Info for stream 5 of f555f2da8aeef998
+2024/10/29 06:02:54 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 372.258ms; loss rate: 0.000000
+2024/10/29 06:02:54 Congestion Window: 46720
+2024/10/29 06:02:54 Path 1: sent 168 retrans 1 lost 0; rcv 317 rtt 278.091ms; loss rate: 0.000000
+2024/10/29 06:02:54 Congestion Window: 46720
+2024/10/29 06:02:54 Path 3: sent 703 retrans 8 lost 0; rcv 1321 rtt 22.825ms; loss rate: 0.000000
+2024/10/29 06:02:54 Congestion Window: 46720
+2024/10/29 06:02:55 Info for stream 5 of f555f2da8aeef998
+2024/10/29 06:02:55 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 372.258ms; loss rate: 0.000000
+2024/10/29 06:02:55 Congestion Window: 46720
+2024/10/29 06:02:55 Path 1: sent 169 retrans 1 lost 0; rcv 317 rtt 278.091ms; loss rate: 0.000000
+2024/10/29 06:02:55 Congestion Window: 46720
+2024/10/29 06:02:55 Path 3: sent 704 retrans 9 lost 0; rcv 1321 rtt 22.825ms; loss rate: 0.000000
+2024/10/29 06:02:55 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:02:57 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:02:57 Starting new connection to 171.244.134.9 ([::]:36340 -> 171.244.134.9:6124), connectionID cc68230ec3eebae3, version 512
+2024/10/29 06:02:58 Queueing packet 0x7 for later decryption
+2024/10/29 06:02:58 Info for stream 5 of cc68230ec3eebae3
+2024/10/29 06:02:58 Path 0: sent 8 retrans 1 lost 0; rcv 9; loss rate: 0.000000
+2024/10/29 06:02:58 Path 1: sent 207 retrans 1 lost 0; rcv 401; loss rate: 0.000000
+2024/10/29 06:02:58 Path 3: sent 622 retrans 3 lost 0; rcv 1180; loss rate: 0.000000
+2024/10/29 06:02:58 373.003529
+2024/10/29 06:02:58 Info for stream 5 of cc68230ec3eebae3
+2024/10/29 06:02:58 Path 0: sent 8 retrans 1 lost 0; rcv 9 rtt 32.021ms; loss rate: 0.000000
+2024/10/29 06:02:58 Congestion Window: 46720
+2024/10/29 06:02:58 Path 1: sent 232 retrans 1 lost 0; rcv 452 rtt 31.334ms; loss rate: 0.000000
+2024/10/29 06:02:58 Congestion Window: 46720
+2024/10/29 06:02:58 Path 3: sent 624 retrans 3 lost 0; rcv 1180 rtt 8.214ms; loss rate: 0.000000
+2024/10/29 06:02:58 Congestion Window: 46720
+2024/10/29 06:02:58 Info for stream 5 of cc68230ec3eebae3
+2024/10/29 06:02:58 Path 0: sent 8 retrans 1 lost 0; rcv 9 rtt 32.021ms; loss rate: 0.000000
+2024/10/29 06:02:58 Congestion Window: 46720
+2024/10/29 06:02:58 Path 1: sent 232 retrans 1 lost 0; rcv 452 rtt 31.334ms; loss rate: 0.000000
+2024/10/29 06:02:58 Congestion Window: 46720
+2024/10/29 06:02:58 Path 3: sent 625 retrans 4 lost 0; rcv 1180 rtt 8.214ms; loss rate: 0.000000
+2024/10/29 06:02:58 Congestion Window: 46720
+2024/10/29 06:02:58 Info for stream 5 of cc68230ec3eebae3
+2024/10/29 06:02:58 Path 0: sent 8 retrans 1 lost 0; rcv 9 rtt 32.021ms; loss rate: 0.000000
+2024/10/29 06:02:58 Congestion Window: 46720
+2024/10/29 06:02:58 Path 1: sent 233 retrans 1 lost 0; rcv 452 rtt 31.334ms; loss rate: 0.000000
+2024/10/29 06:02:58 Congestion Window: 46720
+2024/10/29 06:02:58 Path 3: sent 626 retrans 5 lost 0; rcv 1180 rtt 8.214ms; loss rate: 0.000000
+2024/10/29 06:02:58 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:03:00 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:03:00 Starting new connection to 171.244.134.9 ([::]:60136 -> 171.244.134.9:6124), connectionID c1c3be6bd3d15b19, version 512
+2024/10/29 06:03:01 Queueing packet 0x7 for later decryption
+2024/10/29 06:03:01 Info for stream 5 of c1c3be6bd3d15b19
+2024/10/29 06:03:01 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:03:01 Path 1: sent 139 retrans 1 lost 0; rcv 259; loss rate: 0.000000
+2024/10/29 06:03:01 Path 3: sent 722 retrans 6 lost 0; rcv 1377; loss rate: 0.000000
+2024/10/29 06:03:01 860.730988
+2024/10/29 06:03:01 Info for stream 5 of c1c3be6bd3d15b19
+2024/10/29 06:03:01 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 109.843ms; loss rate: 0.000000
+2024/10/29 06:03:01 Congestion Window: 46720
+2024/10/29 06:03:01 Path 1: sent 140 retrans 1 lost 0; rcv 259 rtt 51.455ms; loss rate: 0.000000
+2024/10/29 06:03:01 Congestion Window: 46720
+2024/10/29 06:03:01 Path 3: sent 723 retrans 6 lost 0; rcv 1377 rtt 21.149ms; loss rate: 0.000000
+2024/10/29 06:03:01 Congestion Window: 46720
+2024/10/29 06:03:01 Info for stream 5 of c1c3be6bd3d15b19
+2024/10/29 06:03:01 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 109.843ms; loss rate: 0.000000
+2024/10/29 06:03:01 Congestion Window: 46720
+2024/10/29 06:03:01 Path 1: sent 140 retrans 1 lost 0; rcv 259 rtt 51.455ms; loss rate: 0.000000
+2024/10/29 06:03:01 Congestion Window: 46720
+2024/10/29 06:03:01 Path 3: sent 725 retrans 7 lost 0; rcv 1377 rtt 21.149ms; loss rate: 0.000000
+2024/10/29 06:03:01 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:03:04 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:03:04 Starting new connection to 171.244.134.9 ([::]:50880 -> 171.244.134.9:6124), connectionID 912135c5db4bf03e, version 512
+2024/10/29 06:03:05 Queueing packet 0x7 for later decryption
+2024/10/29 06:03:05 Info for stream 5 of 912135c5db4bf03e
+2024/10/29 06:03:05 Path 3: sent 748 retrans 2 lost 0; rcv 1447; loss rate: 0.000000
+2024/10/29 06:03:05 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:03:05 Path 1: sent 108 retrans 2 lost 0; rcv 188; loss rate: 0.000000
+2024/10/29 06:03:05 713.721280
+2024/10/29 06:03:05 Info for stream 5 of 912135c5db4bf03e
+2024/10/29 06:03:05 Path 3: sent 749 retrans 2 lost 0; rcv 1448 rtt 52.903ms; loss rate: 0.000000
+2024/10/29 06:03:05 Congestion Window: 46720
+2024/10/29 06:03:05 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 249.299ms; loss rate: 0.000000
+2024/10/29 06:03:05 Congestion Window: 46720
+2024/10/29 06:03:05 Path 1: sent 109 retrans 2 lost 0; rcv 188 rtt 22.832ms; loss rate: 0.000000
+2024/10/29 06:03:05 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:03:06 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:03:06 Starting new connection to 171.244.134.9 ([::]:56146 -> 171.244.134.9:6124), connectionID a4c74d453790662b, version 512
+2024/10/29 06:03:07 Queueing packet 0x7 for later decryption
+2024/10/29 06:03:07 Info for stream 5 of a4c74d453790662b
+2024/10/29 06:03:07 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:03:07 Path 1: sent 100 retrans 2 lost 0; rcv 187; loss rate: 0.000000
+2024/10/29 06:03:07 Path 3: sent 762 retrans 2 lost 0; rcv 1448; loss rate: 0.000000
+2024/10/29 06:03:07 310.737410
+2024/10/29 06:03:07 Info for stream 5 of a4c74d453790662b
+2024/10/29 06:03:07 Path 3: sent 763 retrans 2 lost 0; rcv 1451 rtt 8.891ms; loss rate: 0.000000
+2024/10/29 06:03:07 Congestion Window: 46720
+2024/10/29 06:03:07 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 30.219ms; loss rate: 0.000000
+2024/10/29 06:03:07 Congestion Window: 46720
+2024/10/29 06:03:07 Path 1: sent 100 retrans 2 lost 0; rcv 187 rtt 29.203ms; loss rate: 0.000000
+2024/10/29 06:03:07 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:03:09 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:03:09 Starting new connection to 171.244.134.9 ([::]:47783 -> 171.244.134.9:6124), connectionID 7dec93e9b302a9c4, version 512
+2024/10/29 06:03:10 Queueing packet 0x9 for later decryption
+2024/10/29 06:03:11 Info for stream 5 of 7dec93e9b302a9c4
+2024/10/29 06:03:11 Path 0: sent 12 retrans 3 lost 1; rcv 11; loss rate: 0.083333
+2024/10/29 06:03:11 Path 1: sent 111 retrans 1 lost 0; rcv 202; loss rate: 0.000000
+2024/10/29 06:03:11 Path 3: sent 716 retrans 6 lost 0; rcv 1362; loss rate: 0.000000
+2024/10/29 06:03:11 1179.308632
+2024/10/29 06:03:11 Info for stream 5 of 7dec93e9b302a9c4
+2024/10/29 06:03:11 Path 0: sent 12 retrans 3 lost 1; rcv 11 rtt 103.279ms; loss rate: 0.083333
+2024/10/29 06:03:11 Congestion Window: 5840
+2024/10/29 06:03:11 Path 1: sent 149 retrans 1 lost 0; rcv 273 rtt 28.943ms; loss rate: 0.000000
+2024/10/29 06:03:11 Congestion Window: 46720
+2024/10/29 06:03:11 Path 3: sent 717 retrans 6 lost 0; rcv 1365 rtt 91.108ms; loss rate: 0.000000
+2024/10/29 06:03:11 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:03:14 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:03:14 Starting new connection to 171.244.134.9 ([::]:49028 -> 171.244.134.9:6124), connectionID 34a68ad8ac008d5b, version 512
+2024/10/29 06:03:14 Queueing packet 0x7 for later decryption
+2024/10/29 06:03:14 Info for stream 5 of 34a68ad8ac008d5b
+2024/10/29 06:03:14 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:03:14 Path 1: sent 128 retrans 1 lost 0; rcv 238; loss rate: 0.000000
+2024/10/29 06:03:14 Path 3: sent 717 retrans 3 lost 0; rcv 1365; loss rate: 0.000000
+2024/10/29 06:03:14 382.961405
+2024/10/29 06:03:14 Info for stream 5 of 34a68ad8ac008d5b
+2024/10/29 06:03:14 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 85.027848ms; loss rate: 0.000000
+2024/10/29 06:03:14 Congestion Window: 46720
+2024/10/29 06:03:14 Path 1: sent 157 retrans 1 lost 0; rcv 297 rtt 63.097ms; loss rate: 0.000000
+2024/10/29 06:03:14 Congestion Window: 46720
+2024/10/29 06:03:14 Path 3: sent 719 retrans 3 lost 0; rcv 1367 rtt 13.921ms; loss rate: 0.000000
+2024/10/29 06:03:14 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:03:16 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:03:16 Starting new connection to 171.244.134.9 ([::]:48347 -> 171.244.134.9:6124), connectionID be5102eff4aa5dcd, version 512
+2024/10/29 06:03:17 Queueing packet 0x7 for later decryption
+2024/10/29 06:03:17 Info for stream 5 of be5102eff4aa5dcd
+2024/10/29 06:03:17 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:03:17 Path 1: sent 91 retrans 0 lost 0; rcv 158; loss rate: 0.000000
+2024/10/29 06:03:17 Path 3: sent 781 retrans 6 lost 0; rcv 1481; loss rate: 0.000000
+2024/10/29 06:03:17 609.936339
+2024/10/29 06:03:17 Info for stream 5 of be5102eff4aa5dcd
+2024/10/29 06:03:17 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 339.894623ms; loss rate: 0.000000
+2024/10/29 06:03:17 Congestion Window: 46720
+2024/10/29 06:03:17 Path 1: sent 91 retrans 0 lost 0; rcv 158 rtt 211.774ms; loss rate: 0.000000
+2024/10/29 06:03:17 Congestion Window: 46720
+2024/10/29 06:03:17 Path 3: sent 782 retrans 6 lost 0; rcv 1486 rtt 35.868ms; loss rate: 0.000000
+2024/10/29 06:03:17 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:03:21 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:03:21 Starting new connection to 171.244.134.9 ([::]:54752 -> 171.244.134.9:6124), connectionID 89e91f6b5122b6c, version 512
+2024/10/29 06:03:21 Queueing packet 0x7 for later decryption
+2024/10/29 06:03:22 Info for stream 5 of 89e91f6b5122b6c
+2024/10/29 06:03:22 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:03:22 Path 1: sent 162 retrans 0 lost 0; rcv 310; loss rate: 0.000000
+2024/10/29 06:03:22 Path 3: sent 599 retrans 2 lost 0; rcv 1137; loss rate: 0.000000
+2024/10/29 06:03:22 745.407780
+2024/10/29 06:03:22 Info for stream 5 of 89e91f6b5122b6c
+2024/10/29 06:03:22 Path 1: sent 255 retrans 0 lost 0; rcv 498 rtt 69.649ms; loss rate: 0.000000
+2024/10/29 06:03:22 Congestion Window: 46720
+2024/10/29 06:03:22 Path 3: sent 602 retrans 2 lost 0; rcv 1139 rtt 9.509ms; loss rate: 0.000000
+2024/10/29 06:03:22 Congestion Window: 46720
+2024/10/29 06:03:22 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 149.301ms; loss rate: 0.000000
+2024/10/29 06:03:22 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:03:23 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:03:23 Starting new connection to 171.244.134.9 ([::]:38864 -> 171.244.134.9:6124), connectionID 8bc81da252a043ac, version 512
+2024/10/29 06:03:23 Queueing packet 0x7 for later decryption
+2024/10/29 06:03:24 Info for stream 5 of 8bc81da252a043ac
+2024/10/29 06:03:24 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:03:24 Path 1: sent 147 retrans 4 lost 2; rcv 275; loss rate: 0.013605
+2024/10/29 06:03:24 Path 3: sent 705 retrans 2 lost 0; rcv 1326; loss rate: 0.000000
+2024/10/29 06:03:24 604.779854
+2024/10/29 06:03:24 Info for stream 5 of 8bc81da252a043ac
+2024/10/29 06:03:24 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 33.632ms; loss rate: 0.000000
+2024/10/29 06:03:24 Congestion Window: 46720
+2024/10/29 06:03:24 Path 1: sent 166 retrans 4 lost 2; rcv 313 rtt 33.383ms; loss rate: 0.012048
+2024/10/29 06:03:24 Congestion Window: 5840
+2024/10/29 06:03:24 Path 3: sent 706 retrans 2 lost 0; rcv 1327 rtt 10.783ms; loss rate: 0.000000
+2024/10/29 06:03:24 Congestion Window: 46720
+2024/10/29 06:03:24 Info for stream 5 of 8bc81da252a043ac
+2024/10/29 06:03:24 Path 3: sent 708 retrans 3 lost 0; rcv 1327 rtt 10.783ms; loss rate: 0.000000
+2024/10/29 06:03:24 Congestion Window: 46720
+2024/10/29 06:03:24 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 33.632ms; loss rate: 0.000000
+2024/10/29 06:03:24 Congestion Window: 46720
+2024/10/29 06:03:24 Path 1: sent 166 retrans 4 lost 2; rcv 313 rtt 33.383ms; loss rate: 0.012048
+2024/10/29 06:03:24 Congestion Window: 5840
+2024/10/29 06:03:24 Info for stream 5 of 8bc81da252a043ac
+2024/10/29 06:03:24 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 33.632ms; loss rate: 0.000000
+2024/10/29 06:03:24 Congestion Window: 46720
+2024/10/29 06:03:24 Path 1: sent 166 retrans 4 lost 2; rcv 313 rtt 33.383ms; loss rate: 0.012048
+2024/10/29 06:03:24 Congestion Window: 5840
+2024/10/29 06:03:24 Path 3: sent 709 retrans 4 lost 0; rcv 1327 rtt 10.783ms; loss rate: 0.000000
+2024/10/29 06:03:24 Congestion Window: 46720
+2024/10/29 06:03:24 Info for stream 5 of 8bc81da252a043ac
+2024/10/29 06:03:24 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 33.632ms; loss rate: 0.000000
+2024/10/29 06:03:24 Congestion Window: 46720
+2024/10/29 06:03:24 Path 1: sent 167 retrans 4 lost 2; rcv 313 rtt 33.383ms; loss rate: 0.011976
+2024/10/29 06:03:24 Congestion Window: 5840
+2024/10/29 06:03:24 Path 3: sent 709 retrans 5 lost 1; rcv 1327 rtt 10.783ms; loss rate: 0.001410
+2024/10/29 06:03:24 Congestion Window: 2920
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:03:28 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:03:28 Starting new connection to 171.244.134.9 ([::]:60429 -> 171.244.134.9:6124), connectionID 8a4eef809f1a7b78, version 512
+2024/10/29 06:03:28 Queueing packet 0x9 for later decryption
+2024/10/29 06:03:30 Info for stream 5 of 8a4eef809f1a7b78
+2024/10/29 06:03:30 Path 0: sent 12 retrans 3 lost 1; rcv 11; loss rate: 0.083333
+2024/10/29 06:03:30 Path 1: sent 152 retrans 2 lost 0; rcv 277; loss rate: 0.000000
+2024/10/29 06:03:30 Path 3: sent 722 retrans 12 lost 5; rcv 1365; loss rate: 0.006925
+2024/10/29 06:03:30 1866.627994
+2024/10/29 06:03:30 Info for stream 5 of 8a4eef809f1a7b78
+2024/10/29 06:03:30 Path 0: sent 12 retrans 3 lost 1; rcv 11 rtt 158.949ms; loss rate: 0.083333
+2024/10/29 06:03:30 Congestion Window: 5840
+2024/10/29 06:03:30 Path 1: sent 153 retrans 2 lost 0; rcv 278 rtt 156.555ms; loss rate: 0.000000
+2024/10/29 06:03:30 Congestion Window: 46720
+2024/10/29 06:03:30 Path 3: sent 723 retrans 12 lost 5; rcv 1366 rtt 7.759ms; loss rate: 0.006916
+2024/10/29 06:03:30 Congestion Window: 5840
+2024/10/29 06:03:30 Info for stream 5 of 8a4eef809f1a7b78
+2024/10/29 06:03:30 Path 0: sent 12 retrans 3 lost 1; rcv 11 rtt 158.949ms; loss rate: 0.083333
+2024/10/29 06:03:30 Congestion Window: 5840
+2024/10/29 06:03:30 Path 1: sent 153 retrans 2 lost 0; rcv 278 rtt 156.555ms; loss rate: 0.000000
+2024/10/29 06:03:30 Congestion Window: 46720
+2024/10/29 06:03:30 Path 3: sent 724 retrans 13 lost 5; rcv 1366 rtt 7.759ms; loss rate: 0.006906
+2024/10/29 06:03:30 Congestion Window: 5840
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:03:32 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:03:32 Starting new connection to 171.244.134.9 ([::]:34469 -> 171.244.134.9:6124), connectionID 2e5c9000aa01e736, version 512
+2024/10/29 06:03:32 Queueing packet 0x7 for later decryption
+2024/10/29 06:03:33 Info for stream 5 of 2e5c9000aa01e736
+2024/10/29 06:03:33 Path 1: sent 175 retrans 0 lost 0; rcv 332; loss rate: 0.000000
+2024/10/29 06:03:33 Path 3: sent 691 retrans 1 lost 0; rcv 1315; loss rate: 0.000000
+2024/10/29 06:03:33 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:03:33 585.023497
+2024/10/29 06:03:33 Info for stream 5 of 2e5c9000aa01e736
+2024/10/29 06:03:33 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 186.786ms; loss rate: 0.000000
+2024/10/29 06:03:33 Congestion Window: 46720
+2024/10/29 06:03:33 Path 1: sent 180 retrans 0 lost 0; rcv 343 rtt 134.492ms; loss rate: 0.000000
+2024/10/29 06:03:33 Congestion Window: 46720
+2024/10/29 06:03:33 Path 3: sent 694 retrans 1 lost 0; rcv 1317 rtt 11.174ms; loss rate: 0.000000
+2024/10/29 06:03:33 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:03:38 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:03:38 Starting new connection to 171.244.134.9 ([::]:43608 -> 171.244.134.9:6124), connectionID da14a48607db70a5, version 512
+2024/10/29 06:03:38 Queueing packet 0x7 for later decryption
+2024/10/29 06:03:39 Info for stream 5 of da14a48607db70a5
+2024/10/29 06:03:39 Path 1: sent 328 retrans 1 lost 0; rcv 605; loss rate: 0.000000
+2024/10/29 06:03:39 Path 3: sent 529 retrans 3 lost 0; rcv 1048; loss rate: 0.000000
+2024/10/29 06:03:39 Path 0: sent 7 retrans 0 lost 0; rcv 10; loss rate: 0.000000
+2024/10/29 06:03:39 1076.902887
+2024/10/29 06:03:39 Info for stream 5 of da14a48607db70a5
+2024/10/29 06:03:39 Path 0: sent 7 retrans 0 lost 0; rcv 10 rtt 310.068947ms; loss rate: 0.000000
+2024/10/29 06:03:39 Congestion Window: 46720
+2024/10/29 06:03:39 Path 1: sent 330 retrans 1 lost 0; rcv 608 rtt 131.405ms; loss rate: 0.000000
+2024/10/29 06:03:39 Congestion Window: 46720
+2024/10/29 06:03:39 Path 3: sent 530 retrans 3 lost 0; rcv 1049 rtt 0s; loss rate: 0.000000
+2024/10/29 06:03:39 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:03:42 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:03:42 Starting new connection to 171.244.134.9 ([::]:35653 -> 171.244.134.9:6124), connectionID bbf31ff00ad47415, version 512
+2024/10/29 06:03:42 Queueing packet 0x9 for later decryption
+2024/10/29 06:03:43 Info for stream 5 of bbf31ff00ad47415
+2024/10/29 06:03:43 Path 0: sent 12 retrans 3 lost 1; rcv 11; loss rate: 0.083333
+2024/10/29 06:03:43 Path 1: sent 256 retrans 1 lost 0; rcv 476; loss rate: 0.000000
+2024/10/29 06:03:43 Path 3: sent 593 retrans 4 lost 0; rcv 1165; loss rate: 0.000000
+2024/10/29 06:03:43 1253.169728
+2024/10/29 06:03:43 Info for stream 5 of bbf31ff00ad47415
+2024/10/29 06:03:43 Path 0: sent 12 retrans 3 lost 1; rcv 11 rtt 49.957ms; loss rate: 0.083333
+2024/10/29 06:03:43 Congestion Window: 5840
+2024/10/29 06:03:43 Path 1: sent 266 retrans 1 lost 0; rcv 492 rtt 31.542ms; loss rate: 0.000000
+2024/10/29 06:03:43 Congestion Window: 46720
+2024/10/29 06:03:43 Path 3: sent 593 retrans 4 lost 0; rcv 1166 rtt 49.957ms; loss rate: 0.000000
+2024/10/29 06:03:43 Congestion Window: 46720
+2024/10/29 06:03:43 Info for stream 5 of bbf31ff00ad47415
+2024/10/29 06:03:43 Path 0: sent 12 retrans 3 lost 1; rcv 11 rtt 49.957ms; loss rate: 0.083333
+2024/10/29 06:03:43 Congestion Window: 5840
+2024/10/29 06:03:43 Path 1: sent 267 retrans 2 lost 0; rcv 492 rtt 31.542ms; loss rate: 0.000000
+2024/10/29 06:03:43 Congestion Window: 46720
+2024/10/29 06:03:43 Path 3: sent 593 retrans 4 lost 0; rcv 1166 rtt 49.957ms; loss rate: 0.000000
+2024/10/29 06:03:43 Congestion Window: 46720
+2024/10/29 06:03:43 Info for stream 5 of bbf31ff00ad47415
+2024/10/29 06:03:43 Path 0: sent 12 retrans 3 lost 1; rcv 11 rtt 49.957ms; loss rate: 0.083333
+2024/10/29 06:03:43 Congestion Window: 5840
+2024/10/29 06:03:43 Path 1: sent 268 retrans 3 lost 0; rcv 492 rtt 31.542ms; loss rate: 0.000000
+2024/10/29 06:03:43 Congestion Window: 46720
+2024/10/29 06:03:43 Path 3: sent 594 retrans 4 lost 0; rcv 1166 rtt 49.957ms; loss rate: 0.000000
+2024/10/29 06:03:43 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:03:47 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:03:47 Starting new connection to 171.244.134.9 ([::]:49237 -> 171.244.134.9:6124), connectionID 2bb06bcb9ce34533, version 512
+2024/10/29 06:03:47 Queueing packet 0x7 for later decryption
+2024/10/29 06:03:48 Info for stream 5 of 2bb06bcb9ce34533
+2024/10/29 06:03:48 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:03:48 Path 1: sent 156 retrans 0 lost 0; rcv 291; loss rate: 0.000000
+2024/10/29 06:03:48 Path 3: sent 699 retrans 9 lost 3; rcv 1322; loss rate: 0.004292
+2024/10/29 06:03:48 1134.310422
+2024/10/29 06:03:48 Info for stream 5 of 2bb06bcb9ce34533
+2024/10/29 06:03:48 Path 3: sent 700 retrans 9 lost 3; rcv 1323 rtt 7.275ms; loss rate: 0.004286
+2024/10/29 06:03:48 Congestion Window: 5840
+2024/10/29 06:03:48 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 294.952ms; loss rate: 0.000000
+2024/10/29 06:03:48 Congestion Window: 46720
+2024/10/29 06:03:48 Path 1: sent 168 retrans 0 lost 0; rcv 315 rtt 29.777ms; loss rate: 0.000000
+2024/10/29 06:03:48 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:03:52 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:03:52 Starting new connection to 171.244.134.9 ([::]:48682 -> 171.244.134.9:6124), connectionID 5521f173c07dfbf4, version 512
+2024/10/29 06:03:53 Queueing packet 0x9 for later decryption
+2024/10/29 06:03:53 Info for stream 5 of 5521f173c07dfbf4
+2024/10/29 06:03:53 Path 0: sent 12 retrans 3 lost 1; rcv 11; loss rate: 0.083333
+2024/10/29 06:03:53 Path 1: sent 84 retrans 0 lost 0; rcv 152; loss rate: 0.000000
+2024/10/29 06:03:53 Path 3: sent 775 retrans 1 lost 0; rcv 1472; loss rate: 0.000000
+2024/10/29 06:03:53 685.964534
+2024/10/29 06:03:53 Info for stream 5 of 5521f173c07dfbf4
+2024/10/29 06:03:53 Path 0: sent 12 retrans 3 lost 1; rcv 11 rtt 40.502ms; loss rate: 0.083333
+2024/10/29 06:03:53 Congestion Window: 5840
+2024/10/29 06:03:53 Path 1: sent 91 retrans 0 lost 0; rcv 166 rtt 32.086ms; loss rate: 0.000000
+2024/10/29 06:03:53 Congestion Window: 46720
+2024/10/29 06:03:53 Path 3: sent 778 retrans 1 lost 0; rcv 1475 rtt 24.092ms; loss rate: 0.000000
+2024/10/29 06:03:53 Congestion Window: 46720
+2024/10/29 06:03:53 Info for stream 5 of 5521f173c07dfbf4
+2024/10/29 06:03:53 Path 1: sent 91 retrans 0 lost 0; rcv 167 rtt 32.086ms; loss rate: 0.000000
+2024/10/29 06:03:53 Congestion Window: 46720
+2024/10/29 06:03:53 Path 3: sent 780 retrans 2 lost 0; rcv 1477 rtt 20.965ms; loss rate: 0.000000
+2024/10/29 06:03:53 Congestion Window: 46720
+2024/10/29 06:03:53 Path 0: sent 12 retrans 3 lost 1; rcv 11 rtt 40.502ms; loss rate: 0.083333
+2024/10/29 06:03:53 Congestion Window: 5840
+2024/10/29 06:03:53 Info for stream 5 of 5521f173c07dfbf4
+2024/10/29 06:03:53 Path 0: sent 12 retrans 3 lost 1; rcv 11 rtt 40.502ms; loss rate: 0.083333
+2024/10/29 06:03:53 Congestion Window: 5840
+2024/10/29 06:03:53 Path 1: sent 92 retrans 0 lost 0; rcv 167 rtt 32.086ms; loss rate: 0.000000
+2024/10/29 06:03:53 Congestion Window: 46720
+2024/10/29 06:03:53 Path 3: sent 781 retrans 3 lost 0; rcv 1477 rtt 20.965ms; loss rate: 0.000000
+2024/10/29 06:03:53 Congestion Window: 46720
+2024/10/29 06:03:53 Info for stream 5 of 5521f173c07dfbf4
+2024/10/29 06:03:53 Path 0: sent 12 retrans 3 lost 1; rcv 11 rtt 40.502ms; loss rate: 0.083333
+2024/10/29 06:03:53 Congestion Window: 5840
+2024/10/29 06:03:53 Path 1: sent 93 retrans 0 lost 0; rcv 167 rtt 32.086ms; loss rate: 0.000000
+2024/10/29 06:03:53 Congestion Window: 46720
+2024/10/29 06:03:53 Path 3: sent 781 retrans 4 lost 1; rcv 1477 rtt 20.965ms; loss rate: 0.001280
+2024/10/29 06:03:53 Congestion Window: 2920
+2024/10/29 06:03:53 Info for stream 5 of 5521f173c07dfbf4
+2024/10/29 06:03:53 Path 0: sent 12 retrans 3 lost 1; rcv 11 rtt 40.502ms; loss rate: 0.083333
+2024/10/29 06:03:53 Congestion Window: 5840
+2024/10/29 06:03:53 Path 1: sent 94 retrans 1 lost 0; rcv 167 rtt 32.086ms; loss rate: 0.000000
+2024/10/29 06:03:53 Congestion Window: 46720
+2024/10/29 06:03:53 Path 3: sent 782 retrans 4 lost 1; rcv 1477 rtt 20.965ms; loss rate: 0.001279
+2024/10/29 06:03:53 Congestion Window: 2920
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:03:57 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:03:57 Starting new connection to 171.244.134.9 ([::]:39188 -> 171.244.134.9:6124), connectionID 329a1416e262b889, version 512
+2024/10/29 06:03:57 Queueing packet 0x7 for later decryption
+2024/10/29 06:03:57 Info for stream 5 of 329a1416e262b889
+2024/10/29 06:03:57 Path 1: sent 141 retrans 0 lost 0; rcv 275; loss rate: 0.000000
+2024/10/29 06:03:57 Path 3: sent 714 retrans 7 lost 0; rcv 1358; loss rate: 0.000000
+2024/10/29 06:03:57 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:03:58 629.917074
+2024/10/29 06:03:58 Info for stream 5 of 329a1416e262b889
+2024/10/29 06:03:58 Path 1: sent 141 retrans 0 lost 0; rcv 276 rtt 174.883ms; loss rate: 0.000000
+2024/10/29 06:03:58 Congestion Window: 46720
+2024/10/29 06:03:58 Path 3: sent 716 retrans 7 lost 0; rcv 1359 rtt 11.373ms; loss rate: 0.000000
+2024/10/29 06:03:58 Congestion Window: 46720
+2024/10/29 06:03:58 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 177.830663ms; loss rate: 0.000000
+2024/10/29 06:03:58 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:03:59 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:03:59 Starting new connection to 171.244.134.9 ([::]:53835 -> 171.244.134.9:6124), connectionID cf142ea4ef85dc61, version 512
+2024/10/29 06:03:59 Queueing packet 0x7 for later decryption
+2024/10/29 06:03:59 Info for stream 5 of cf142ea4ef85dc61
+2024/10/29 06:03:59 Path 0: sent 7 retrans 0 lost 0; rcv 10; loss rate: 0.000000
+2024/10/29 06:03:59 Path 1: sent 141 retrans 0 lost 0; rcv 266; loss rate: 0.000000
+2024/10/29 06:03:59 Path 3: sent 717 retrans 4 lost 0; rcv 1364; loss rate: 0.000000
+2024/10/29 06:03:59 335.568376
+2024/10/29 06:03:59 Info for stream 5 of cf142ea4ef85dc61
+2024/10/29 06:03:59 Path 0: sent 7 retrans 0 lost 0; rcv 10 rtt 34.224ms; loss rate: 0.000000
+2024/10/29 06:03:59 Congestion Window: 46720
+2024/10/29 06:03:59 Path 1: sent 141 retrans 0 lost 0; rcv 267 rtt 29.087ms; loss rate: 0.000000
+2024/10/29 06:03:59 Congestion Window: 46720
+2024/10/29 06:03:59 Path 3: sent 719 retrans 4 lost 0; rcv 1366 rtt 8.031ms; loss rate: 0.000000
+2024/10/29 06:03:59 Congestion Window: 46720
+2024/10/29 06:03:59 Info for stream 5 of cf142ea4ef85dc61
+2024/10/29 06:03:59 Path 1: sent 141 retrans 0 lost 0; rcv 268 rtt 29.087ms; loss rate: 0.000000
+2024/10/29 06:03:59 Congestion Window: 46720
+2024/10/29 06:03:59 Path 3: sent 720 retrans 5 lost 0; rcv 1366 rtt 8.031ms; loss rate: 0.000000
+2024/10/29 06:03:59 Congestion Window: 46720
+2024/10/29 06:03:59 Path 0: sent 7 retrans 0 lost 0; rcv 10 rtt 34.224ms; loss rate: 0.000000
+2024/10/29 06:03:59 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:04:00 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:04:00 Starting new connection to 171.244.134.9 ([::]:38064 -> 171.244.134.9:6124), connectionID 2450568ba33dd008, version 512
+2024/10/29 06:04:00 Queueing packet 0x7 for later decryption
+2024/10/29 06:04:00 Info for stream 5 of 2450568ba33dd008
+2024/10/29 06:04:00 Path 3: sent 799 retrans 4 lost 0; rcv 1519; loss rate: 0.000000
+2024/10/29 06:04:00 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:04:00 Path 1: sent 67 retrans 0 lost 0; rcv 115; loss rate: 0.000000
+2024/10/29 06:04:00 326.808513
+2024/10/29 06:04:00 Info for stream 5 of 2450568ba33dd008
+2024/10/29 06:04:00 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 38.986ms; loss rate: 0.000000
+2024/10/29 06:04:00 Congestion Window: 46720
+2024/10/29 06:04:00 Path 1: sent 68 retrans 0 lost 0; rcv 116 rtt 28.94ms; loss rate: 0.000000
+2024/10/29 06:04:00 Congestion Window: 46720
+2024/10/29 06:04:00 Path 3: sent 801 retrans 4 lost 0; rcv 1523 rtt 20.198ms; loss rate: 0.000000
+2024/10/29 06:04:00 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:04:05 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:04:05 Starting new connection to 171.244.134.9 ([::]:47818 -> 171.244.134.9:6124), connectionID 5043c12012f3f93a, version 512
+2024/10/29 06:04:05 Queueing packet 0x8 for later decryption
+2024/10/29 06:04:06 Info for stream 5 of 5043c12012f3f93a
+2024/10/29 06:04:06 Path 0: sent 10 retrans 2 lost 0; rcv 10; loss rate: 0.000000
+2024/10/29 06:04:06 Path 1: sent 100 retrans 0 lost 0; rcv 180; loss rate: 0.000000
+2024/10/29 06:04:06 Path 3: sent 737 retrans 3 lost 0; rcv 1405; loss rate: 0.000000
+2024/10/29 06:04:06 707.149476
+2024/10/29 06:04:06 Info for stream 5 of 5043c12012f3f93a
+2024/10/29 06:04:06 Path 0: sent 10 retrans 2 lost 0; rcv 10 rtt 44.865ms; loss rate: 0.000000
+2024/10/29 06:04:06 Congestion Window: 46720
+2024/10/29 06:04:06 Path 1: sent 127 retrans 0 lost 0; rcv 235 rtt 34.71ms; loss rate: 0.000000
+2024/10/29 06:04:06 Congestion Window: 46720
+2024/10/29 06:04:06 Path 3: sent 739 retrans 3 lost 0; rcv 1406 rtt 33.825ms; loss rate: 0.000000
+2024/10/29 06:04:06 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:04:09 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:04:09 Starting new connection to 171.244.134.9 ([::]:60905 -> 171.244.134.9:6124), connectionID 9e9c2384c48abb09, version 512
+2024/10/29 06:04:09 Queueing packet 0x7 for later decryption
+2024/10/29 06:04:10 Info for stream 5 of 9e9c2384c48abb09
+2024/10/29 06:04:10 Path 3: sent 773 retrans 6 lost 0; rcv 1507; loss rate: 0.000000
+2024/10/29 06:04:10 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:04:10 Path 1: sent 84 retrans 5 lost 3; rcv 130; loss rate: 0.035714
+2024/10/29 06:04:10 755.453458
+2024/10/29 06:04:10 Info for stream 5 of 9e9c2384c48abb09
+2024/10/29 06:04:10 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 153.607ms; loss rate: 0.000000
+2024/10/29 06:04:10 Congestion Window: 46720
+2024/10/29 06:04:10 Path 1: sent 85 retrans 5 lost 3; rcv 131 rtt 40.293ms; loss rate: 0.035294
+2024/10/29 06:04:10 Congestion Window: 5840
+2024/10/29 06:04:10 Path 3: sent 774 retrans 6 lost 0; rcv 1507 rtt 95.371ms; loss rate: 0.000000
+2024/10/29 06:04:10 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:04:14 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:04:14 Starting new connection to 171.244.134.9 ([::]:38555 -> 171.244.134.9:6124), connectionID efbf4fc679503319, version 512
+2024/10/29 06:04:14 Queueing packet 0x7 for later decryption
+2024/10/29 06:04:15 Info for stream 5 of efbf4fc679503319
+2024/10/29 06:04:15 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:04:15 Path 1: sent 99 retrans 2 lost 0; rcv 161; loss rate: 0.000000
+2024/10/29 06:04:15 Path 3: sent 754 retrans 5 lost 0; rcv 1475; loss rate: 0.000000
+2024/10/29 06:04:15 498.151296
+2024/10/29 06:04:15 Info for stream 5 of efbf4fc679503319
+2024/10/29 06:04:15 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 51.351ms; loss rate: 0.000000
+2024/10/29 06:04:15 Congestion Window: 46720
+2024/10/29 06:04:15 Path 1: sent 100 retrans 2 lost 0; rcv 162 rtt 29.365ms; loss rate: 0.000000
+2024/10/29 06:04:15 Congestion Window: 46720
+2024/10/29 06:04:15 Path 3: sent 755 retrans 5 lost 0; rcv 1476 rtt 45.15ms; loss rate: 0.000000
+2024/10/29 06:04:15 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:04:17 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:04:17 Starting new connection to 171.244.134.9 ([::]:45765 -> 171.244.134.9:6124), connectionID 5bfece1151fcf61d, version 512
+2024/10/29 06:04:17 Queueing packet 0x8 for later decryption
+2024/10/29 06:04:18 Info for stream 5 of 5bfece1151fcf61d
+2024/10/29 06:04:18 Path 1: sent 117 retrans 1 lost 0; rcv 211; loss rate: 0.000000
+2024/10/29 06:04:18 Path 3: sent 715 retrans 4 lost 0; rcv 1375; loss rate: 0.000000
+2024/10/29 06:04:18 Path 0: sent 10 retrans 2 lost 0; rcv 10; loss rate: 0.000000
+2024/10/29 06:04:18 967.693171
+2024/10/29 06:04:18 Info for stream 5 of 5bfece1151fcf61d
+2024/10/29 06:04:18 Path 0: sent 10 retrans 2 lost 0; rcv 10 rtt 112.829ms; loss rate: 0.000000
+2024/10/29 06:04:18 Congestion Window: 46720
+2024/10/29 06:04:18 Path 1: sent 147 retrans 1 lost 0; rcv 263 rtt 31.466ms; loss rate: 0.000000
+2024/10/29 06:04:18 Congestion Window: 46720
+2024/10/29 06:04:18 Path 3: sent 715 retrans 4 lost 0; rcv 1376 rtt 112.829ms; loss rate: 0.000000
+2024/10/29 06:04:18 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:04:22 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:04:22 Starting new connection to 171.244.134.9 ([::]:53214 -> 171.244.134.9:6124), connectionID ff7dc12fc2170603, version 512
+2024/10/29 06:04:22 Queueing packet 0x7 for later decryption
+2024/10/29 06:04:22 Info for stream 5 of ff7dc12fc2170603
+2024/10/29 06:04:22 Path 0: sent 7 retrans 0 lost 0; rcv 10; loss rate: 0.000000
+2024/10/29 06:04:22 Path 1: sent 172 retrans 0 lost 0; rcv 329; loss rate: 0.000000
+2024/10/29 06:04:22 Path 3: sent 681 retrans 11 lost 0; rcv 1291; loss rate: 0.000000
+2024/10/29 06:04:22 704.748355
+2024/10/29 06:04:22 Info for stream 5 of ff7dc12fc2170603
+2024/10/29 06:04:22 Path 0: sent 7 retrans 0 lost 0; rcv 10 rtt 34.036ms; loss rate: 0.000000
+2024/10/29 06:04:22 Congestion Window: 46720
+2024/10/29 06:04:22 Path 1: sent 179 retrans 0 lost 0; rcv 342 rtt 27.74ms; loss rate: 0.000000
+2024/10/29 06:04:22 Congestion Window: 46720
+2024/10/29 06:04:22 Path 3: sent 682 retrans 11 lost 0; rcv 1292 rtt 11.878ms; loss rate: 0.000000
+2024/10/29 06:04:22 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:04:23 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:04:23 Starting new connection to 171.244.134.9 ([::]:39245 -> 171.244.134.9:6124), connectionID 19c98df0af9ebab1, version 512
+2024/10/29 06:04:24 Queueing packet 0x7 for later decryption
+2024/10/29 06:04:24 Info for stream 5 of 19c98df0af9ebab1
+2024/10/29 06:04:24 Path 0: sent 7 retrans 0 lost 0; rcv 10; loss rate: 0.000000
+2024/10/29 06:04:24 Path 1: sent 158 retrans 1 lost 0; rcv 304; loss rate: 0.000000
+2024/10/29 06:04:24 Path 3: sent 699 retrans 6 lost 0; rcv 1327; loss rate: 0.000000
+2024/10/29 06:04:24 462.468789
+2024/10/29 06:04:24 Info for stream 5 of 19c98df0af9ebab1
+2024/10/29 06:04:24 Path 0: sent 7 retrans 0 lost 0; rcv 10 rtt 36.922159ms; loss rate: 0.000000
+2024/10/29 06:04:24 Congestion Window: 46720
+2024/10/29 06:04:24 Path 1: sent 158 retrans 1 lost 0; rcv 305 rtt 34.012ms; loss rate: 0.000000
+2024/10/29 06:04:24 Congestion Window: 46720
+2024/10/29 06:04:24 Path 3: sent 700 retrans 6 lost 0; rcv 1328 rtt 8.196ms; loss rate: 0.000000
+2024/10/29 06:04:24 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:04:26 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:04:26 Starting new connection to 171.244.134.9 ([::]:35131 -> 171.244.134.9:6124), connectionID 587b14feab331553, version 512
+2024/10/29 06:04:27 Queueing packet 0xa for later decryption
+2024/10/29 06:04:27 Info for stream 5 of 587b14feab331553
+2024/10/29 06:04:27 Path 0: sent 14 retrans 4 lost 1; rcv 12; loss rate: 0.071429
+2024/10/29 06:04:27 Path 1: sent 109 retrans 0 lost 0; rcv 203; loss rate: 0.000000
+2024/10/29 06:04:27 Path 3: sent 758 retrans 4 lost 0; rcv 1437; loss rate: 0.000000
+2024/10/29 06:04:27 798.326948
+2024/10/29 06:04:27 Info for stream 5 of 587b14feab331553
+2024/10/29 06:04:27 Path 0: sent 14 retrans 4 lost 1; rcv 12 rtt 37.614ms; loss rate: 0.071429
+2024/10/29 06:04:27 Congestion Window: 5840
+2024/10/29 06:04:27 Path 1: sent 110 retrans 0 lost 0; rcv 203 rtt 33.416ms; loss rate: 0.000000
+2024/10/29 06:04:27 Congestion Window: 46720
+2024/10/29 06:04:27 Path 3: sent 759 retrans 4 lost 0; rcv 1437 rtt 8.967ms; loss rate: 0.000000
+2024/10/29 06:04:27 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:04:31 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:04:31 Starting new connection to 171.244.134.9 ([::]:36755 -> 171.244.134.9:6124), connectionID e380f02cd0dd341d, version 512
+2024/10/29 06:04:31 Queueing packet 0x8 for later decryption
+2024/10/29 06:04:31 Info for stream 5 of e380f02cd0dd341d
+2024/10/29 06:04:31 Path 1: sent 111 retrans 0 lost 0; rcv 200; loss rate: 0.000000
+2024/10/29 06:04:31 Path 3: sent 753 retrans 5 lost 0; rcv 1436; loss rate: 0.000000
+2024/10/29 06:04:31 Path 0: sent 10 retrans 2 lost 0; rcv 9; loss rate: 0.000000
+2024/10/29 06:04:31 679.738916
+2024/10/29 06:04:31 Info for stream 5 of e380f02cd0dd341d
+2024/10/29 06:04:31 Path 1: sent 112 retrans 0 lost 0; rcv 200 rtt 24.431ms; loss rate: 0.000000
+2024/10/29 06:04:31 Congestion Window: 46720
+2024/10/29 06:04:31 Path 3: sent 753 retrans 5 lost 0; rcv 1437 rtt 30.976ms; loss rate: 0.000000
+2024/10/29 06:04:31 Congestion Window: 46720
+2024/10/29 06:04:31 Path 0: sent 10 retrans 2 lost 0; rcv 9 rtt 38.158ms; loss rate: 0.000000
+2024/10/29 06:04:31 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:04:34 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:04:34 Starting new connection to 171.244.134.9 ([::]:56901 -> 171.244.134.9:6124), connectionID d95eb5056908bd22, version 512
+2024/10/29 06:04:35 Queueing packet 0x7 for later decryption
+2024/10/29 06:04:35 Info for stream 5 of d95eb5056908bd22
+2024/10/29 06:04:35 Path 0: sent 8 retrans 1 lost 0; rcv 9; loss rate: 0.000000
+2024/10/29 06:04:35 Path 1: sent 126 retrans 2 lost 0; rcv 222; loss rate: 0.000000
+2024/10/29 06:04:35 Path 3: sent 744 retrans 11 lost 1; rcv 1419; loss rate: 0.001344
+2024/10/29 06:04:35 1629.149241
+2024/10/29 06:04:35 Info for stream 5 of d95eb5056908bd22
+2024/10/29 06:04:35 Path 0: sent 8 retrans 1 lost 0; rcv 9 rtt 135.465ms; loss rate: 0.000000
+2024/10/29 06:04:35 Congestion Window: 46720
+2024/10/29 06:04:35 Path 1: sent 130 retrans 2 lost 0; rcv 228 rtt 25.761ms; loss rate: 0.000000
+2024/10/29 06:04:35 Congestion Window: 46720
+2024/10/29 06:04:35 Path 3: sent 745 retrans 11 lost 1; rcv 1420 rtt 135.465ms; loss rate: 0.001342
+2024/10/29 06:04:35 Congestion Window: 39420
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:04:39 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:04:39 Starting new connection to 171.244.134.9 ([::]:56687 -> 171.244.134.9:6124), connectionID f30c367068b4aff1, version 512
+2024/10/29 06:04:39 Queueing packet 0x7 for later decryption
+2024/10/29 06:04:40 Info for stream 5 of f30c367068b4aff1
+2024/10/29 06:04:40 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:04:40 Path 1: sent 120 retrans 0 lost 0; rcv 225; loss rate: 0.000000
+2024/10/29 06:04:40 Path 3: sent 733 retrans 2 lost 0; rcv 1394; loss rate: 0.000000
+2024/10/29 06:04:40 315.939340
+2024/10/29 06:04:40 Info for stream 5 of f30c367068b4aff1
+2024/10/29 06:04:40 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 27.473ms; loss rate: 0.000000
+2024/10/29 06:04:40 Congestion Window: 46720
+2024/10/29 06:04:40 Path 1: sent 127 retrans 0 lost 0; rcv 239 rtt 24.924ms; loss rate: 0.000000
+2024/10/29 06:04:40 Congestion Window: 46720
+2024/10/29 06:04:40 Path 3: sent 735 retrans 2 lost 0; rcv 1395 rtt 10.189ms; loss rate: 0.000000
+2024/10/29 06:04:40 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:04:41 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:04:41 Starting new connection to 171.244.134.9 ([::]:32997 -> 171.244.134.9:6124), connectionID bf79c736e5976752, version 512
+2024/10/29 06:04:41 Queueing packet 0x7 for later decryption
+2024/10/29 06:04:42 Info for stream 5 of bf79c736e5976752
+2024/10/29 06:04:42 Path 3: sent 733 retrans 5 lost 0; rcv 1424; loss rate: 0.000000
+2024/10/29 06:04:42 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:04:42 Path 1: sent 110 retrans 2 lost 0; rcv 191; loss rate: 0.000000
+2024/10/29 06:04:42 586.356174
+2024/10/29 06:04:42 Info for stream 5 of bf79c736e5976752
+2024/10/29 06:04:42 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 73.568ms; loss rate: 0.000000
+2024/10/29 06:04:42 Congestion Window: 46720
+2024/10/29 06:04:42 Path 1: sent 119 retrans 2 lost 0; rcv 207 rtt 27.803ms; loss rate: 0.000000
+2024/10/29 06:04:42 Congestion Window: 46720
+2024/10/29 06:04:42 Path 3: sent 733 retrans 5 lost 0; rcv 1425 rtt 67.404ms; loss rate: 0.000000
+2024/10/29 06:04:42 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:04:47 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:04:47 Starting new connection to 171.244.134.9 ([::]:45281 -> 171.244.134.9:6124), connectionID 90391e6ffea73cec, version 512
+2024/10/29 06:04:47 Queueing packet 0x8 for later decryption
+2024/10/29 06:04:47 Info for stream 5 of 90391e6ffea73cec
+2024/10/29 06:04:47 Path 0: sent 10 retrans 2 lost 0; rcv 11; loss rate: 0.000000
+2024/10/29 06:04:47 Path 1: sent 141 retrans 0 lost 0; rcv 266; loss rate: 0.000000
+2024/10/29 06:04:47 Path 3: sent 718 retrans 5 lost 0; rcv 1366; loss rate: 0.000000
+2024/10/29 06:04:47 646.209716
+2024/10/29 06:04:47 Info for stream 5 of 90391e6ffea73cec
+2024/10/29 06:04:47 Path 1: sent 141 retrans 0 lost 0; rcv 266 rtt 35.849ms; loss rate: 0.000000
+2024/10/29 06:04:47 Congestion Window: 46720
+2024/10/29 06:04:47 Path 3: sent 719 retrans 5 lost 0; rcv 1367 rtt 9.975ms; loss rate: 0.000000
+2024/10/29 06:04:47 Congestion Window: 46720
+2024/10/29 06:04:47 Path 0: sent 10 retrans 2 lost 0; rcv 11 rtt 40.715391ms; loss rate: 0.000000
+2024/10/29 06:04:47 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:04:49 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:04:49 Starting new connection to 171.244.134.9 ([::]:39229 -> 171.244.134.9:6124), connectionID 88477845f0bc2ef3, version 512
+2024/10/29 06:04:49 Queueing packet 0x7 for later decryption
+2024/10/29 06:04:49 Info for stream 5 of 88477845f0bc2ef3
+2024/10/29 06:04:49 Path 3: sent 764 retrans 4 lost 0; rcv 1451; loss rate: 0.000000
+2024/10/29 06:04:49 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:04:49 Path 1: sent 83 retrans 0 lost 0; rcv 152; loss rate: 0.000000
+2024/10/29 06:04:49 308.919945
+2024/10/29 06:04:49 Info for stream 5 of 88477845f0bc2ef3
+2024/10/29 06:04:49 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 38.711ms; loss rate: 0.000000
+2024/10/29 06:04:49 Congestion Window: 46720
+2024/10/29 06:04:49 Path 1: sent 99 retrans 0 lost 0; rcv 185 rtt 27.802ms; loss rate: 0.000000
+2024/10/29 06:04:49 Congestion Window: 46720
+2024/10/29 06:04:49 Path 3: sent 767 retrans 4 lost 0; rcv 1454 rtt 14.272ms; loss rate: 0.000000
+2024/10/29 06:04:49 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:04:51 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:04:51 Starting new connection to 171.244.134.9 ([::]:33872 -> 171.244.134.9:6124), connectionID 5ae77943427d3329, version 512
+2024/10/29 06:04:51 Queueing packet 0xa for later decryption
+2024/10/29 06:04:52 Info for stream 5 of 5ae77943427d3329
+2024/10/29 06:04:52 Path 3: sent 681 retrans 10 lost 0; rcv 1293; loss rate: 0.000000
+2024/10/29 06:04:52 Path 0: sent 12 retrans 3 lost 1; rcv 15; loss rate: 0.083333
+2024/10/29 06:04:52 Path 1: sent 154 retrans 0 lost 0; rcv 294; loss rate: 0.000000
+2024/10/29 06:04:52 1277.397984
+2024/10/29 06:04:52 Info for stream 5 of 5ae77943427d3329
+2024/10/29 06:04:52 Path 0: sent 12 retrans 3 lost 1; rcv 15 rtt 74.364ms; loss rate: 0.083333
+2024/10/29 06:04:52 Congestion Window: 5840
+2024/10/29 06:04:52 Path 1: sent 175 retrans 0 lost 0; rcv 337 rtt 27.502ms; loss rate: 0.000000
+2024/10/29 06:04:52 Congestion Window: 46720
+2024/10/29 06:04:52 Path 3: sent 685 retrans 10 lost 0; rcv 1296 rtt 14.446ms; loss rate: 0.000000
+2024/10/29 06:04:52 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:04:55 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:04:55 Starting new connection to 171.244.134.9 ([::]:35745 -> 171.244.134.9:6124), connectionID 304a79842eb1df5b, version 512
+2024/10/29 06:04:55 Queueing packet 0x7 for later decryption
+2024/10/29 06:04:56 Info for stream 5 of 304a79842eb1df5b
+2024/10/29 06:04:56 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:04:56 Path 1: sent 96 retrans 0 lost 0; rcv 168; loss rate: 0.000000
+2024/10/29 06:04:56 Path 3: sent 760 retrans 3 lost 0; rcv 1466; loss rate: 0.000000
+2024/10/29 06:04:56 767.502870
+2024/10/29 06:04:56 Info for stream 5 of 304a79842eb1df5b
+2024/10/29 06:04:56 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 262.259ms; loss rate: 0.000000
+2024/10/29 06:04:56 Congestion Window: 46720
+2024/10/29 06:04:56 Path 1: sent 101 retrans 0 lost 0; rcv 172 rtt 40.418ms; loss rate: 0.000000
+2024/10/29 06:04:56 Congestion Window: 46720
+2024/10/29 06:04:56 Path 3: sent 761 retrans 3 lost 0; rcv 1467 rtt 75.103ms; loss rate: 0.000000
+2024/10/29 06:04:56 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:04:58 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:04:58 Starting new connection to 171.244.134.9 ([::]:47480 -> 171.244.134.9:6124), connectionID 63ec3bd48a562e0, version 512
+2024/10/29 06:04:58 Queueing packet 0x7 for later decryption
+2024/10/29 06:04:59 Info for stream 5 of 63ec3bd48a562e0
+2024/10/29 06:04:59 Path 3: sent 786 retrans 2 lost 0; rcv 1490; loss rate: 0.000000
+2024/10/29 06:04:59 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:04:59 Path 1: sent 85 retrans 0 lost 0; rcv 152; loss rate: 0.000000
+2024/10/29 06:04:59 783.671186
+2024/10/29 06:04:59 Info for stream 5 of 63ec3bd48a562e0
+2024/10/29 06:04:59 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 249.397ms; loss rate: 0.000000
+2024/10/29 06:04:59 Congestion Window: 46720
+2024/10/29 06:04:59 Path 1: sent 85 retrans 0 lost 0; rcv 152 rtt 134.635ms; loss rate: 0.000000
+2024/10/29 06:04:59 Congestion Window: 46720
+2024/10/29 06:04:59 Path 3: sent 788 retrans 2 lost 0; rcv 1492 rtt 15.644ms; loss rate: 0.000000
+2024/10/29 06:04:59 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:05:03 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:05:03 Starting new connection to 171.244.134.9 ([::]:49680 -> 171.244.134.9:6124), connectionID 28ff4cfca58d53a8, version 512
+2024/10/29 06:05:03 Queueing packet 0x8 for later decryption
+2024/10/29 06:05:03 Info for stream 5 of 28ff4cfca58d53a8
+2024/10/29 06:05:03 Path 3: sent 742 retrans 4 lost 0; rcv 1445; loss rate: 0.000000
+2024/10/29 06:05:03 Path 0: sent 10 retrans 2 lost 0; rcv 10; loss rate: 0.000000
+2024/10/29 06:05:03 Path 1: sent 107 retrans 0 lost 0; rcv 185; loss rate: 0.000000
+2024/10/29 06:05:03 508.616815
+2024/10/29 06:05:03 Info for stream 5 of 28ff4cfca58d53a8
+2024/10/29 06:05:03 Path 0: sent 10 retrans 2 lost 0; rcv 10 rtt 40.195ms; loss rate: 0.000000
+2024/10/29 06:05:03 Congestion Window: 46720
+2024/10/29 06:05:03 Path 1: sent 111 retrans 0 lost 0; rcv 191 rtt 37.586ms; loss rate: 0.000000
+2024/10/29 06:05:03 Congestion Window: 46720
+2024/10/29 06:05:03 Path 3: sent 744 retrans 4 lost 0; rcv 1446 rtt 40.195ms; loss rate: 0.000000
+2024/10/29 06:05:03 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:05:05 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:05:05 Starting new connection to 171.244.134.9 ([::]:46324 -> 171.244.134.9:6124), connectionID bfe92758f8a1cd1c, version 512
+2024/10/29 06:05:05 Queueing packet 0x7 for later decryption
+2024/10/29 06:05:05 Info for stream 5 of bfe92758f8a1cd1c
+2024/10/29 06:05:05 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:05:05 Path 1: sent 127 retrans 0 lost 0; rcv 235; loss rate: 0.000000
+2024/10/29 06:05:05 Path 3: sent 736 retrans 4 lost 0; rcv 1401; loss rate: 0.000000
+2024/10/29 06:05:05 315.678951
+2024/10/29 06:05:05 Info for stream 5 of bfe92758f8a1cd1c
+2024/10/29 06:05:05 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 39.037ms; loss rate: 0.000000
+2024/10/29 06:05:05 Congestion Window: 46720
+2024/10/29 06:05:05 Path 1: sent 127 retrans 0 lost 0; rcv 235 rtt 28.187ms; loss rate: 0.000000
+2024/10/29 06:05:05 Congestion Window: 46720
+2024/10/29 06:05:05 Path 3: sent 738 retrans 4 lost 0; rcv 1402 rtt 9.685ms; loss rate: 0.000000
+2024/10/29 06:05:05 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:05:07 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:05:07 Starting new connection to 171.244.134.9 ([::]:51554 -> 171.244.134.9:6124), connectionID bb85d456cc392df1, version 512
+2024/10/29 06:05:07 Queueing packet 0x7 for later decryption
+2024/10/29 06:05:07 Info for stream 5 of bb85d456cc392df1
+2024/10/29 06:05:07 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:05:07 Path 1: sent 79 retrans 2 lost 0; rcv 130; loss rate: 0.000000
+2024/10/29 06:05:07 Path 3: sent 772 retrans 2 lost 0; rcv 1503; loss rate: 0.000000
+2024/10/29 06:05:07 585.642613
+2024/10/29 06:05:07 Info for stream 5 of bb85d456cc392df1
+2024/10/29 06:05:07 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 113.467ms; loss rate: 0.000000
+2024/10/29 06:05:07 Congestion Window: 46720
+2024/10/29 06:05:07 Path 1: sent 80 retrans 2 lost 0; rcv 130 rtt 27.801ms; loss rate: 0.000000
+2024/10/29 06:05:07 Congestion Window: 46720
+2024/10/29 06:05:07 Path 3: sent 772 retrans 2 lost 0; rcv 1504 rtt 113.467ms; loss rate: 0.000000
+2024/10/29 06:05:07 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:05:11 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:05:11 Starting new connection to 171.244.134.9 ([::]:60628 -> 171.244.134.9:6124), connectionID d6ebdd208f41022c, version 512
+2024/10/29 06:05:11 Queueing packet 0x8 for later decryption
+2024/10/29 06:05:12 Info for stream 5 of d6ebdd208f41022c
+2024/10/29 06:05:12 Path 3: sent 724 retrans 3 lost 0; rcv 1422; loss rate: 0.000000
+2024/10/29 06:05:12 Path 0: sent 9 retrans 2 lost 0; rcv 10; loss rate: 0.000000
+2024/10/29 06:05:12 Path 1: sent 122 retrans 4 lost 0; rcv 215; loss rate: 0.000000
+2024/10/29 06:05:12 862.129278
+2024/10/29 06:05:12 Info for stream 5 of d6ebdd208f41022c
+2024/10/29 06:05:12 Path 0: sent 9 retrans 2 lost 0; rcv 10 rtt 38.704ms; loss rate: 0.000000
+2024/10/29 06:05:12 Congestion Window: 46720
+2024/10/29 06:05:12 Path 1: sent 124 retrans 4 lost 0; rcv 217 rtt 34.214ms; loss rate: 0.000000
+2024/10/29 06:05:12 Congestion Window: 46720
+2024/10/29 06:05:12 Path 3: sent 724 retrans 3 lost 0; rcv 1422 rtt 38.239ms; loss rate: 0.000000
+2024/10/29 06:05:12 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:05:14 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:05:14 Starting new connection to 171.244.134.9 ([::]:46829 -> 171.244.134.9:6124), connectionID ee4861b52c305405, version 512
+2024/10/29 06:05:14 Queueing packet 0x7 for later decryption
+2024/10/29 06:05:15 Info for stream 5 of ee4861b52c305405
+2024/10/29 06:05:15 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/29 06:05:15 Path 1: sent 90 retrans 0 lost 0; rcv 168; loss rate: 0.000000
+2024/10/29 06:05:15 Path 3: sent 760 retrans 1 lost 0; rcv 1447; loss rate: 0.000000
+2024/10/29 06:05:15 484.355282
+2024/10/29 06:05:15 Info for stream 5 of ee4861b52c305405
+2024/10/29 06:05:15 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 83.625ms; loss rate: 0.000000
+2024/10/29 06:05:15 Congestion Window: 46720
+2024/10/29 06:05:15 Path 1: sent 100 retrans 0 lost 0; rcv 189 rtt 42.674ms; loss rate: 0.000000
+2024/10/29 06:05:15 Congestion Window: 46720
+2024/10/29 06:05:15 Path 3: sent 762 retrans 1 lost 0; rcv 1449 rtt 12.516ms; loss rate: 0.000000
+2024/10/29 06:05:15 Congestion Window: 46720
+2024/10/29 06:05:15 Info for stream 5 of ee4861b52c305405
+2024/10/29 06:05:15 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 83.625ms; loss rate: 0.000000
+2024/10/29 06:05:15 Congestion Window: 46720
+2024/10/29 06:05:15 Path 1: sent 100 retrans 0 lost 0; rcv 189 rtt 42.674ms; loss rate: 0.000000
+2024/10/29 06:05:15 Congestion Window: 46720
+2024/10/29 06:05:15 Path 3: sent 763 retrans 2 lost 0; rcv 1449 rtt 12.516ms; loss rate: 0.000000
+2024/10/29 06:05:15 Congestion Window: 46720
+2024/10/29 06:05:15 Info for stream 5 of ee4861b52c305405
+2024/10/29 06:05:15 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 83.625ms; loss rate: 0.000000
+2024/10/29 06:05:15 Congestion Window: 46720
+2024/10/29 06:05:15 Path 1: sent 101 retrans 0 lost 0; rcv 189 rtt 42.674ms; loss rate: 0.000000
+2024/10/29 06:05:15 Congestion Window: 46720
+2024/10/29 06:05:15 Path 3: sent 764 retrans 3 lost 0; rcv 1449 rtt 12.516ms; loss rate: 0.000000
+2024/10/29 06:05:15 Congestion Window: 46720
+2024/10/29 06:05:15 Info for stream 5 of ee4861b52c305405
+2024/10/29 06:05:15 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 83.625ms; loss rate: 0.000000
+2024/10/29 06:05:15 Congestion Window: 46720
+2024/10/29 06:05:15 Path 1: sent 102 retrans 0 lost 0; rcv 189 rtt 42.674ms; loss rate: 0.000000
+2024/10/29 06:05:15 Congestion Window: 46720
+2024/10/29 06:05:15 Path 3: sent 764 retrans 4 lost 1; rcv 1449 rtt 12.516ms; loss rate: 0.001309
+2024/10/29 06:05:15 Congestion Window: 2920
+2024/10/29 06:05:15 Info for stream 5 of ee4861b52c305405
+2024/10/29 06:05:15 Path 3: sent 765 retrans 4 lost 1; rcv 1449 rtt 12.516ms; loss rate: 0.001307
+2024/10/29 06:05:15 Congestion Window: 2920
+2024/10/29 06:05:15 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 83.625ms; loss rate: 0.000000
+2024/10/29 06:05:15 Congestion Window: 46720
+2024/10/29 06:05:15 Path 1: sent 103 retrans 1 lost 0; rcv 189 rtt 42.674ms; loss rate: 0.000000
+2024/10/29 06:05:15 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:05:20 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:05:20 Starting new connection to 171.244.134.9 ([::]:44802 -> 171.244.134.9:6124), connectionID 103de1d136971b0b, version 512
+2024/10/29 06:05:21 Queueing packet 0x7 for later decryption
+2024/10/29 06:05:21 Queueing packet 0x8 for later decryption
+2024/10/29 06:05:21 Queueing packet 0x9 for later decryption
+2024/10/29 06:05:21 Queueing packet 0x8 for later decryption
+2024/10/29 06:05:21 Info for stream 5 of 103de1d136971b0b
+2024/10/29 06:05:21 Path 0: sent 13 retrans 3 lost 1; rcv 12; loss rate: 0.076923
+2024/10/29 06:05:21 Path 1: sent 155 retrans 0 lost 0; rcv 290; loss rate: 0.000000
+2024/10/29 06:05:21 Path 3: sent 698 retrans 9 lost 0; rcv 1336; loss rate: 0.000000
+2024/10/29 06:05:21 1074.416658
+2024/10/29 06:05:21 Info for stream 5 of 103de1d136971b0b
+2024/10/29 06:05:21 Path 0: sent 13 retrans 3 lost 1; rcv 12 rtt 53.155ms; loss rate: 0.076923
+2024/10/29 06:05:21 Congestion Window: 5840
+2024/10/29 06:05:21 Path 1: sent 157 retrans 0 lost 0; rcv 293 rtt 37.801ms; loss rate: 0.000000
+2024/10/29 06:05:21 Congestion Window: 46720
+2024/10/29 06:05:21 Path 3: sent 698 retrans 9 lost 0; rcv 1337 rtt 53.155ms; loss rate: 0.000000
+2024/10/29 06:05:21 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:05:23 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:05:23 Starting new connection to 171.244.134.9 ([::]:46637 -> 171.244.134.9:6124), connectionID 32ebc25a447cb1f6, version 512
+2024/10/29 06:05:24 Queueing packet 0x9 for later decryption
+2024/10/29 06:05:24 Info for stream 5 of 32ebc25a447cb1f6
+2024/10/29 06:05:24 Path 0: sent 12 retrans 3 lost 1; rcv 11; loss rate: 0.083333
+2024/10/29 06:05:24 Path 1: sent 97 retrans 0 lost 0; rcv 172; loss rate: 0.000000
+2024/10/29 06:05:24 Path 3: sent 731 retrans 4 lost 0; rcv 1413; loss rate: 0.000000
+2024/10/29 06:05:24 1143.759141
+2024/10/29 06:05:24 Info for stream 5 of 32ebc25a447cb1f6
+2024/10/29 06:05:24 Path 0: sent 12 retrans 3 lost 1; rcv 11 rtt 93.528ms; loss rate: 0.083333
+2024/10/29 06:05:24 Congestion Window: 5840
+2024/10/29 06:05:24 Path 1: sent 124 retrans 0 lost 0; rcv 220 rtt 31.777ms; loss rate: 0.000000
+2024/10/29 06:05:24 Congestion Window: 46720
+2024/10/29 06:05:24 Path 3: sent 732 retrans 4 lost 0; rcv 1414 rtt 82.419ms; loss rate: 0.000000
+2024/10/29 06:05:24 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:05:27 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:05:27 Starting new connection to 171.244.134.9 ([::]:55835 -> 171.244.134.9:6124), connectionID 6ae62fce33425bc8, version 512
+2024/10/29 06:05:28 Queueing packet 0x8 for later decryption
+2024/10/29 06:05:28 Info for stream 5 of 6ae62fce33425bc8
+2024/10/29 06:05:28 Path 0: sent 10 retrans 2 lost 0; rcv 10; loss rate: 0.000000
+2024/10/29 06:05:28 Path 1: sent 121 retrans 0 lost 0; rcv 232; loss rate: 0.000000
+2024/10/29 06:05:28 Path 3: sent 737 retrans 2 lost 0; rcv 1404; loss rate: 0.000000
+2024/10/29 06:05:28 856.802344
+2024/10/29 06:05:28 Info for stream 5 of 6ae62fce33425bc8
+2024/10/29 06:05:28 Path 0: sent 10 retrans 2 lost 0; rcv 10 rtt 54.139ms; loss rate: 0.000000
+2024/10/29 06:05:28 Congestion Window: 46720
+2024/10/29 06:05:28 Path 1: sent 123 retrans 0 lost 0; rcv 235 rtt 54.139ms; loss rate: 0.000000
+2024/10/29 06:05:28 Congestion Window: 46720
+2024/10/29 06:05:28 Path 3: sent 738 retrans 2 lost 0; rcv 1405 rtt 20.491ms; loss rate: 0.000000
+2024/10/29 06:05:28 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused
+2024/10/29 06:05:31 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/29 06:05:31 Starting new connection to 171.244.134.9 ([::]:55919 -> 171.244.134.9:6124), connectionID a7a71e51a223949c, version 512
+2024/10/29 06:05:31 Queueing packet 0x7 for later decryption
+2024/10/29 06:05:31 Info for stream 5 of a7a71e51a223949c
+2024/10/29 06:05:31 Path 0: sent 7 retrans 0 lost 0; rcv 10; loss rate: 0.000000
+2024/10/29 06:05:31 Path 1: sent 141 retrans 0 lost 0; rcv 271; loss rate: 0.000000
+2024/10/29 06:05:31 Path 3: sent 688 retrans 7 lost 0; rcv 1303; loss rate: 0.000000
+2024/10/29 06:05:31 654.587643
+2024/10/29 06:05:31 Info for stream 5 of a7a71e51a223949c
+2024/10/29 06:05:31 Path 1: sent 167 retrans 0 lost 0; rcv 324 rtt 77.006ms; loss rate: 0.000000
+2024/10/29 06:05:31 Congestion Window: 46720
+2024/10/29 06:05:31 Path 3: sent 689 retrans 7 lost 0; rcv 1304 rtt 17.57ms; loss rate: 0.000000
+2024/10/29 06:05:31 Congestion Window: 46720
+2024/10/29 06:05:31 Path 0: sent 7 retrans 0 lost 0; rcv 10 rtt 81.943585ms; loss rate: 0.000000
+2024/10/29 06:05:31 Congestion Window: 46720
+Error sending POST request: Post "http://171.244.134.9:8181/flag_training": dial tcp 171.244.134.9:8181: connect: connection refused

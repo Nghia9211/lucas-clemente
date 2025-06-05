@@ -1,0 +1,2027 @@
+2024/10/26 06:00:09 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:00:09 Starting new connection to 171.244.134.9 ([::]:35320 -> 171.244.134.9:6124), connectionID fe36e11d10b1fc38, version 512
+2024/10/26 06:00:09 Queueing packet 0x7 for later decryption
+2024/10/26 06:00:09 Info for stream 5 of fe36e11d10b1fc38
+2024/10/26 06:00:09 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:00:09 Path 1: sent 269 retrans 2 lost 0; rcv 525; loss rate: 0.000000
+2024/10/26 06:00:09 Path 3: sent 586 retrans 1 lost 0; rcv 1107; loss rate: 0.000000
+2024/10/26 06:00:09 711.496147
+2024/10/26 06:00:09 Info for stream 5 of fe36e11d10b1fc38
+2024/10/26 06:00:09 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 38.658ms; loss rate: 0.000000
+2024/10/26 06:00:09 Congestion Window: 46720
+2024/10/26 06:00:09 Path 1: sent 271 retrans 2 lost 0; rcv 530 rtt 34.342ms; loss rate: 0.000000
+2024/10/26 06:00:09 Congestion Window: 46720
+2024/10/26 06:00:09 Path 3: sent 587 retrans 1 lost 0; rcv 1108 rtt 22.048ms; loss rate: 0.000000
+2024/10/26 06:00:09 Congestion Window: 46720
+2024/10/26 06:00:15 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:00:15 Starting new connection to 171.244.134.9 ([::]:56145 -> 171.244.134.9:6124), connectionID 2111b49f5c5775aa, version 512
+2024/10/26 06:00:15 Queueing packet 0x7 for later decryption
+2024/10/26 06:00:17 Info for stream 5 of 2111b49f5c5775aa
+2024/10/26 06:00:17 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:00:17 Path 1: sent 230 retrans 4 lost 0; rcv 415; loss rate: 0.000000
+2024/10/26 06:00:17 Path 3: sent 607 retrans 6 lost 0; rcv 1181; loss rate: 0.000000
+2024/10/26 06:00:17 1829.169348
+2024/10/26 06:00:17 Info for stream 5 of 2111b49f5c5775aa
+2024/10/26 06:00:17 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 269.98ms; loss rate: 0.000000
+2024/10/26 06:00:17 Congestion Window: 46720
+2024/10/26 06:00:17 Path 1: sent 231 retrans 4 lost 0; rcv 416 rtt 31.833ms; loss rate: 0.000000
+2024/10/26 06:00:17 Congestion Window: 46720
+2024/10/26 06:00:17 Path 3: sent 628 retrans 6 lost 0; rcv 1223 rtt 61.408ms; loss rate: 0.000000
+2024/10/26 06:00:17 Congestion Window: 46720
+2024/10/26 06:00:17 Info for stream 5 of 2111b49f5c5775aa
+2024/10/26 06:00:17 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 269.98ms; loss rate: 0.000000
+2024/10/26 06:00:17 Congestion Window: 46720
+2024/10/26 06:00:17 Path 1: sent 233 retrans 5 lost 0; rcv 416 rtt 31.833ms; loss rate: 0.000000
+2024/10/26 06:00:17 Congestion Window: 46720
+2024/10/26 06:00:17 Path 3: sent 628 retrans 6 lost 0; rcv 1223 rtt 61.408ms; loss rate: 0.000000
+2024/10/26 06:00:17 Congestion Window: 46720
+2024/10/26 06:00:17 Info for stream 5 of 2111b49f5c5775aa
+2024/10/26 06:00:17 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 269.98ms; loss rate: 0.000000
+2024/10/26 06:00:17 Congestion Window: 46720
+2024/10/26 06:00:17 Path 1: sent 234 retrans 6 lost 0; rcv 416 rtt 31.833ms; loss rate: 0.000000
+2024/10/26 06:00:17 Congestion Window: 46720
+2024/10/26 06:00:17 Path 3: sent 628 retrans 6 lost 0; rcv 1223 rtt 61.408ms; loss rate: 0.000000
+2024/10/26 06:00:17 Congestion Window: 46720
+2024/10/26 06:00:17 Info for stream 5 of 2111b49f5c5775aa
+2024/10/26 06:00:17 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 269.98ms; loss rate: 0.000000
+2024/10/26 06:00:17 Congestion Window: 46720
+2024/10/26 06:00:17 Path 1: sent 234 retrans 7 lost 1; rcv 416 rtt 31.833ms; loss rate: 0.004274
+2024/10/26 06:00:17 Congestion Window: 2920
+2024/10/26 06:00:17 Path 3: sent 629 retrans 6 lost 0; rcv 1223 rtt 61.408ms; loss rate: 0.000000
+2024/10/26 06:00:17 Congestion Window: 46720
+2024/10/26 06:00:17 Info for stream 5 of 2111b49f5c5775aa
+2024/10/26 06:00:17 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 269.98ms; loss rate: 0.000000
+2024/10/26 06:00:17 Congestion Window: 46720
+2024/10/26 06:00:17 Path 1: sent 235 retrans 7 lost 1; rcv 416 rtt 31.833ms; loss rate: 0.004255
+2024/10/26 06:00:17 Congestion Window: 2920
+2024/10/26 06:00:17 Path 3: sent 630 retrans 7 lost 0; rcv 1223 rtt 61.408ms; loss rate: 0.000000
+2024/10/26 06:00:17 Congestion Window: 46720
+2024/10/26 06:00:26 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:00:26 Starting new connection to 171.244.134.9 ([::]:44258 -> 171.244.134.9:6124), connectionID 45004ea4542a5679, version 512
+2024/10/26 06:00:26 Queueing packet 0x7 for later decryption
+2024/10/26 06:00:27 Info for stream 5 of 45004ea4542a5679
+2024/10/26 06:00:27 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:00:27 Path 1: sent 280 retrans 5 lost 0; rcv 518; loss rate: 0.000000
+2024/10/26 06:00:27 Path 3: sent 580 retrans 4 lost 0; rcv 1125; loss rate: 0.000000
+2024/10/26 06:00:27 1251.309201
+2024/10/26 06:00:27 Info for stream 5 of 45004ea4542a5679
+2024/10/26 06:00:27 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 81.499ms; loss rate: 0.000000
+2024/10/26 06:00:27 Congestion Window: 46720
+2024/10/26 06:00:27 Path 1: sent 280 retrans 5 lost 0; rcv 518 rtt 69.642ms; loss rate: 0.000000
+2024/10/26 06:00:27 Congestion Window: 46720
+2024/10/26 06:00:27 Path 3: sent 582 retrans 4 lost 0; rcv 1126 rtt 33.819ms; loss rate: 0.000000
+2024/10/26 06:00:27 Congestion Window: 46720
+2024/10/26 06:00:27 Info for stream 5 of 45004ea4542a5679
+2024/10/26 06:00:27 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 81.499ms; loss rate: 0.000000
+2024/10/26 06:00:27 Congestion Window: 46720
+2024/10/26 06:00:27 Path 1: sent 280 retrans 5 lost 0; rcv 519 rtt 69.642ms; loss rate: 0.000000
+2024/10/26 06:00:27 Congestion Window: 46720
+2024/10/26 06:00:27 Path 3: sent 583 retrans 5 lost 0; rcv 1126 rtt 33.819ms; loss rate: 0.000000
+2024/10/26 06:00:27 Congestion Window: 46720
+2024/10/26 06:00:27 Info for stream 5 of 45004ea4542a5679
+2024/10/26 06:00:27 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 81.499ms; loss rate: 0.000000
+2024/10/26 06:00:27 Congestion Window: 46720
+2024/10/26 06:00:27 Path 1: sent 281 retrans 5 lost 0; rcv 519 rtt 69.642ms; loss rate: 0.000000
+2024/10/26 06:00:27 Congestion Window: 46720
+2024/10/26 06:00:27 Path 3: sent 584 retrans 6 lost 0; rcv 1126 rtt 33.819ms; loss rate: 0.000000
+2024/10/26 06:00:27 Congestion Window: 46720
+2024/10/26 06:00:30 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:00:30 Starting new connection to 171.244.134.9 ([::]:54204 -> 171.244.134.9:6124), connectionID ac195566a88ec147, version 512
+2024/10/26 06:00:31 Queueing packet 0x8 for later decryption
+2024/10/26 06:00:32 Info for stream 5 of ac195566a88ec147
+2024/10/26 06:00:32 Path 0: sent 10 retrans 2 lost 0; rcv 9; loss rate: 0.000000
+2024/10/26 06:00:32 Path 1: sent 257 retrans 1 lost 0; rcv 475; loss rate: 0.000000
+2024/10/26 06:00:32 Path 3: sent 597 retrans 5 lost 0; rcv 1164; loss rate: 0.000000
+2024/10/26 06:00:32 1186.150185
+2024/10/26 06:00:32 Info for stream 5 of ac195566a88ec147
+2024/10/26 06:00:32 Path 0: sent 10 retrans 2 lost 0; rcv 9 rtt 55.705ms; loss rate: 0.000000
+2024/10/26 06:00:32 Congestion Window: 46720
+2024/10/26 06:00:32 Path 1: sent 258 retrans 1 lost 0; rcv 475 rtt 50.935ms; loss rate: 0.000000
+2024/10/26 06:00:32 Congestion Window: 46720
+2024/10/26 06:00:32 Path 3: sent 598 retrans 5 lost 0; rcv 1165 rtt 54.525ms; loss rate: 0.000000
+2024/10/26 06:00:32 Congestion Window: 46720
+2024/10/26 06:00:35 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:00:35 Starting new connection to 171.244.134.9 ([::]:38529 -> 171.244.134.9:6124), connectionID f0fd551d7af63ee, version 512
+2024/10/26 06:00:35 Queueing packet 0x8 for later decryption
+2024/10/26 06:00:37 Info for stream 5 of f0fd551d7af63ee
+2024/10/26 06:00:37 Path 0: sent 10 retrans 2 lost 0; rcv 9; loss rate: 0.000000
+2024/10/26 06:00:37 Path 1: sent 297 retrans 2 lost 0; rcv 554; loss rate: 0.000000
+2024/10/26 06:00:37 Path 3: sent 562 retrans 2 lost 0; rcv 1091; loss rate: 0.000000
+2024/10/26 06:00:37 2279.250287
+2024/10/26 06:00:37 Info for stream 5 of f0fd551d7af63ee
+2024/10/26 06:00:37 Path 0: sent 10 retrans 2 lost 0; rcv 9 rtt 45.719ms; loss rate: 0.000000
+2024/10/26 06:00:37 Congestion Window: 46720
+2024/10/26 06:00:37 Path 1: sent 299 retrans 2 lost 0; rcv 554 rtt 40.132ms; loss rate: 0.000000
+2024/10/26 06:00:37 Congestion Window: 46720
+2024/10/26 06:00:37 Path 3: sent 562 retrans 2 lost 0; rcv 1091 rtt 45.719ms; loss rate: 0.000000
+2024/10/26 06:00:37 Congestion Window: 46720
+2024/10/26 06:00:47 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:00:47 Starting new connection to 171.244.134.9 ([::]:38112 -> 171.244.134.9:6124), connectionID 52cf1fe1ba163953, version 512
+2024/10/26 06:00:47 Queueing packet 0x7 for later decryption
+2024/10/26 06:00:48 Info for stream 5 of 52cf1fe1ba163953
+2024/10/26 06:00:48 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:00:48 Path 1: sent 300 retrans 0 lost 0; rcv 592; loss rate: 0.000000
+2024/10/26 06:00:48 Path 3: sent 556 retrans 1 lost 0; rcv 1049; loss rate: 0.000000
+2024/10/26 06:00:48 941.092883
+2024/10/26 06:00:48 Info for stream 5 of 52cf1fe1ba163953
+2024/10/26 06:00:48 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 178.948331ms; loss rate: 0.000000
+2024/10/26 06:00:48 Congestion Window: 46720
+2024/10/26 06:00:48 Path 1: sent 301 retrans 0 lost 0; rcv 592 rtt 141.612ms; loss rate: 0.000000
+2024/10/26 06:00:48 Congestion Window: 46720
+2024/10/26 06:00:48 Path 3: sent 567 retrans 1 lost 0; rcv 1069 rtt 40.385ms; loss rate: 0.000000
+2024/10/26 06:00:48 Congestion Window: 46720
+2024/10/26 06:00:48 Info for stream 5 of 52cf1fe1ba163953
+2024/10/26 06:00:48 Path 3: sent 569 retrans 2 lost 0; rcv 1069 rtt 40.385ms; loss rate: 0.000000
+2024/10/26 06:00:48 Congestion Window: 46720
+2024/10/26 06:00:48 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 178.948331ms; loss rate: 0.000000
+2024/10/26 06:00:48 Congestion Window: 46720
+2024/10/26 06:00:48 Path 1: sent 301 retrans 0 lost 0; rcv 592 rtt 141.612ms; loss rate: 0.000000
+2024/10/26 06:00:48 Congestion Window: 46720
+2024/10/26 06:00:53 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:00:53 Starting new connection to 171.244.134.9 ([::]:49474 -> 171.244.134.9:6124), connectionID 8b15c06eace889cf, version 512
+2024/10/26 06:00:53 Queueing packet 0x7 for later decryption
+2024/10/26 06:00:54 Info for stream 5 of 8b15c06eace889cf
+2024/10/26 06:00:54 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:00:54 Path 1: sent 232 retrans 1 lost 0; rcv 428; loss rate: 0.000000
+2024/10/26 06:00:54 Path 3: sent 616 retrans 6 lost 0; rcv 1204; loss rate: 0.000000
+2024/10/26 06:00:54 1147.816707
+2024/10/26 06:00:54 Info for stream 5 of 8b15c06eace889cf
+2024/10/26 06:00:54 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 239.592ms; loss rate: 0.000000
+2024/10/26 06:00:54 Congestion Window: 46720
+2024/10/26 06:00:54 Path 1: sent 233 retrans 1 lost 0; rcv 428 rtt 28.424ms; loss rate: 0.000000
+2024/10/26 06:00:54 Congestion Window: 46720
+2024/10/26 06:00:54 Path 3: sent 617 retrans 6 lost 0; rcv 1205 rtt 86.9ms; loss rate: 0.000000
+2024/10/26 06:00:54 Congestion Window: 46720
+2024/10/26 06:00:54 Info for stream 5 of 8b15c06eace889cf
+2024/10/26 06:00:54 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 239.592ms; loss rate: 0.000000
+2024/10/26 06:00:54 Congestion Window: 46720
+2024/10/26 06:00:54 Path 1: sent 235 retrans 2 lost 0; rcv 428 rtt 28.424ms; loss rate: 0.000000
+2024/10/26 06:00:54 Congestion Window: 46720
+2024/10/26 06:00:54 Path 3: sent 617 retrans 6 lost 0; rcv 1205 rtt 86.9ms; loss rate: 0.000000
+2024/10/26 06:00:54 Congestion Window: 46720
+2024/10/26 06:00:58 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:00:58 Starting new connection to 171.244.134.9 ([::]:57596 -> 171.244.134.9:6124), connectionID cbe381ca23f495c7, version 512
+2024/10/26 06:00:58 Queueing packet 0x7 for later decryption
+2024/10/26 06:00:59 Info for stream 5 of cbe381ca23f495c7
+2024/10/26 06:00:59 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:00:59 Path 1: sent 249 retrans 2 lost 0; rcv 473; loss rate: 0.000000
+2024/10/26 06:00:59 Path 3: sent 616 retrans 7 lost 0; rcv 1170; loss rate: 0.000000
+2024/10/26 06:00:59 1314.233167
+2024/10/26 06:00:59 Info for stream 5 of cbe381ca23f495c7
+2024/10/26 06:00:59 Path 1: sent 250 retrans 2 lost 0; rcv 474 rtt 28.15ms; loss rate: 0.000000
+2024/10/26 06:00:59 Congestion Window: 46720
+2024/10/26 06:00:59 Path 3: sent 618 retrans 7 lost 0; rcv 1174 rtt 19.983ms; loss rate: 0.000000
+2024/10/26 06:00:59 Congestion Window: 46720
+2024/10/26 06:00:59 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 162.429ms; loss rate: 0.000000
+2024/10/26 06:00:59 Congestion Window: 46720
+2024/10/26 06:00:59 Info for stream 5 of cbe381ca23f495c7
+2024/10/26 06:00:59 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 162.429ms; loss rate: 0.000000
+2024/10/26 06:00:59 Congestion Window: 46720
+2024/10/26 06:00:59 Path 1: sent 250 retrans 2 lost 0; rcv 474 rtt 28.15ms; loss rate: 0.000000
+2024/10/26 06:00:59 Congestion Window: 46720
+2024/10/26 06:00:59 Path 3: sent 620 retrans 8 lost 0; rcv 1174 rtt 19.983ms; loss rate: 0.000000
+2024/10/26 06:00:59 Congestion Window: 46720
+2024/10/26 06:01:09 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:01:09 Starting new connection to 171.244.134.9 ([::]:52696 -> 171.244.134.9:6124), connectionID 832cb4cf0e883045, version 512
+2024/10/26 06:01:10 Queueing packet 0x7 for later decryption
+2024/10/26 06:01:11 Info for stream 5 of 832cb4cf0e883045
+2024/10/26 06:01:11 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:01:11 Path 1: sent 306 retrans 6 lost 3; rcv 567; loss rate: 0.009804
+2024/10/26 06:01:11 Path 3: sent 548 retrans 6 lost 0; rcv 1070; loss rate: 0.000000
+2024/10/26 06:01:11 1862.775743
+2024/10/26 06:01:11 Info for stream 5 of 832cb4cf0e883045
+2024/10/26 06:01:11 Path 3: sent 548 retrans 6 lost 0; rcv 1070 rtt 48.495ms; loss rate: 0.000000
+2024/10/26 06:01:11 Congestion Window: 46720
+2024/10/26 06:01:11 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 246.389ms; loss rate: 0.000000
+2024/10/26 06:01:11 Congestion Window: 46720
+2024/10/26 06:01:11 Path 1: sent 307 retrans 6 lost 3; rcv 568 rtt 43.613ms; loss rate: 0.009772
+2024/10/26 06:01:11 Congestion Window: 5840
+2024/10/26 06:01:15 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:01:15 Starting new connection to 171.244.134.9 ([::]:60441 -> 171.244.134.9:6124), connectionID a6a43028303d4774, version 512
+2024/10/26 06:01:16 Queueing packet 0x7 for later decryption
+2024/10/26 06:01:17 Info for stream 5 of a6a43028303d4774
+2024/10/26 06:01:17 Path 3: sent 628 retrans 6 lost 0; rcv 1211; loss rate: 0.000000
+2024/10/26 06:01:17 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:01:17 Path 1: sent 220 retrans 5 lost 1; rcv 408; loss rate: 0.004545
+2024/10/26 06:01:17 1540.673714
+2024/10/26 06:01:17 Info for stream 5 of a6a43028303d4774
+2024/10/26 06:01:17 Path 1: sent 221 retrans 5 lost 1; rcv 408 rtt 76.676ms; loss rate: 0.004525
+2024/10/26 06:01:17 Congestion Window: 5840
+2024/10/26 06:01:17 Path 3: sent 642 retrans 6 lost 0; rcv 1234 rtt 46.117ms; loss rate: 0.000000
+2024/10/26 06:01:17 Congestion Window: 46720
+2024/10/26 06:01:17 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 271.812ms; loss rate: 0.000000
+2024/10/26 06:01:17 Congestion Window: 46720
+2024/10/26 06:01:17 Info for stream 5 of a6a43028303d4774
+2024/10/26 06:01:17 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 271.812ms; loss rate: 0.000000
+2024/10/26 06:01:17 Congestion Window: 46720
+2024/10/26 06:01:17 Path 1: sent 221 retrans 5 lost 1; rcv 408 rtt 76.676ms; loss rate: 0.004525
+2024/10/26 06:01:17 Congestion Window: 5840
+2024/10/26 06:01:17 Path 3: sent 643 retrans 7 lost 0; rcv 1234 rtt 46.117ms; loss rate: 0.000000
+2024/10/26 06:01:17 Congestion Window: 46720
+2024/10/26 06:01:17 Info for stream 5 of a6a43028303d4774
+2024/10/26 06:01:17 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 271.812ms; loss rate: 0.000000
+2024/10/26 06:01:17 Congestion Window: 46720
+2024/10/26 06:01:17 Path 1: sent 221 retrans 5 lost 1; rcv 408 rtt 76.676ms; loss rate: 0.004525
+2024/10/26 06:01:17 Congestion Window: 5840
+2024/10/26 06:01:17 Path 3: sent 644 retrans 8 lost 0; rcv 1234 rtt 46.117ms; loss rate: 0.000000
+2024/10/26 06:01:17 Congestion Window: 46720
+2024/10/26 06:01:23 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:01:23 Starting new connection to 171.244.134.9 ([::]:36367 -> 171.244.134.9:6124), connectionID 6ea6f070bf1c0740, version 512
+2024/10/26 06:01:23 Queueing packet 0x9 for later decryption
+2024/10/26 06:01:24 Info for stream 5 of 6ea6f070bf1c0740
+2024/10/26 06:01:24 Path 0: sent 12 retrans 3 lost 1; rcv 11; loss rate: 0.083333
+2024/10/26 06:01:24 Path 1: sent 257 retrans 2 lost 0; rcv 483; loss rate: 0.000000
+2024/10/26 06:01:24 Path 3: sent 602 retrans 10 lost 5; rcv 1154; loss rate: 0.008306
+2024/10/26 06:01:24 1496.697924
+2024/10/26 06:01:24 Info for stream 5 of 6ea6f070bf1c0740
+2024/10/26 06:01:24 Path 0: sent 12 retrans 3 lost 1; rcv 11 rtt 56.787ms; loss rate: 0.083333
+2024/10/26 06:01:24 Congestion Window: 5840
+2024/10/26 06:01:24 Path 1: sent 258 retrans 2 lost 0; rcv 484 rtt 32.097ms; loss rate: 0.000000
+2024/10/26 06:01:24 Congestion Window: 46720
+2024/10/26 06:01:24 Path 3: sent 602 retrans 10 lost 5; rcv 1155 rtt 56.787ms; loss rate: 0.008306
+2024/10/26 06:01:24 Congestion Window: 5840
+2024/10/26 06:01:24 Info for stream 5 of 6ea6f070bf1c0740
+2024/10/26 06:01:24 Path 1: sent 260 retrans 3 lost 0; rcv 484 rtt 32.097ms; loss rate: 0.000000
+2024/10/26 06:01:24 Congestion Window: 46720
+2024/10/26 06:01:24 Path 3: sent 603 retrans 10 lost 5; rcv 1155 rtt 56.787ms; loss rate: 0.008292
+2024/10/26 06:01:24 Congestion Window: 5840
+2024/10/26 06:01:24 Path 0: sent 12 retrans 3 lost 1; rcv 11 rtt 56.787ms; loss rate: 0.083333
+2024/10/26 06:01:24 Congestion Window: 5840
+2024/10/26 06:01:24 Info for stream 5 of 6ea6f070bf1c0740
+2024/10/26 06:01:24 Path 0: sent 12 retrans 3 lost 1; rcv 11 rtt 56.787ms; loss rate: 0.083333
+2024/10/26 06:01:24 Congestion Window: 5840
+2024/10/26 06:01:24 Path 1: sent 261 retrans 4 lost 0; rcv 484 rtt 32.097ms; loss rate: 0.000000
+2024/10/26 06:01:24 Congestion Window: 46720
+2024/10/26 06:01:24 Path 3: sent 603 retrans 10 lost 5; rcv 1155 rtt 56.787ms; loss rate: 0.008292
+2024/10/26 06:01:24 Congestion Window: 5840
+2024/10/26 06:01:25 Info for stream 5 of 6ea6f070bf1c0740
+2024/10/26 06:01:25 Path 1: sent 261 retrans 5 lost 1; rcv 484 rtt 32.097ms; loss rate: 0.003831
+2024/10/26 06:01:25 Congestion Window: 2920
+2024/10/26 06:01:25 Path 3: sent 604 retrans 10 lost 5; rcv 1155 rtt 56.787ms; loss rate: 0.008278
+2024/10/26 06:01:25 Congestion Window: 5840
+2024/10/26 06:01:25 Path 0: sent 12 retrans 3 lost 1; rcv 11 rtt 56.787ms; loss rate: 0.083333
+2024/10/26 06:01:25 Congestion Window: 5840
+2024/10/26 06:01:25 Info for stream 5 of 6ea6f070bf1c0740
+2024/10/26 06:01:25 Path 1: sent 262 retrans 5 lost 1; rcv 484 rtt 32.097ms; loss rate: 0.003817
+2024/10/26 06:01:25 Congestion Window: 2920
+2024/10/26 06:01:25 Path 3: sent 605 retrans 11 lost 5; rcv 1155 rtt 56.787ms; loss rate: 0.008264
+2024/10/26 06:01:25 Congestion Window: 5840
+2024/10/26 06:01:25 Path 0: sent 12 retrans 3 lost 1; rcv 11 rtt 56.787ms; loss rate: 0.083333
+2024/10/26 06:01:25 Congestion Window: 5840
+2024/10/26 06:01:32 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:01:32 Starting new connection to 171.244.134.9 ([::]:44788 -> 171.244.134.9:6124), connectionID 867cd6c9eae4c510, version 512
+2024/10/26 06:01:32 Queueing packet 0x7 for later decryption
+2024/10/26 06:01:33 Info for stream 5 of 867cd6c9eae4c510
+2024/10/26 06:01:33 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:01:33 Path 1: sent 278 retrans 2 lost 0; rcv 528; loss rate: 0.000000
+2024/10/26 06:01:33 Path 3: sent 585 retrans 11 lost 3; rcv 1109; loss rate: 0.005128
+2024/10/26 06:01:33 1448.071311
+2024/10/26 06:01:33 Info for stream 5 of 867cd6c9eae4c510
+2024/10/26 06:01:33 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 128.481ms; loss rate: 0.000000
+2024/10/26 06:01:33 Congestion Window: 46720
+2024/10/26 06:01:33 Path 1: sent 279 retrans 2 lost 0; rcv 529 rtt 36.303ms; loss rate: 0.000000
+2024/10/26 06:01:33 Congestion Window: 46720
+2024/10/26 06:01:33 Path 3: sent 586 retrans 11 lost 3; rcv 1110 rtt 91.744ms; loss rate: 0.005119
+2024/10/26 06:01:33 Congestion Window: 5840
+2024/10/26 06:01:40 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:01:40 Starting new connection to 171.244.134.9 ([::]:43519 -> 171.244.134.9:6124), connectionID af719fc9d53a8c36, version 512
+2024/10/26 06:01:40 Queueing packet 0x7 for later decryption
+2024/10/26 06:01:41 Info for stream 5 of af719fc9d53a8c36
+2024/10/26 06:01:41 Path 0: sent 7 retrans 0 lost 0; rcv 9; loss rate: 0.000000
+2024/10/26 06:01:41 Path 1: sent 325 retrans 1 lost 0; rcv 625; loss rate: 0.000000
+2024/10/26 06:01:41 Path 3: sent 547 retrans 1 lost 0; rcv 1040; loss rate: 0.000000
+2024/10/26 06:01:41 1508.914057
+2024/10/26 06:01:41 Info for stream 5 of af719fc9d53a8c36
+2024/10/26 06:01:41 Path 0: sent 7 retrans 0 lost 0; rcv 9 rtt 270.112ms; loss rate: 0.000000
+2024/10/26 06:01:41 Congestion Window: 46720
+2024/10/26 06:01:41 Path 1: sent 325 retrans 1 lost 0; rcv 625 rtt 173.752ms; loss rate: 0.000000
+2024/10/26 06:01:41 Congestion Window: 46720
+2024/10/26 06:01:41 Path 3: sent 549 retrans 1 lost 0; rcv 1040 rtt 89.263ms; loss rate: 0.000000
+2024/10/26 06:01:41 Congestion Window: 46720
+2024/10/26 06:01:49 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:01:49 Starting new connection to 171.244.134.9 ([::]:52374 -> 171.244.134.9:6124), connectionID b2482b048f1844a4, version 512
+2024/10/26 06:01:49 Queueing packet 0x7 for later decryption
+2024/10/26 06:01:51 Info for stream 5 of b2482b048f1844a4
+2024/10/26 06:01:51 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:01:51 Path 1: sent 254 retrans 6 lost 1; rcv 463; loss rate: 0.003937
+2024/10/26 06:01:51 Path 3: sent 582 retrans 6 lost 0; rcv 1141; loss rate: 0.000000
+2024/10/26 06:01:51 1845.335885
+2024/10/26 06:01:51 Info for stream 5 of b2482b048f1844a4
+2024/10/26 06:01:51 Path 1: sent 275 retrans 6 lost 1; rcv 500 rtt 49.137ms; loss rate: 0.003636
+2024/10/26 06:01:51 Congestion Window: 5840
+2024/10/26 06:01:51 Path 3: sent 584 retrans 6 lost 0; rcv 1142 rtt 86.301ms; loss rate: 0.000000
+2024/10/26 06:01:51 Congestion Window: 46720
+2024/10/26 06:01:51 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 223.389ms; loss rate: 0.000000
+2024/10/26 06:01:51 Congestion Window: 46720
+2024/10/26 06:01:58 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:01:58 Starting new connection to 171.244.134.9 ([::]:38185 -> 171.244.134.9:6124), connectionID 430ea6349556d140, version 512
+2024/10/26 06:01:58 Queueing packet 0x8 for later decryption
+2024/10/26 06:01:59 Info for stream 5 of 430ea6349556d140
+2024/10/26 06:01:59 Path 1: sent 279 retrans 3 lost 0; rcv 534; loss rate: 0.000000
+2024/10/26 06:01:59 Path 3: sent 576 retrans 7 lost 0; rcv 1102; loss rate: 0.000000
+2024/10/26 06:01:59 Path 0: sent 10 retrans 2 lost 0; rcv 10; loss rate: 0.000000
+2024/10/26 06:01:59 1275.194714
+2024/10/26 06:01:59 Info for stream 5 of 430ea6349556d140
+2024/10/26 06:01:59 Path 3: sent 576 retrans 7 lost 0; rcv 1103 rtt 59.717ms; loss rate: 0.000000
+2024/10/26 06:01:59 Congestion Window: 46720
+2024/10/26 06:01:59 Path 0: sent 10 retrans 2 lost 0; rcv 10 rtt 62.208ms; loss rate: 0.000000
+2024/10/26 06:01:59 Congestion Window: 46720
+2024/10/26 06:01:59 Path 1: sent 280 retrans 3 lost 0; rcv 534 rtt 27.898ms; loss rate: 0.000000
+2024/10/26 06:01:59 Congestion Window: 46720
+2024/10/26 06:01:59 Info for stream 5 of 430ea6349556d140
+2024/10/26 06:01:59 Path 0: sent 10 retrans 2 lost 0; rcv 10 rtt 62.208ms; loss rate: 0.000000
+2024/10/26 06:01:59 Congestion Window: 46720
+2024/10/26 06:01:59 Path 1: sent 281 retrans 4 lost 0; rcv 534 rtt 27.898ms; loss rate: 0.000000
+2024/10/26 06:01:59 Congestion Window: 46720
+2024/10/26 06:01:59 Path 3: sent 577 retrans 7 lost 0; rcv 1103 rtt 59.717ms; loss rate: 0.000000
+2024/10/26 06:01:59 Congestion Window: 46720
+2024/10/26 06:02:00 Info for stream 5 of 430ea6349556d140
+2024/10/26 06:02:00 Path 3: sent 577 retrans 7 lost 0; rcv 1103 rtt 59.717ms; loss rate: 0.000000
+2024/10/26 06:02:00 Congestion Window: 46720
+2024/10/26 06:02:00 Path 0: sent 10 retrans 2 lost 0; rcv 10 rtt 62.208ms; loss rate: 0.000000
+2024/10/26 06:02:00 Congestion Window: 46720
+2024/10/26 06:02:00 Path 1: sent 282 retrans 5 lost 0; rcv 534 rtt 27.898ms; loss rate: 0.000000
+2024/10/26 06:02:00 Congestion Window: 46720
+2024/10/26 06:02:05 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:02:05 Starting new connection to 171.244.134.9 ([::]:57572 -> 171.244.134.9:6124), connectionID e91d788c6c02fa82, version 512
+2024/10/26 06:02:05 Queueing packet 0x7 for later decryption
+2024/10/26 06:02:06 Info for stream 5 of e91d788c6c02fa82
+2024/10/26 06:02:06 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:02:06 Path 1: sent 141 retrans 1 lost 0; rcv 265; loss rate: 0.000000
+2024/10/26 06:02:06 Path 3: sent 713 retrans 6 lost 0; rcv 1343; loss rate: 0.000000
+2024/10/26 06:02:06 1297.107156
+2024/10/26 06:02:06 Info for stream 5 of e91d788c6c02fa82
+2024/10/26 06:02:06 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 181.918745ms; loss rate: 0.000000
+2024/10/26 06:02:06 Congestion Window: 46720
+2024/10/26 06:02:06 Path 1: sent 170 retrans 1 lost 0; rcv 324 rtt 133.322ms; loss rate: 0.000000
+2024/10/26 06:02:06 Congestion Window: 46720
+2024/10/26 06:02:06 Path 3: sent 718 retrans 6 lost 0; rcv 1347 rtt 46.306ms; loss rate: 0.000000
+2024/10/26 06:02:06 Congestion Window: 46720
+2024/10/26 06:02:15 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:02:15 Starting new connection to 171.244.134.9 ([::]:41072 -> 171.244.134.9:6124), connectionID f235d095107b002b, version 512
+2024/10/26 06:02:15 Queueing packet 0x7 for later decryption
+2024/10/26 06:02:16 Info for stream 5 of f235d095107b002b
+2024/10/26 06:02:16 Path 0: sent 7 retrans 0 lost 0; rcv 10; loss rate: 0.000000
+2024/10/26 06:02:16 Path 1: sent 263 retrans 2 lost 0; rcv 468; loss rate: 0.000000
+2024/10/26 06:02:16 Path 3: sent 585 retrans 5 lost 0; rcv 1172; loss rate: 0.000000
+2024/10/26 06:02:16 1474.456855
+2024/10/26 06:02:16 Info for stream 5 of f235d095107b002b
+2024/10/26 06:02:16 Path 0: sent 7 retrans 0 lost 0; rcv 10 rtt 235.782785ms; loss rate: 0.000000
+2024/10/26 06:02:16 Congestion Window: 46720
+2024/10/26 06:02:16 Path 1: sent 264 retrans 2 lost 0; rcv 470 rtt 69.827ms; loss rate: 0.000000
+2024/10/26 06:02:16 Congestion Window: 46720
+2024/10/26 06:02:16 Path 3: sent 586 retrans 5 lost 0; rcv 1172 rtt 0s; loss rate: 0.000000
+2024/10/26 06:02:16 Congestion Window: 46720
+2024/10/26 06:02:22 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:02:22 Starting new connection to 171.244.134.9 ([::]:48107 -> 171.244.134.9:6124), connectionID 1789aaca95009278, version 512
+2024/10/26 06:02:23 Queueing packet 0x7 for later decryption
+2024/10/26 06:02:24 Info for stream 5 of 1789aaca95009278
+2024/10/26 06:02:24 Path 0: sent 7 retrans 0 lost 0; rcv 10; loss rate: 0.000000
+2024/10/26 06:02:24 Path 1: sent 246 retrans 2 lost 0; rcv 461; loss rate: 0.000000
+2024/10/26 06:02:24 Path 3: sent 611 retrans 4 lost 0; rcv 1179; loss rate: 0.000000
+2024/10/26 06:02:24 1510.363375
+2024/10/26 06:02:24 Info for stream 5 of 1789aaca95009278
+2024/10/26 06:02:24 Path 1: sent 247 retrans 2 lost 0; rcv 462 rtt 35.145ms; loss rate: 0.000000
+2024/10/26 06:02:24 Congestion Window: 46720
+2024/10/26 06:02:24 Path 3: sent 612 retrans 4 lost 0; rcv 1180 rtt 36.259ms; loss rate: 0.000000
+2024/10/26 06:02:24 Congestion Window: 46720
+2024/10/26 06:02:24 Path 0: sent 7 retrans 0 lost 0; rcv 10 rtt 128.84ms; loss rate: 0.000000
+2024/10/26 06:02:24 Congestion Window: 46720
+2024/10/26 06:02:24 Info for stream 5 of 1789aaca95009278
+2024/10/26 06:02:24 Path 1: sent 248 retrans 3 lost 0; rcv 462 rtt 35.145ms; loss rate: 0.000000
+2024/10/26 06:02:24 Congestion Window: 46720
+2024/10/26 06:02:24 Path 3: sent 612 retrans 4 lost 0; rcv 1180 rtt 36.259ms; loss rate: 0.000000
+2024/10/26 06:02:24 Congestion Window: 46720
+2024/10/26 06:02:24 Path 0: sent 7 retrans 0 lost 0; rcv 10 rtt 128.84ms; loss rate: 0.000000
+2024/10/26 06:02:24 Congestion Window: 46720
+2024/10/26 06:02:31 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:02:31 Starting new connection to 171.244.134.9 ([::]:42870 -> 171.244.134.9:6124), connectionID 593c9d7deed2e320, version 512
+2024/10/26 06:02:32 Queueing packet 0x7 for later decryption
+2024/10/26 06:02:33 Info for stream 5 of 593c9d7deed2e320
+2024/10/26 06:02:33 Path 0: sent 7 retrans 0 lost 0; rcv 10; loss rate: 0.000000
+2024/10/26 06:02:33 Path 1: sent 315 retrans 8 lost 6; rcv 580; loss rate: 0.019048
+2024/10/26 06:02:33 Path 3: sent 534 retrans 11 lost 0; rcv 1024; loss rate: 0.000000
+2024/10/26 06:02:33 2110.371739
+2024/10/26 06:02:33 Info for stream 5 of 593c9d7deed2e320
+2024/10/26 06:02:33 Path 3: sent 534 retrans 11 lost 0; rcv 1024 rtt 89.003ms; loss rate: 0.000000
+2024/10/26 06:02:33 Congestion Window: 46720
+2024/10/26 06:02:33 Path 0: sent 7 retrans 0 lost 0; rcv 10 rtt 108.213ms; loss rate: 0.000000
+2024/10/26 06:02:33 Congestion Window: 46720
+2024/10/26 06:02:33 Path 1: sent 334 retrans 8 lost 6; rcv 614 rtt 40.071ms; loss rate: 0.017964
+2024/10/26 06:02:33 Congestion Window: 2920
+2024/10/26 06:02:42 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:02:42 Starting new connection to 171.244.134.9 ([::]:44832 -> 171.244.134.9:6124), connectionID 130a4241216e424e, version 512
+2024/10/26 06:02:43 Queueing packet 0x7 for later decryption
+2024/10/26 06:02:44 Info for stream 5 of 130a4241216e424e
+2024/10/26 06:02:44 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:02:44 Path 1: sent 215 retrans 2 lost 0; rcv 386; loss rate: 0.000000
+2024/10/26 06:02:44 Path 3: sent 638 retrans 6 lost 0; rcv 1246; loss rate: 0.000000
+2024/10/26 06:02:44 1306.437041
+2024/10/26 06:02:44 Info for stream 5 of 130a4241216e424e
+2024/10/26 06:02:44 Path 3: sent 639 retrans 6 lost 0; rcv 1246 rtt 84.655ms; loss rate: 0.000000
+2024/10/26 06:02:44 Congestion Window: 46720
+2024/10/26 06:02:44 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 160.569ms; loss rate: 0.000000
+2024/10/26 06:02:44 Congestion Window: 46720
+2024/10/26 06:02:44 Path 1: sent 216 retrans 2 lost 0; rcv 386 rtt 70.441ms; loss rate: 0.000000
+2024/10/26 06:02:44 Congestion Window: 46720
+2024/10/26 06:02:49 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:02:49 Starting new connection to 171.244.134.9 ([::]:55293 -> 171.244.134.9:6124), connectionID a1a8e4c78b285ce5, version 512
+2024/10/26 06:02:50 Queueing packet 0x7 for later decryption
+2024/10/26 06:02:51 Info for stream 5 of a1a8e4c78b285ce5
+2024/10/26 06:02:51 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:02:51 Path 1: sent 296 retrans 0 lost 0; rcv 581; loss rate: 0.000000
+2024/10/26 06:02:51 Path 3: sent 564 retrans 4 lost 0; rcv 1067; loss rate: 0.000000
+2024/10/26 06:02:51 1429.051302
+2024/10/26 06:02:51 Info for stream 5 of a1a8e4c78b285ce5
+2024/10/26 06:02:51 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 270.075ms; loss rate: 0.000000
+2024/10/26 06:02:51 Congestion Window: 46720
+2024/10/26 06:02:51 Path 1: sent 303 retrans 0 lost 0; rcv 596 rtt 152.597ms; loss rate: 0.000000
+2024/10/26 06:02:51 Congestion Window: 46720
+2024/10/26 06:02:51 Path 3: sent 568 retrans 4 lost 0; rcv 1070 rtt 53.706ms; loss rate: 0.000000
+2024/10/26 06:02:51 Congestion Window: 46720
+2024/10/26 06:02:59 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:02:59 Starting new connection to 171.244.134.9 ([::]:35416 -> 171.244.134.9:6124), connectionID fd58e1bc8f87e5c0, version 512
+2024/10/26 06:02:59 Queueing packet 0x7 for later decryption
+2024/10/26 06:03:00 Info for stream 5 of fd58e1bc8f87e5c0
+2024/10/26 06:03:00 Path 1: sent 274 retrans 0 lost 0; rcv 507; loss rate: 0.000000
+2024/10/26 06:03:00 Path 3: sent 576 retrans 6 lost 0; rcv 1127; loss rate: 0.000000
+2024/10/26 06:03:00 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:03:00 1125.394065
+2024/10/26 06:03:00 Info for stream 5 of fd58e1bc8f87e5c0
+2024/10/26 06:03:00 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 243.568ms; loss rate: 0.000000
+2024/10/26 06:03:00 Congestion Window: 46720
+2024/10/26 06:03:00 Path 1: sent 275 retrans 0 lost 0; rcv 507 rtt 30.947ms; loss rate: 0.000000
+2024/10/26 06:03:00 Congestion Window: 46720
+2024/10/26 06:03:00 Path 3: sent 576 retrans 6 lost 0; rcv 1127 rtt 78.08ms; loss rate: 0.000000
+2024/10/26 06:03:00 Congestion Window: 46720
+2024/10/26 06:03:00 Info for stream 5 of fd58e1bc8f87e5c0
+2024/10/26 06:03:00 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 243.568ms; loss rate: 0.000000
+2024/10/26 06:03:00 Congestion Window: 46720
+2024/10/26 06:03:00 Path 1: sent 277 retrans 1 lost 0; rcv 508 rtt 32.27ms; loss rate: 0.000000
+2024/10/26 06:03:00 Congestion Window: 46720
+2024/10/26 06:03:00 Path 3: sent 576 retrans 6 lost 0; rcv 1127 rtt 78.08ms; loss rate: 0.000000
+2024/10/26 06:03:00 Congestion Window: 46720
+2024/10/26 06:03:00 Info for stream 5 of fd58e1bc8f87e5c0
+2024/10/26 06:03:00 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 243.568ms; loss rate: 0.000000
+2024/10/26 06:03:00 Congestion Window: 46720
+2024/10/26 06:03:00 Path 1: sent 278 retrans 2 lost 0; rcv 508 rtt 32.27ms; loss rate: 0.000000
+2024/10/26 06:03:00 Congestion Window: 46720
+2024/10/26 06:03:00 Path 3: sent 577 retrans 6 lost 0; rcv 1127 rtt 78.08ms; loss rate: 0.000000
+2024/10/26 06:03:00 Congestion Window: 46720
+2024/10/26 06:03:06 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:03:06 Starting new connection to 171.244.134.9 ([::]:54959 -> 171.244.134.9:6124), connectionID c40531c86fd74ee8, version 512
+2024/10/26 06:03:06 Queueing packet 0x7 for later decryption
+2024/10/26 06:03:07 Info for stream 5 of c40531c86fd74ee8
+2024/10/26 06:03:07 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:03:07 Path 1: sent 220 retrans 2 lost 0; rcv 430; loss rate: 0.000000
+2024/10/26 06:03:07 Path 3: sent 643 retrans 7 lost 0; rcv 1213; loss rate: 0.000000
+2024/10/26 06:03:07 1139.790566
+2024/10/26 06:03:07 Info for stream 5 of c40531c86fd74ee8
+2024/10/26 06:03:07 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 174.357ms; loss rate: 0.000000
+2024/10/26 06:03:07 Congestion Window: 46720
+2024/10/26 06:03:07 Path 1: sent 220 retrans 2 lost 0; rcv 430 rtt 54.763ms; loss rate: 0.000000
+2024/10/26 06:03:07 Congestion Window: 46720
+2024/10/26 06:03:07 Path 3: sent 644 retrans 7 lost 0; rcv 1213 rtt 22.758ms; loss rate: 0.000000
+2024/10/26 06:03:07 Congestion Window: 46720
+2024/10/26 06:03:14 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:03:14 Starting new connection to 171.244.134.9 ([::]:46282 -> 171.244.134.9:6124), connectionID 29baa1861cfced7b, version 512
+2024/10/26 06:03:14 Queueing packet 0x7 for later decryption
+2024/10/26 06:03:15 Info for stream 5 of 29baa1861cfced7b
+2024/10/26 06:03:15 Path 0: sent 7 retrans 0 lost 0; rcv 10; loss rate: 0.000000
+2024/10/26 06:03:15 Path 1: sent 253 retrans 1 lost 0; rcv 492; loss rate: 0.000000
+2024/10/26 06:03:15 Path 3: sent 607 retrans 9 lost 2; rcv 1145; loss rate: 0.003295
+2024/10/26 06:03:15 1248.241445
+2024/10/26 06:03:15 Info for stream 5 of 29baa1861cfced7b
+2024/10/26 06:03:15 Path 1: sent 253 retrans 1 lost 0; rcv 492 rtt 26.754ms; loss rate: 0.000000
+2024/10/26 06:03:15 Congestion Window: 46720
+2024/10/26 06:03:15 Path 3: sent 608 retrans 9 lost 2; rcv 1145 rtt 16.544ms; loss rate: 0.003289
+2024/10/26 06:03:15 Congestion Window: 5840
+2024/10/26 06:03:15 Path 0: sent 7 retrans 0 lost 0; rcv 10 rtt 76.764ms; loss rate: 0.000000
+2024/10/26 06:03:15 Congestion Window: 46720
+2024/10/26 06:03:24 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:03:24 Starting new connection to 171.244.134.9 ([::]:49127 -> 171.244.134.9:6124), connectionID 555abf9f93292a52, version 512
+2024/10/26 06:03:25 Queueing packet 0x7 for later decryption
+2024/10/26 06:03:26 Info for stream 5 of 555abf9f93292a52
+2024/10/26 06:03:26 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:03:26 Path 1: sent 256 retrans 5 lost 0; rcv 466; loss rate: 0.000000
+2024/10/26 06:03:26 Path 3: sent 594 retrans 5 lost 0; rcv 1157; loss rate: 0.000000
+2024/10/26 06:03:26 1659.379491
+2024/10/26 06:03:26 Info for stream 5 of 555abf9f93292a52
+2024/10/26 06:03:26 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 238.314ms; loss rate: 0.000000
+2024/10/26 06:03:26 Congestion Window: 46720
+2024/10/26 06:03:26 Path 1: sent 268 retrans 5 lost 0; rcv 487 rtt 54.759ms; loss rate: 0.000000
+2024/10/26 06:03:26 Congestion Window: 46720
+2024/10/26 06:03:26 Path 3: sent 595 retrans 5 lost 0; rcv 1158 rtt 88.269ms; loss rate: 0.000000
+2024/10/26 06:03:26 Congestion Window: 46720
+2024/10/26 06:03:34 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:03:34 Starting new connection to 171.244.134.9 ([::]:40281 -> 171.244.134.9:6124), connectionID d1b80430bda450c8, version 512
+2024/10/26 06:03:34 Queueing packet 0x9 for later decryption
+2024/10/26 06:03:35 Info for stream 5 of d1b80430bda450c8
+2024/10/26 06:03:35 Path 0: sent 12 retrans 3 lost 1; rcv 11; loss rate: 0.083333
+2024/10/26 06:03:35 Path 1: sent 231 retrans 5 lost 1; rcv 423; loss rate: 0.004329
+2024/10/26 06:03:35 Path 3: sent 607 retrans 4 lost 0; rcv 1204; loss rate: 0.000000
+2024/10/26 06:03:35 1556.179301
+2024/10/26 06:03:35 Info for stream 5 of d1b80430bda450c8
+2024/10/26 06:03:35 Path 1: sent 240 retrans 5 lost 1; rcv 434 rtt 33.501ms; loss rate: 0.004167
+2024/10/26 06:03:35 Congestion Window: 5840
+2024/10/26 06:03:35 Path 3: sent 609 retrans 4 lost 0; rcv 1205 rtt 71.462ms; loss rate: 0.000000
+2024/10/26 06:03:35 Congestion Window: 46720
+2024/10/26 06:03:35 Path 0: sent 12 retrans 3 lost 1; rcv 11 rtt 71.462ms; loss rate: 0.083333
+2024/10/26 06:03:35 Congestion Window: 5840
+2024/10/26 06:03:41 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:03:41 Starting new connection to 171.244.134.9 ([::]:57499 -> 171.244.134.9:6124), connectionID 3f1003145b3c32fc, version 512
+2024/10/26 06:03:41 Queueing packet 0x7 for later decryption
+2024/10/26 06:03:42 Info for stream 5 of 3f1003145b3c32fc
+2024/10/26 06:03:42 Path 1: sent 288 retrans 1 lost 0; rcv 545; loss rate: 0.000000
+2024/10/26 06:03:42 Path 3: sent 528 retrans 7 lost 0; rcv 1004; loss rate: 0.000000
+2024/10/26 06:03:42 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:03:42 1270.667382
+2024/10/26 06:03:42 Info for stream 5 of 3f1003145b3c32fc
+2024/10/26 06:03:42 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 177.648ms; loss rate: 0.000000
+2024/10/26 06:03:42 Congestion Window: 46720
+2024/10/26 06:03:42 Path 1: sent 289 retrans 1 lost 0; rcv 546 rtt 61.659ms; loss rate: 0.000000
+2024/10/26 06:03:42 Congestion Window: 46720
+2024/10/26 06:03:42 Path 3: sent 576 retrans 7 lost 0; rcv 1099 rtt 50.858ms; loss rate: 0.000000
+2024/10/26 06:03:42 Congestion Window: 46720
+2024/10/26 06:03:42 Info for stream 5 of 3f1003145b3c32fc
+2024/10/26 06:03:42 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 177.648ms; loss rate: 0.000000
+2024/10/26 06:03:42 Congestion Window: 46720
+2024/10/26 06:03:42 Path 1: sent 289 retrans 1 lost 0; rcv 546 rtt 61.659ms; loss rate: 0.000000
+2024/10/26 06:03:42 Congestion Window: 46720
+2024/10/26 06:03:42 Path 3: sent 578 retrans 8 lost 0; rcv 1099 rtt 50.858ms; loss rate: 0.000000
+2024/10/26 06:03:42 Congestion Window: 46720
+2024/10/26 06:03:43 Info for stream 5 of 3f1003145b3c32fc
+2024/10/26 06:03:43 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 177.648ms; loss rate: 0.000000
+2024/10/26 06:03:43 Congestion Window: 46720
+2024/10/26 06:03:43 Path 1: sent 289 retrans 1 lost 0; rcv 546 rtt 61.659ms; loss rate: 0.000000
+2024/10/26 06:03:43 Congestion Window: 46720
+2024/10/26 06:03:43 Path 3: sent 579 retrans 9 lost 0; rcv 1099 rtt 50.858ms; loss rate: 0.000000
+2024/10/26 06:03:43 Congestion Window: 46720
+2024/10/26 06:03:50 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:03:50 Starting new connection to 171.244.134.9 ([::]:33285 -> 171.244.134.9:6124), connectionID fc741c44781c7342, version 512
+2024/10/26 06:03:51 Queueing packet 0x9 for later decryption
+2024/10/26 06:03:52 Info for stream 5 of fc741c44781c7342
+2024/10/26 06:03:52 Path 0: sent 12 retrans 3 lost 1; rcv 11; loss rate: 0.083333
+2024/10/26 06:03:52 Path 1: sent 261 retrans 2 lost 0; rcv 474; loss rate: 0.000000
+2024/10/26 06:03:52 Path 3: sent 598 retrans 6 lost 0; rcv 1163; loss rate: 0.000000
+2024/10/26 06:03:52 1482.723685
+2024/10/26 06:03:52 Info for stream 5 of fc741c44781c7342
+2024/10/26 06:03:52 Path 3: sent 599 retrans 6 lost 0; rcv 1164 rtt 63.345ms; loss rate: 0.000000
+2024/10/26 06:03:52 Congestion Window: 46720
+2024/10/26 06:03:52 Path 0: sent 12 retrans 3 lost 1; rcv 11 rtt 63.756ms; loss rate: 0.083333
+2024/10/26 06:03:52 Congestion Window: 5840
+2024/10/26 06:03:52 Path 1: sent 262 retrans 2 lost 0; rcv 475 rtt 29.072ms; loss rate: 0.000000
+2024/10/26 06:03:52 Congestion Window: 46720
+2024/10/26 06:03:52 Info for stream 5 of fc741c44781c7342
+2024/10/26 06:03:52 Path 0: sent 12 retrans 3 lost 1; rcv 11 rtt 63.756ms; loss rate: 0.083333
+2024/10/26 06:03:52 Congestion Window: 5840
+2024/10/26 06:03:52 Path 1: sent 264 retrans 3 lost 0; rcv 476 rtt 27.774ms; loss rate: 0.000000
+2024/10/26 06:03:52 Congestion Window: 46720
+2024/10/26 06:03:52 Path 3: sent 599 retrans 6 lost 0; rcv 1164 rtt 63.345ms; loss rate: 0.000000
+2024/10/26 06:03:52 Congestion Window: 46720
+2024/10/26 06:04:02 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:04:02 Starting new connection to 171.244.134.9 ([::]:50981 -> 171.244.134.9:6124), connectionID fa93be3fab7110f5, version 512
+2024/10/26 06:04:02 Queueing packet 0x7 for later decryption
+2024/10/26 06:04:03 Info for stream 5 of fa93be3fab7110f5
+2024/10/26 06:04:03 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:04:03 Path 1: sent 201 retrans 4 lost 1; rcv 356; loss rate: 0.004975
+2024/10/26 06:04:03 Path 3: sent 638 retrans 5 lost 0; rcv 1244; loss rate: 0.000000
+2024/10/26 06:04:03 1324.115560
+2024/10/26 06:04:03 Info for stream 5 of fa93be3fab7110f5
+2024/10/26 06:04:03 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 174.561ms; loss rate: 0.000000
+2024/10/26 06:04:03 Congestion Window: 46720
+2024/10/26 06:04:03 Path 1: sent 224 retrans 4 lost 1; rcv 397 rtt 54.687ms; loss rate: 0.004464
+2024/10/26 06:04:03 Congestion Window: 5840
+2024/10/26 06:04:03 Path 3: sent 639 retrans 5 lost 0; rcv 1245 rtt 113.907ms; loss rate: 0.000000
+2024/10/26 06:04:03 Congestion Window: 46720
+2024/10/26 06:04:03 Info for stream 5 of fa93be3fab7110f5
+2024/10/26 06:04:03 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 174.561ms; loss rate: 0.000000
+2024/10/26 06:04:03 Congestion Window: 46720
+2024/10/26 06:04:03 Path 1: sent 225 retrans 5 lost 1; rcv 398 rtt 54.687ms; loss rate: 0.004444
+2024/10/26 06:04:03 Congestion Window: 5840
+2024/10/26 06:04:03 Path 3: sent 639 retrans 5 lost 0; rcv 1245 rtt 113.907ms; loss rate: 0.000000
+2024/10/26 06:04:03 Congestion Window: 46720
+2024/10/26 06:04:09 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:04:09 Starting new connection to 171.244.134.9 ([::]:37510 -> 171.244.134.9:6124), connectionID 760b22cffaf86f5c, version 512
+2024/10/26 06:04:09 Queueing packet 0x7 for later decryption
+2024/10/26 06:04:10 Info for stream 5 of 760b22cffaf86f5c
+2024/10/26 06:04:10 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:04:10 Path 1: sent 281 retrans 2 lost 0; rcv 536; loss rate: 0.000000
+2024/10/26 06:04:10 Path 3: sent 582 retrans 6 lost 0; rcv 1109; loss rate: 0.000000
+2024/10/26 06:04:10 1717.016960
+2024/10/26 06:04:10 Info for stream 5 of 760b22cffaf86f5c
+2024/10/26 06:04:10 Path 1: sent 282 retrans 2 lost 0; rcv 536 rtt 79.222ms; loss rate: 0.000000
+2024/10/26 06:04:10 Congestion Window: 46720
+2024/10/26 06:04:10 Path 3: sent 583 retrans 6 lost 0; rcv 1109 rtt 61.771ms; loss rate: 0.000000
+2024/10/26 06:04:10 Congestion Window: 46720
+2024/10/26 06:04:10 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 311.781ms; loss rate: 0.000000
+2024/10/26 06:04:10 Congestion Window: 46720
+2024/10/26 06:04:20 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:04:20 Starting new connection to 171.244.134.9 ([::]:43470 -> 171.244.134.9:6124), connectionID bd3c101572177490, version 512
+2024/10/26 06:04:21 Queueing packet 0x7 for later decryption
+2024/10/26 06:04:21 Queueing packet 0x8 for later decryption
+2024/10/26 06:04:21 Queueing packet 0x8 for later decryption
+2024/10/26 06:04:22 Info for stream 5 of bd3c101572177490
+2024/10/26 06:04:22 Path 0: sent 9 retrans 2 lost 0; rcv 10; loss rate: 0.000000
+2024/10/26 06:04:22 Path 1: sent 294 retrans 4 lost 0; rcv 543; loss rate: 0.000000
+2024/10/26 06:04:22 Path 3: sent 558 retrans 4 lost 0; rcv 1101; loss rate: 0.000000
+2024/10/26 06:04:22 2309.550148
+2024/10/26 06:04:22 Info for stream 5 of bd3c101572177490
+2024/10/26 06:04:22 Path 0: sent 9 retrans 2 lost 0; rcv 10 rtt 129.887ms; loss rate: 0.000000
+2024/10/26 06:04:22 Congestion Window: 46720
+2024/10/26 06:04:22 Path 1: sent 296 retrans 4 lost 0; rcv 543 rtt 38.788ms; loss rate: 0.000000
+2024/10/26 06:04:22 Congestion Window: 46720
+2024/10/26 06:04:22 Path 3: sent 558 retrans 4 lost 0; rcv 1101 rtt 117.941ms; loss rate: 0.000000
+2024/10/26 06:04:22 Congestion Window: 46720
+2024/10/26 06:04:31 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:04:31 Starting new connection to 171.244.134.9 ([::]:57653 -> 171.244.134.9:6124), connectionID c0086a1ab6f8c118, version 512
+2024/10/26 06:04:31 Queueing packet 0x7 for later decryption
+2024/10/26 06:04:32 Info for stream 5 of c0086a1ab6f8c118
+2024/10/26 06:04:32 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:04:32 Path 1: sent 301 retrans 4 lost 1; rcv 562; loss rate: 0.003322
+2024/10/26 06:04:32 Path 3: sent 536 retrans 2 lost 0; rcv 1058; loss rate: 0.000000
+2024/10/26 06:04:32 1084.799030
+2024/10/26 06:04:32 Info for stream 5 of c0086a1ab6f8c118
+2024/10/26 06:04:32 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 167.556ms; loss rate: 0.000000
+2024/10/26 06:04:32 Congestion Window: 46720
+2024/10/26 06:04:32 Path 1: sent 311 retrans 4 lost 1; rcv 579 rtt 27.063ms; loss rate: 0.003215
+2024/10/26 06:04:32 Congestion Window: 5840
+2024/10/26 06:04:32 Path 3: sent 536 retrans 2 lost 0; rcv 1059 rtt 54.186ms; loss rate: 0.000000
+2024/10/26 06:04:32 Congestion Window: 46720
+2024/10/26 06:04:41 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:04:41 Starting new connection to 171.244.134.9 ([::]:54955 -> 171.244.134.9:6124), connectionID eedf08dbc29c9fb2, version 512
+2024/10/26 06:04:42 Queueing packet 0x7 for later decryption
+2024/10/26 06:04:43 Info for stream 5 of eedf08dbc29c9fb2
+2024/10/26 06:04:43 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:04:43 Path 1: sent 334 retrans 3 lost 0; rcv 624; loss rate: 0.000000
+2024/10/26 06:04:43 Path 3: sent 524 retrans 3 lost 0; rcv 1014; loss rate: 0.000000
+2024/10/26 06:04:43 1648.126392
+2024/10/26 06:04:43 Info for stream 5 of eedf08dbc29c9fb2
+2024/10/26 06:04:43 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 247.552ms; loss rate: 0.000000
+2024/10/26 06:04:43 Congestion Window: 46720
+2024/10/26 06:04:43 Path 1: sent 335 retrans 3 lost 0; rcv 625 rtt 152.012ms; loss rate: 0.000000
+2024/10/26 06:04:43 Congestion Window: 46720
+2024/10/26 06:04:43 Path 3: sent 525 retrans 3 lost 0; rcv 1015 rtt 95.281ms; loss rate: 0.000000
+2024/10/26 06:04:43 Congestion Window: 46720
+2024/10/26 06:04:50 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:04:50 Starting new connection to 171.244.134.9 ([::]:54334 -> 171.244.134.9:6124), connectionID 5b4b18dd2e85befc, version 512
+2024/10/26 06:04:50 Queueing packet 0x7 for later decryption
+2024/10/26 06:04:51 Info for stream 5 of 5b4b18dd2e85befc
+2024/10/26 06:04:51 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:04:51 Path 1: sent 247 retrans 1 lost 0; rcv 455; loss rate: 0.000000
+2024/10/26 06:04:51 Path 3: sent 605 retrans 5 lost 0; rcv 1180; loss rate: 0.000000
+2024/10/26 06:04:51 985.197477
+2024/10/26 06:04:51 Info for stream 5 of 5b4b18dd2e85befc
+2024/10/26 06:04:51 Path 1: sent 248 retrans 1 lost 0; rcv 456 rtt 29.449ms; loss rate: 0.000000
+2024/10/26 06:04:51 Congestion Window: 46720
+2024/10/26 06:04:51 Path 3: sent 606 retrans 5 lost 0; rcv 1181 rtt 75.638ms; loss rate: 0.000000
+2024/10/26 06:04:51 Congestion Window: 46720
+2024/10/26 06:04:51 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 148.944ms; loss rate: 0.000000
+2024/10/26 06:04:51 Congestion Window: 46720
+2024/10/26 06:04:59 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:04:59 Starting new connection to 171.244.134.9 ([::]:51436 -> 171.244.134.9:6124), connectionID a6dad1113ef2f380, version 512
+2024/10/26 06:04:59 Queueing packet 0x7 for later decryption
+2024/10/26 06:05:00 Info for stream 5 of a6dad1113ef2f380
+2024/10/26 06:05:00 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:05:00 Path 1: sent 286 retrans 0 lost 0; rcv 561; loss rate: 0.000000
+2024/10/26 06:05:00 Path 3: sent 570 retrans 7 lost 0; rcv 1073; loss rate: 0.000000
+2024/10/26 06:05:00 1099.858194
+2024/10/26 06:05:00 Info for stream 5 of a6dad1113ef2f380
+2024/10/26 06:05:00 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 86.04ms; loss rate: 0.000000
+2024/10/26 06:05:00 Congestion Window: 46720
+2024/10/26 06:05:00 Path 1: sent 287 retrans 0 lost 0; rcv 564 rtt 26.595ms; loss rate: 0.000000
+2024/10/26 06:05:00 Congestion Window: 46720
+2024/10/26 06:05:00 Path 3: sent 571 retrans 7 lost 0; rcv 1074 rtt 20.479ms; loss rate: 0.000000
+2024/10/26 06:05:00 Congestion Window: 46720
+2024/10/26 06:05:08 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:05:08 Starting new connection to 171.244.134.9 ([::]:52953 -> 171.244.134.9:6124), connectionID 1053369ca29ca94f, version 512
+2024/10/26 06:05:08 Queueing packet 0x7 for later decryption
+2024/10/26 06:05:09 Info for stream 5 of 1053369ca29ca94f
+2024/10/26 06:05:09 Path 3: sent 564 retrans 5 lost 0; rcv 1108; loss rate: 0.000000
+2024/10/26 06:05:09 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:05:09 Path 1: sent 280 retrans 1 lost 0; rcv 521; loss rate: 0.000000
+2024/10/26 06:05:09 1279.435326
+2024/10/26 06:05:09 Info for stream 5 of 1053369ca29ca94f
+2024/10/26 06:05:09 Path 3: sent 567 retrans 5 lost 0; rcv 1115 rtt 67.485ms; loss rate: 0.000000
+2024/10/26 06:05:09 Congestion Window: 46720
+2024/10/26 06:05:09 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 209.82ms; loss rate: 0.000000
+2024/10/26 06:05:09 Congestion Window: 46720
+2024/10/26 06:05:09 Path 1: sent 282 retrans 1 lost 0; rcv 521 rtt 45.496ms; loss rate: 0.000000
+2024/10/26 06:05:09 Congestion Window: 46720
+2024/10/26 06:05:16 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:05:16 Starting new connection to 171.244.134.9 ([::]:60290 -> 171.244.134.9:6124), connectionID 1b72c1de8ce82dbd, version 512
+2024/10/26 06:05:16 Queueing packet 0x7 for later decryption
+2024/10/26 06:05:17 Info for stream 5 of 1b72c1de8ce82dbd
+2024/10/26 06:05:17 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:05:17 Path 1: sent 257 retrans 4 lost 1; rcv 464; loss rate: 0.003891
+2024/10/26 06:05:17 Path 3: sent 603 retrans 2 lost 0; rcv 1176; loss rate: 0.000000
+2024/10/26 06:05:17 1320.303342
+2024/10/26 06:05:17 Info for stream 5 of 1b72c1de8ce82dbd
+2024/10/26 06:05:17 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 209.54ms; loss rate: 0.000000
+2024/10/26 06:05:17 Congestion Window: 46720
+2024/10/26 06:05:17 Path 1: sent 259 retrans 4 lost 1; rcv 465 rtt 32.152ms; loss rate: 0.003861
+2024/10/26 06:05:17 Congestion Window: 5840
+2024/10/26 06:05:17 Path 3: sent 604 retrans 2 lost 0; rcv 1177 rtt 82.428ms; loss rate: 0.000000
+2024/10/26 06:05:17 Congestion Window: 46720
+2024/10/26 06:05:26 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:05:26 Starting new connection to 171.244.134.9 ([::]:44224 -> 171.244.134.9:6124), connectionID 9acf0de9a766b05, version 512
+2024/10/26 06:05:26 Queueing packet 0x7 for later decryption
+2024/10/26 06:05:27 Info for stream 5 of 9acf0de9a766b05
+2024/10/26 06:05:27 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:05:27 Path 1: sent 230 retrans 4 lost 1; rcv 412; loss rate: 0.004348
+2024/10/26 06:05:27 Path 3: sent 622 retrans 4 lost 0; rcv 1225; loss rate: 0.000000
+2024/10/26 06:05:27 862.951787
+2024/10/26 06:05:27 Info for stream 5 of 9acf0de9a766b05
+2024/10/26 06:05:27 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 94.832ms; loss rate: 0.000000
+2024/10/26 06:05:27 Congestion Window: 46720
+2024/10/26 06:05:27 Path 1: sent 232 retrans 4 lost 1; rcv 412 rtt 34.821ms; loss rate: 0.004310
+2024/10/26 06:05:27 Congestion Window: 5840
+2024/10/26 06:05:27 Path 3: sent 622 retrans 4 lost 0; rcv 1225 rtt 48.53ms; loss rate: 0.000000
+2024/10/26 06:05:27 Congestion Window: 46720
+2024/10/26 06:05:34 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:05:34 Starting new connection to 171.244.134.9 ([::]:60245 -> 171.244.134.9:6124), connectionID e80e79707aa5eedc, version 512
+2024/10/26 06:05:34 Queueing packet 0x7 for later decryption
+2024/10/26 06:05:35 Info for stream 5 of e80e79707aa5eedc
+2024/10/26 06:05:35 Path 1: sent 303 retrans 0 lost 0; rcv 583; loss rate: 0.000000
+2024/10/26 06:05:35 Path 3: sent 554 retrans 7 lost 0; rcv 1055; loss rate: 0.000000
+2024/10/26 06:05:35 Path 0: sent 8 retrans 1 lost 0; rcv 9; loss rate: 0.000000
+2024/10/26 06:05:35 1091.104292
+2024/10/26 06:05:35 Info for stream 5 of e80e79707aa5eedc
+2024/10/26 06:05:35 Path 0: sent 8 retrans 1 lost 0; rcv 9 rtt 47.802ms; loss rate: 0.000000
+2024/10/26 06:05:35 Congestion Window: 46720
+2024/10/26 06:05:35 Path 1: sent 306 retrans 0 lost 0; rcv 587 rtt 32.682ms; loss rate: 0.000000
+2024/10/26 06:05:35 Congestion Window: 46720
+2024/10/26 06:05:35 Path 3: sent 555 retrans 7 lost 0; rcv 1056 rtt 47.802ms; loss rate: 0.000000
+2024/10/26 06:05:35 Congestion Window: 46720
+2024/10/26 06:05:44 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:05:44 Starting new connection to 171.244.134.9 ([::]:50996 -> 171.244.134.9:6124), connectionID 47531bf03526dd88, version 512
+2024/10/26 06:05:44 Queueing packet 0x7 for later decryption
+2024/10/26 06:05:46 Info for stream 5 of 47531bf03526dd88
+2024/10/26 06:05:46 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:05:46 Path 1: sent 290 retrans 6 lost 0; rcv 529; loss rate: 0.000000
+2024/10/26 06:05:46 Path 3: sent 556 retrans 4 lost 0; rcv 1085; loss rate: 0.000000
+2024/10/26 06:05:46 1604.769066
+2024/10/26 06:05:46 Info for stream 5 of 47531bf03526dd88
+2024/10/26 06:05:46 Path 3: sent 556 retrans 4 lost 0; rcv 1086 rtt 90.378ms; loss rate: 0.000000
+2024/10/26 06:05:46 Congestion Window: 46720
+2024/10/26 06:05:46 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 222.326ms; loss rate: 0.000000
+2024/10/26 06:05:46 Congestion Window: 46720
+2024/10/26 06:05:46 Path 1: sent 303 retrans 6 lost 0; rcv 555 rtt 37.48ms; loss rate: 0.000000
+2024/10/26 06:05:46 Congestion Window: 46720
+2024/10/26 06:05:46 Info for stream 5 of 47531bf03526dd88
+2024/10/26 06:05:46 Path 1: sent 305 retrans 7 lost 0; rcv 555 rtt 37.48ms; loss rate: 0.000000
+2024/10/26 06:05:46 Congestion Window: 46720
+2024/10/26 06:05:46 Path 3: sent 557 retrans 4 lost 0; rcv 1086 rtt 90.378ms; loss rate: 0.000000
+2024/10/26 06:05:46 Congestion Window: 46720
+2024/10/26 06:05:46 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 222.326ms; loss rate: 0.000000
+2024/10/26 06:05:46 Congestion Window: 46720
+2024/10/26 06:05:46 Info for stream 5 of 47531bf03526dd88
+2024/10/26 06:05:46 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 222.326ms; loss rate: 0.000000
+2024/10/26 06:05:46 Congestion Window: 46720
+2024/10/26 06:05:46 Path 1: sent 306 retrans 8 lost 0; rcv 555 rtt 37.48ms; loss rate: 0.000000
+2024/10/26 06:05:46 Congestion Window: 46720
+2024/10/26 06:05:46 Path 3: sent 557 retrans 4 lost 0; rcv 1086 rtt 90.378ms; loss rate: 0.000000
+2024/10/26 06:05:46 Congestion Window: 46720
+2024/10/26 06:05:57 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:05:57 Starting new connection to 171.244.134.9 ([::]:52137 -> 171.244.134.9:6124), connectionID a96846d58c070c97, version 512
+2024/10/26 06:05:58 Queueing packet 0x7 for later decryption
+2024/10/26 06:05:59 Info for stream 5 of a96846d58c070c97
+2024/10/26 06:05:59 Path 0: sent 8 retrans 1 lost 0; rcv 9; loss rate: 0.000000
+2024/10/26 06:05:59 Path 1: sent 234 retrans 6 lost 1; rcv 401; loss rate: 0.004274
+2024/10/26 06:05:59 Path 3: sent 627 retrans 4 lost 0; rcv 1245; loss rate: 0.000000
+2024/10/26 06:05:59 2244.761730
+2024/10/26 06:05:59 Info for stream 5 of a96846d58c070c97
+2024/10/26 06:05:59 Path 0: sent 8 retrans 1 lost 0; rcv 9 rtt 433.221609ms; loss rate: 0.000000
+2024/10/26 06:05:59 Congestion Window: 46720
+2024/10/26 06:05:59 Path 1: sent 235 retrans 6 lost 1; rcv 401 rtt 91.615ms; loss rate: 0.004255
+2024/10/26 06:05:59 Congestion Window: 5840
+2024/10/26 06:05:59 Path 3: sent 628 retrans 4 lost 0; rcv 1245 rtt 382.282ms; loss rate: 0.000000
+2024/10/26 06:05:59 Congestion Window: 46720
+2024/10/26 06:06:10 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:06:10 Starting new connection to 171.244.134.9 ([::]:59564 -> 171.244.134.9:6124), connectionID c1fb262f74f19292, version 512
+2024/10/26 06:06:10 Queueing packet 0x7 for later decryption
+2024/10/26 06:06:11 Info for stream 5 of c1fb262f74f19292
+2024/10/26 06:06:11 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:06:11 Path 1: sent 220 retrans 4 lost 1; rcv 394; loss rate: 0.004545
+2024/10/26 06:06:11 Path 3: sent 653 retrans 9 lost 0; rcv 1257; loss rate: 0.000000
+2024/10/26 06:06:11 1720.893282
+2024/10/26 06:06:11 Info for stream 5 of c1fb262f74f19292
+2024/10/26 06:06:11 Path 3: sent 654 retrans 9 lost 0; rcv 1259 rtt 39.341ms; loss rate: 0.000000
+2024/10/26 06:06:11 Congestion Window: 46720
+2024/10/26 06:06:11 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 81.541ms; loss rate: 0.000000
+2024/10/26 06:06:11 Congestion Window: 46720
+2024/10/26 06:06:11 Path 1: sent 220 retrans 4 lost 1; rcv 394 rtt 74.241ms; loss rate: 0.004545
+2024/10/26 06:06:11 Congestion Window: 5840
+2024/10/26 06:06:11 Info for stream 5 of c1fb262f74f19292
+2024/10/26 06:06:11 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 81.541ms; loss rate: 0.000000
+2024/10/26 06:06:11 Congestion Window: 46720
+2024/10/26 06:06:11 Path 1: sent 220 retrans 4 lost 1; rcv 394 rtt 74.241ms; loss rate: 0.004545
+2024/10/26 06:06:11 Congestion Window: 5840
+2024/10/26 06:06:11 Path 3: sent 656 retrans 10 lost 0; rcv 1259 rtt 39.341ms; loss rate: 0.000000
+2024/10/26 06:06:11 Congestion Window: 46720
+2024/10/26 06:06:20 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:06:20 Starting new connection to 171.244.134.9 ([::]:59028 -> 171.244.134.9:6124), connectionID d2dd2d3bf1f8d1cc, version 512
+2024/10/26 06:06:21 Queueing packet 0x7 for later decryption
+2024/10/26 06:06:22 Info for stream 5 of d2dd2d3bf1f8d1cc
+2024/10/26 06:06:22 Path 1: sent 260 retrans 1 lost 0; rcv 498; loss rate: 0.000000
+2024/10/26 06:06:22 Path 3: sent 596 retrans 8 lost 0; rcv 1139; loss rate: 0.000000
+2024/10/26 06:06:22 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:06:22 1499.312814
+2024/10/26 06:06:22 Info for stream 5 of d2dd2d3bf1f8d1cc
+2024/10/26 06:06:22 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 210.551ms; loss rate: 0.000000
+2024/10/26 06:06:22 Congestion Window: 46720
+2024/10/26 06:06:22 Path 1: sent 262 retrans 1 lost 0; rcv 498 rtt 35.285ms; loss rate: 0.000000
+2024/10/26 06:06:22 Congestion Window: 46720
+2024/10/26 06:06:22 Path 3: sent 596 retrans 8 lost 0; rcv 1139 rtt 60.758ms; loss rate: 0.000000
+2024/10/26 06:06:22 Congestion Window: 46720
+2024/10/26 06:06:30 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:06:30 Starting new connection to 171.244.134.9 ([::]:53925 -> 171.244.134.9:6124), connectionID 89a38fb505f4708a, version 512
+2024/10/26 06:06:31 Queueing packet 0x7 for later decryption
+2024/10/26 06:06:32 Info for stream 5 of 89a38fb505f4708a
+2024/10/26 06:06:32 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:06:32 Path 1: sent 233 retrans 4 lost 0; rcv 437; loss rate: 0.000000
+2024/10/26 06:06:32 Path 3: sent 618 retrans 4 lost 0; rcv 1198; loss rate: 0.000000
+2024/10/26 06:06:32 1560.901141
+2024/10/26 06:06:32 Info for stream 5 of 89a38fb505f4708a
+2024/10/26 06:06:32 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 224.873ms; loss rate: 0.000000
+2024/10/26 06:06:32 Congestion Window: 46720
+2024/10/26 06:06:32 Path 1: sent 235 retrans 4 lost 0; rcv 441 rtt 82.011ms; loss rate: 0.000000
+2024/10/26 06:06:32 Congestion Window: 46720
+2024/10/26 06:06:32 Path 3: sent 620 retrans 4 lost 0; rcv 1199 rtt 37.945ms; loss rate: 0.000000
+2024/10/26 06:06:32 Congestion Window: 46720
+2024/10/26 06:06:32 Info for stream 5 of 89a38fb505f4708a
+2024/10/26 06:06:32 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 224.873ms; loss rate: 0.000000
+2024/10/26 06:06:32 Congestion Window: 46720
+2024/10/26 06:06:32 Path 1: sent 236 retrans 4 lost 0; rcv 442 rtt 82.011ms; loss rate: 0.000000
+2024/10/26 06:06:32 Congestion Window: 46720
+2024/10/26 06:06:32 Path 3: sent 621 retrans 5 lost 0; rcv 1199 rtt 37.945ms; loss rate: 0.000000
+2024/10/26 06:06:32 Congestion Window: 46720
+2024/10/26 06:06:32 Info for stream 5 of 89a38fb505f4708a
+2024/10/26 06:06:32 Path 1: sent 236 retrans 4 lost 0; rcv 442 rtt 82.011ms; loss rate: 0.000000
+2024/10/26 06:06:32 Congestion Window: 46720
+2024/10/26 06:06:32 Path 3: sent 622 retrans 6 lost 0; rcv 1199 rtt 37.945ms; loss rate: 0.000000
+2024/10/26 06:06:32 Congestion Window: 46720
+2024/10/26 06:06:32 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 224.873ms; loss rate: 0.000000
+2024/10/26 06:06:32 Congestion Window: 46720
+2024/10/26 06:06:32 Info for stream 5 of 89a38fb505f4708a
+2024/10/26 06:06:32 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 224.873ms; loss rate: 0.000000
+2024/10/26 06:06:32 Congestion Window: 46720
+2024/10/26 06:06:32 Path 1: sent 237 retrans 4 lost 0; rcv 442 rtt 82.011ms; loss rate: 0.000000
+2024/10/26 06:06:32 Congestion Window: 46720
+2024/10/26 06:06:32 Path 3: sent 622 retrans 7 lost 1; rcv 1199 rtt 37.945ms; loss rate: 0.001608
+2024/10/26 06:06:32 Congestion Window: 2920
+2024/10/26 06:06:43 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:06:43 Starting new connection to 171.244.134.9 ([::]:51173 -> 171.244.134.9:6124), connectionID adb8cc5442a6c69f, version 512
+2024/10/26 06:06:43 Queueing packet 0x9 for later decryption
+2024/10/26 06:06:44 Info for stream 5 of adb8cc5442a6c69f
+2024/10/26 06:06:44 Path 0: sent 12 retrans 3 lost 1; rcv 11; loss rate: 0.083333
+2024/10/26 06:06:44 Path 1: sent 230 retrans 2 lost 0; rcv 439; loss rate: 0.000000
+2024/10/26 06:06:44 Path 3: sent 623 retrans 3 lost 0; rcv 1197; loss rate: 0.000000
+2024/10/26 06:06:44 1807.184321
+2024/10/26 06:06:44 Info for stream 5 of adb8cc5442a6c69f
+2024/10/26 06:06:44 Path 1: sent 230 retrans 2 lost 0; rcv 439 rtt 43.406ms; loss rate: 0.000000
+2024/10/26 06:06:44 Congestion Window: 46720
+2024/10/26 06:06:44 Path 3: sent 624 retrans 3 lost 0; rcv 1200 rtt 25.945ms; loss rate: 0.000000
+2024/10/26 06:06:44 Congestion Window: 46720
+2024/10/26 06:06:44 Path 0: sent 12 retrans 3 lost 1; rcv 11 rtt 43.406ms; loss rate: 0.083333
+2024/10/26 06:06:44 Congestion Window: 5840
+2024/10/26 06:06:52 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:06:52 Starting new connection to 171.244.134.9 ([::]:59906 -> 171.244.134.9:6124), connectionID abf0dcc74737af88, version 512
+2024/10/26 06:06:52 Queueing packet 0x7 for later decryption
+2024/10/26 06:06:53 Info for stream 5 of abf0dcc74737af88
+2024/10/26 06:06:53 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:06:53 Path 1: sent 235 retrans 3 lost 0; rcv 434; loss rate: 0.000000
+2024/10/26 06:06:53 Path 3: sent 611 retrans 5 lost 0; rcv 1179; loss rate: 0.000000
+2024/10/26 06:06:53 1111.850369
+2024/10/26 06:06:53 Info for stream 5 of abf0dcc74737af88
+2024/10/26 06:06:53 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 71.492ms; loss rate: 0.000000
+2024/10/26 06:06:53 Congestion Window: 46720
+2024/10/26 06:06:53 Path 1: sent 250 retrans 3 lost 0; rcv 465 rtt 65.474ms; loss rate: 0.000000
+2024/10/26 06:06:53 Congestion Window: 46720
+2024/10/26 06:06:53 Path 3: sent 613 retrans 5 lost 0; rcv 1180 rtt 40.999ms; loss rate: 0.000000
+2024/10/26 06:06:53 Congestion Window: 46720
+2024/10/26 06:07:00 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:07:00 Starting new connection to 171.244.134.9 ([::]:56349 -> 171.244.134.9:6124), connectionID 837ca784b669d637, version 512
+2024/10/26 06:07:01 Queueing packet 0x9 for later decryption
+2024/10/26 06:07:02 Info for stream 5 of 837ca784b669d637
+2024/10/26 06:07:02 Path 0: sent 12 retrans 3 lost 1; rcv 11; loss rate: 0.083333
+2024/10/26 06:07:02 Path 1: sent 224 retrans 0 lost 0; rcv 425; loss rate: 0.000000
+2024/10/26 06:07:02 Path 3: sent 639 retrans 13 lost 5; rcv 1216; loss rate: 0.007825
+2024/10/26 06:07:02 1767.661158
+2024/10/26 06:07:02 Info for stream 5 of 837ca784b669d637
+2024/10/26 06:07:02 Path 0: sent 12 retrans 3 lost 1; rcv 11 rtt 38.681ms; loss rate: 0.083333
+2024/10/26 06:07:02 Congestion Window: 5840
+2024/10/26 06:07:02 Path 1: sent 224 retrans 0 lost 0; rcv 425 rtt 38.681ms; loss rate: 0.000000
+2024/10/26 06:07:02 Congestion Window: 46720
+2024/10/26 06:07:02 Path 3: sent 641 retrans 13 lost 5; rcv 1218 rtt 22.606ms; loss rate: 0.007800
+2024/10/26 06:07:02 Congestion Window: 2920
+2024/10/26 06:07:02 Info for stream 5 of 837ca784b669d637
+2024/10/26 06:07:02 Path 0: sent 12 retrans 3 lost 1; rcv 11 rtt 38.681ms; loss rate: 0.083333
+2024/10/26 06:07:02 Congestion Window: 5840
+2024/10/26 06:07:02 Path 1: sent 224 retrans 0 lost 0; rcv 425 rtt 38.681ms; loss rate: 0.000000
+2024/10/26 06:07:02 Congestion Window: 46720
+2024/10/26 06:07:02 Path 3: sent 642 retrans 14 lost 5; rcv 1218 rtt 22.606ms; loss rate: 0.007788
+2024/10/26 06:07:02 Congestion Window: 2920
+2024/10/26 06:07:02 Info for stream 5 of 837ca784b669d637
+2024/10/26 06:07:02 Path 0: sent 12 retrans 3 lost 1; rcv 11 rtt 38.681ms; loss rate: 0.083333
+2024/10/26 06:07:02 Congestion Window: 5840
+2024/10/26 06:07:02 Path 1: sent 224 retrans 0 lost 0; rcv 425 rtt 38.681ms; loss rate: 0.000000
+2024/10/26 06:07:02 Congestion Window: 46720
+2024/10/26 06:07:02 Path 3: sent 643 retrans 15 lost 5; rcv 1218 rtt 22.606ms; loss rate: 0.007776
+2024/10/26 06:07:02 Congestion Window: 2920
+2024/10/26 06:07:02 Info for stream 5 of 837ca784b669d637
+2024/10/26 06:07:02 Path 0: sent 12 retrans 3 lost 1; rcv 11 rtt 38.681ms; loss rate: 0.083333
+2024/10/26 06:07:02 Congestion Window: 5840
+2024/10/26 06:07:02 Path 1: sent 225 retrans 0 lost 0; rcv 425 rtt 38.681ms; loss rate: 0.000000
+2024/10/26 06:07:02 Congestion Window: 46720
+2024/10/26 06:07:02 Path 3: sent 643 retrans 16 lost 6; rcv 1218 rtt 22.606ms; loss rate: 0.009331
+2024/10/26 06:07:02 Congestion Window: 2920
+2024/10/26 06:07:02 Info for stream 5 of 837ca784b669d637
+2024/10/26 06:07:02 Path 1: sent 226 retrans 1 lost 0; rcv 425 rtt 38.681ms; loss rate: 0.000000
+2024/10/26 06:07:02 Congestion Window: 46720
+2024/10/26 06:07:02 Path 3: sent 644 retrans 16 lost 6; rcv 1218 rtt 22.606ms; loss rate: 0.009317
+2024/10/26 06:07:02 Congestion Window: 2920
+2024/10/26 06:07:02 Path 0: sent 12 retrans 3 lost 1; rcv 11 rtt 38.681ms; loss rate: 0.083333
+2024/10/26 06:07:02 Congestion Window: 5840
+2024/10/26 06:07:14 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:07:14 Starting new connection to 171.244.134.9 ([::]:44645 -> 171.244.134.9:6124), connectionID c7deb23442f75fc4, version 512
+2024/10/26 06:07:14 Queueing packet 0x7 for later decryption
+2024/10/26 06:07:14 Info for stream 5 of c7deb23442f75fc4
+2024/10/26 06:07:14 Path 0: sent 7 retrans 0 lost 0; rcv 9; loss rate: 0.000000
+2024/10/26 06:07:14 Path 1: sent 257 retrans 1 lost 0; rcv 474; loss rate: 0.000000
+2024/10/26 06:07:14 Path 3: sent 597 retrans 6 lost 0; rcv 1157; loss rate: 0.000000
+2024/10/26 06:07:14 534.439197
+2024/10/26 06:07:14 Info for stream 5 of c7deb23442f75fc4
+2024/10/26 06:07:14 Path 0: sent 7 retrans 0 lost 0; rcv 9 rtt 32.503ms; loss rate: 0.000000
+2024/10/26 06:07:14 Congestion Window: 46720
+2024/10/26 06:07:14 Path 1: sent 258 retrans 1 lost 0; rcv 475 rtt 29.037ms; loss rate: 0.000000
+2024/10/26 06:07:14 Congestion Window: 46720
+2024/10/26 06:07:14 Path 3: sent 599 retrans 6 lost 0; rcv 1163 rtt 32.503ms; loss rate: 0.000000
+2024/10/26 06:07:14 Congestion Window: 46720
+2024/10/26 06:07:14 Info for stream 5 of c7deb23442f75fc4
+2024/10/26 06:07:14 Path 3: sent 600 retrans 6 lost 0; rcv 1163 rtt 32.503ms; loss rate: 0.000000
+2024/10/26 06:07:14 Congestion Window: 46720
+2024/10/26 06:07:14 Path 0: sent 7 retrans 0 lost 0; rcv 9 rtt 32.503ms; loss rate: 0.000000
+2024/10/26 06:07:14 Congestion Window: 46720
+2024/10/26 06:07:14 Path 1: sent 260 retrans 2 lost 0; rcv 475 rtt 29.037ms; loss rate: 0.000000
+2024/10/26 06:07:14 Congestion Window: 46720
+2024/10/26 06:07:20 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:07:20 Starting new connection to 171.244.134.9 ([::]:40459 -> 171.244.134.9:6124), connectionID 1349e831a933ae0e, version 512
+2024/10/26 06:07:20 Queueing packet 0x7 for later decryption
+2024/10/26 06:07:21 Info for stream 5 of 1349e831a933ae0e
+2024/10/26 06:07:21 Path 0: sent 7 retrans 0 lost 0; rcv 9; loss rate: 0.000000
+2024/10/26 06:07:21 Path 1: sent 234 retrans 6 lost 2; rcv 413; loss rate: 0.008547
+2024/10/26 06:07:21 Path 3: sent 618 retrans 5 lost 0; rcv 1216; loss rate: 0.000000
+2024/10/26 06:07:21 1251.888166
+2024/10/26 06:07:21 Info for stream 5 of 1349e831a933ae0e
+2024/10/26 06:07:21 Path 0: sent 7 retrans 0 lost 0; rcv 9 rtt 67.21ms; loss rate: 0.000000
+2024/10/26 06:07:21 Congestion Window: 46720
+2024/10/26 06:07:21 Path 1: sent 243 retrans 6 lost 2; rcv 428 rtt 37.6ms; loss rate: 0.008230
+2024/10/26 06:07:21 Congestion Window: 5840
+2024/10/26 06:07:21 Path 3: sent 619 retrans 5 lost 0; rcv 1217 rtt 65.003ms; loss rate: 0.000000
+2024/10/26 06:07:21 Congestion Window: 46720
+2024/10/26 06:07:21 Info for stream 5 of 1349e831a933ae0e
+2024/10/26 06:07:21 Path 0: sent 7 retrans 0 lost 0; rcv 9 rtt 67.21ms; loss rate: 0.000000
+2024/10/26 06:07:21 Congestion Window: 46720
+2024/10/26 06:07:21 Path 1: sent 244 retrans 7 lost 2; rcv 428 rtt 37.6ms; loss rate: 0.008197
+2024/10/26 06:07:21 Congestion Window: 5840
+2024/10/26 06:07:21 Path 3: sent 619 retrans 5 lost 0; rcv 1217 rtt 65.003ms; loss rate: 0.000000
+2024/10/26 06:07:21 Congestion Window: 46720
+2024/10/26 06:07:32 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:07:32 Starting new connection to 171.244.134.9 ([::]:48787 -> 171.244.134.9:6124), connectionID dfdffa63164b55cf, version 512
+2024/10/26 06:07:33 Queueing packet 0x7 for later decryption
+2024/10/26 06:07:34 Info for stream 5 of dfdffa63164b55cf
+2024/10/26 06:07:34 Path 0: sent 8 retrans 1 lost 0; rcv 9; loss rate: 0.000000
+2024/10/26 06:07:34 Path 1: sent 218 retrans 1 lost 0; rcv 410; loss rate: 0.000000
+2024/10/26 06:07:34 Path 3: sent 663 retrans 7 lost 0; rcv 1242; loss rate: 0.000000
+2024/10/26 06:07:34 1975.909412
+2024/10/26 06:07:34 Info for stream 5 of dfdffa63164b55cf
+2024/10/26 06:07:34 Path 0: sent 8 retrans 1 lost 0; rcv 9 rtt 487.255ms; loss rate: 0.000000
+2024/10/26 06:07:34 Congestion Window: 46720
+2024/10/26 06:07:34 Path 1: sent 218 retrans 1 lost 0; rcv 410 rtt 301.23ms; loss rate: 0.000000
+2024/10/26 06:07:34 Congestion Window: 46720
+2024/10/26 06:07:34 Path 3: sent 665 retrans 7 lost 0; rcv 1244 rtt 95.114ms; loss rate: 0.000000
+2024/10/26 06:07:34 Congestion Window: 46720
+2024/10/26 06:07:34 Info for stream 5 of dfdffa63164b55cf
+2024/10/26 06:07:34 Path 0: sent 8 retrans 1 lost 0; rcv 9 rtt 487.255ms; loss rate: 0.000000
+2024/10/26 06:07:34 Congestion Window: 46720
+2024/10/26 06:07:34 Path 1: sent 218 retrans 1 lost 0; rcv 410 rtt 301.23ms; loss rate: 0.000000
+2024/10/26 06:07:34 Congestion Window: 46720
+2024/10/26 06:07:34 Path 3: sent 666 retrans 8 lost 0; rcv 1244 rtt 95.114ms; loss rate: 0.000000
+2024/10/26 06:07:34 Congestion Window: 46720
+2024/10/26 06:07:41 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:07:41 Starting new connection to 171.244.134.9 ([::]:42940 -> 171.244.134.9:6124), connectionID 8a8daee65bef9373, version 512
+2024/10/26 06:07:41 Queueing packet 0x7 for later decryption
+2024/10/26 06:07:42 Info for stream 5 of 8a8daee65bef9373
+2024/10/26 06:07:42 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:07:42 Path 1: sent 194 retrans 1 lost 0; rcv 376; loss rate: 0.000000
+2024/10/26 06:07:42 Path 3: sent 660 retrans 3 lost 0; rcv 1260; loss rate: 0.000000
+2024/10/26 06:07:42 577.923813
+2024/10/26 06:07:42 Info for stream 5 of 8a8daee65bef9373
+2024/10/26 06:07:42 Path 3: sent 661 retrans 3 lost 0; rcv 1261 rtt 22.092ms; loss rate: 0.000000
+2024/10/26 06:07:42 Congestion Window: 46720
+2024/10/26 06:07:42 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 36.717339ms; loss rate: 0.000000
+2024/10/26 06:07:42 Congestion Window: 46720
+2024/10/26 06:07:42 Path 1: sent 194 retrans 1 lost 0; rcv 377 rtt 33.584ms; loss rate: 0.000000
+2024/10/26 06:07:42 Congestion Window: 46720
+2024/10/26 06:07:49 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:07:49 Starting new connection to 171.244.134.9 ([::]:49135 -> 171.244.134.9:6124), connectionID 5e710b9822422e87, version 512
+2024/10/26 06:07:50 Queueing packet 0x8 for later decryption
+2024/10/26 06:07:51 Info for stream 5 of 5e710b9822422e87
+2024/10/26 06:07:51 Path 0: sent 10 retrans 2 lost 0; rcv 10; loss rate: 0.000000
+2024/10/26 06:07:51 Path 1: sent 267 retrans 1 lost 0; rcv 520; loss rate: 0.000000
+2024/10/26 06:07:51 Path 3: sent 592 retrans 5 lost 0; rcv 1119; loss rate: 0.000000
+2024/10/26 06:07:51 1248.446627
+2024/10/26 06:07:51 Info for stream 5 of 5e710b9822422e87
+2024/10/26 06:07:51 Path 0: sent 10 retrans 2 lost 0; rcv 10 rtt 67.528736ms; loss rate: 0.000000
+2024/10/26 06:07:51 Congestion Window: 46720
+2024/10/26 06:07:51 Path 1: sent 267 retrans 1 lost 0; rcv 520 rtt 55.473ms; loss rate: 0.000000
+2024/10/26 06:07:51 Congestion Window: 46720
+2024/10/26 06:07:51 Path 3: sent 595 retrans 5 lost 0; rcv 1120 rtt 41.384ms; loss rate: 0.000000
+2024/10/26 06:07:51 Congestion Window: 46720
+2024/10/26 06:08:02 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:08:02 Starting new connection to 171.244.134.9 ([::]:42596 -> 171.244.134.9:6124), connectionID 1e653ca9e041c0f, version 512
+2024/10/26 06:08:03 Queueing packet 0x7 for later decryption
+2024/10/26 06:08:04 Info for stream 5 of 1e653ca9e041c0f
+2024/10/26 06:08:04 Path 1: sent 238 retrans 1 lost 0; rcv 460; loss rate: 0.000000
+2024/10/26 06:08:04 Path 3: sent 615 retrans 10 lost 2; rcv 1156; loss rate: 0.003252
+2024/10/26 06:08:04 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:08:04 1637.624877
+2024/10/26 06:08:04 Info for stream 5 of 1e653ca9e041c0f
+2024/10/26 06:08:04 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 314.025ms; loss rate: 0.000000
+2024/10/26 06:08:04 Congestion Window: 46720
+2024/10/26 06:08:04 Path 1: sent 239 retrans 1 lost 0; rcv 461 rtt 30.212ms; loss rate: 0.000000
+2024/10/26 06:08:04 Congestion Window: 46720
+2024/10/26 06:08:04 Path 3: sent 632 retrans 10 lost 2; rcv 1186 rtt 15.68ms; loss rate: 0.003165
+2024/10/26 06:08:04 Congestion Window: 5840
+2024/10/26 06:08:09 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:08:09 Starting new connection to 171.244.134.9 ([::]:34435 -> 171.244.134.9:6124), connectionID b3479ca5476042a4, version 512
+2024/10/26 06:08:09 Queueing packet 0x7 for later decryption
+2024/10/26 06:08:10 Info for stream 5 of b3479ca5476042a4
+2024/10/26 06:08:10 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:08:10 Path 1: sent 292 retrans 0 lost 0; rcv 532; loss rate: 0.000000
+2024/10/26 06:08:10 Path 3: sent 561 retrans 7 lost 0; rcv 1102; loss rate: 0.000000
+2024/10/26 06:08:10 1184.481993
+2024/10/26 06:08:10 Info for stream 5 of b3479ca5476042a4
+2024/10/26 06:08:10 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 357.177854ms; loss rate: 0.000000
+2024/10/26 06:08:10 Congestion Window: 46720
+2024/10/26 06:08:10 Path 1: sent 293 retrans 0 lost 0; rcv 532 rtt 107.175ms; loss rate: 0.000000
+2024/10/26 06:08:10 Congestion Window: 46720
+2024/10/26 06:08:10 Path 3: sent 566 retrans 7 lost 0; rcv 1113 rtt 203.378ms; loss rate: 0.000000
+2024/10/26 06:08:10 Congestion Window: 46720
+2024/10/26 06:08:17 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:08:17 Starting new connection to 171.244.134.9 ([::]:51281 -> 171.244.134.9:6124), connectionID 365ae7f777cbb67b, version 512
+2024/10/26 06:08:17 Queueing packet 0x7 for later decryption
+2024/10/26 06:08:18 Info for stream 5 of 365ae7f777cbb67b
+2024/10/26 06:08:18 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:08:18 Path 1: sent 277 retrans 6 lost 2; rcv 500; loss rate: 0.007220
+2024/10/26 06:08:18 Path 3: sent 587 retrans 5 lost 0; rcv 1144; loss rate: 0.000000
+2024/10/26 06:08:18 1356.063428
+2024/10/26 06:08:18 Info for stream 5 of 365ae7f777cbb67b
+2024/10/26 06:08:18 Path 3: sent 588 retrans 5 lost 0; rcv 1145 rtt 86.631ms; loss rate: 0.000000
+2024/10/26 06:08:18 Congestion Window: 46720
+2024/10/26 06:08:18 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 145.361ms; loss rate: 0.000000
+2024/10/26 06:08:18 Congestion Window: 46720
+2024/10/26 06:08:18 Path 1: sent 278 retrans 6 lost 2; rcv 501 rtt 77.041ms; loss rate: 0.007194
+2024/10/26 06:08:18 Congestion Window: 5840
+2024/10/26 06:08:18 Info for stream 5 of 365ae7f777cbb67b
+2024/10/26 06:08:18 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 145.361ms; loss rate: 0.000000
+2024/10/26 06:08:18 Congestion Window: 46720
+2024/10/26 06:08:18 Path 1: sent 279 retrans 7 lost 2; rcv 501 rtt 77.041ms; loss rate: 0.007168
+2024/10/26 06:08:18 Congestion Window: 5840
+2024/10/26 06:08:18 Path 3: sent 588 retrans 5 lost 0; rcv 1145 rtt 86.631ms; loss rate: 0.000000
+2024/10/26 06:08:18 Congestion Window: 46720
+2024/10/26 06:08:19 Info for stream 5 of 365ae7f777cbb67b
+2024/10/26 06:08:19 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 145.361ms; loss rate: 0.000000
+2024/10/26 06:08:19 Congestion Window: 46720
+2024/10/26 06:08:19 Path 1: sent 280 retrans 8 lost 2; rcv 501 rtt 77.041ms; loss rate: 0.007143
+2024/10/26 06:08:19 Congestion Window: 5840
+2024/10/26 06:08:19 Path 3: sent 588 retrans 5 lost 0; rcv 1145 rtt 86.631ms; loss rate: 0.000000
+2024/10/26 06:08:19 Congestion Window: 46720
+2024/10/26 06:08:28 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:08:28 Starting new connection to 171.244.134.9 ([::]:60145 -> 171.244.134.9:6124), connectionID dbfe8c34c81e7f47, version 512
+2024/10/26 06:08:29 Queueing packet 0x8 for later decryption
+2024/10/26 06:08:30 Info for stream 5 of dbfe8c34c81e7f47
+2024/10/26 06:08:30 Path 0: sent 11 retrans 4 lost 1; rcv 10; loss rate: 0.090909
+2024/10/26 06:08:30 Path 1: sent 274 retrans 0 lost 0; rcv 518; loss rate: 0.000000
+2024/10/26 06:08:30 Path 3: sent 569 retrans 3 lost 0; rcv 1099; loss rate: 0.000000
+2024/10/26 06:08:30 1460.100495
+2024/10/26 06:08:30 Info for stream 5 of dbfe8c34c81e7f47
+2024/10/26 06:08:30 Path 3: sent 580 retrans 3 lost 0; rcv 1123 rtt 109.802ms; loss rate: 0.000000
+2024/10/26 06:08:30 Congestion Window: 46720
+2024/10/26 06:08:30 Path 0: sent 11 retrans 4 lost 1; rcv 10 rtt 121.879ms; loss rate: 0.090909
+2024/10/26 06:08:30 Congestion Window: 39420
+2024/10/26 06:08:30 Path 1: sent 277 retrans 0 lost 0; rcv 518 rtt 50.766ms; loss rate: 0.000000
+2024/10/26 06:08:30 Congestion Window: 46720
+2024/10/26 06:08:37 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:08:37 Starting new connection to 171.244.134.9 ([::]:33887 -> 171.244.134.9:6124), connectionID 4fe4016155419bae, version 512
+2024/10/26 06:08:38 Queueing packet 0x8 for later decryption
+2024/10/26 06:08:39 Info for stream 5 of 4fe4016155419bae
+2024/10/26 06:08:39 Path 0: sent 10 retrans 2 lost 0; rcv 9; loss rate: 0.000000
+2024/10/26 06:08:39 Path 1: sent 253 retrans 2 lost 0; rcv 487; loss rate: 0.000000
+2024/10/26 06:08:39 Path 3: sent 601 retrans 7 lost 0; rcv 1151; loss rate: 0.000000
+2024/10/26 06:08:39 1335.919856
+2024/10/26 06:08:39 Info for stream 5 of 4fe4016155419bae
+2024/10/26 06:08:39 Path 0: sent 10 retrans 2 lost 0; rcv 9 rtt 38.851ms; loss rate: 0.000000
+2024/10/26 06:08:39 Congestion Window: 46720
+2024/10/26 06:08:39 Path 1: sent 254 retrans 2 lost 0; rcv 487 rtt 25.546ms; loss rate: 0.000000
+2024/10/26 06:08:39 Congestion Window: 46720
+2024/10/26 06:08:39 Path 3: sent 601 retrans 7 lost 0; rcv 1152 rtt 26.006ms; loss rate: 0.000000
+2024/10/26 06:08:39 Congestion Window: 46720
+2024/10/26 06:08:39 Info for stream 5 of 4fe4016155419bae
+2024/10/26 06:08:39 Path 3: sent 602 retrans 7 lost 0; rcv 1152 rtt 26.006ms; loss rate: 0.000000
+2024/10/26 06:08:39 Congestion Window: 46720
+2024/10/26 06:08:39 Path 0: sent 10 retrans 2 lost 0; rcv 9 rtt 38.851ms; loss rate: 0.000000
+2024/10/26 06:08:39 Congestion Window: 46720
+2024/10/26 06:08:39 Path 1: sent 255 retrans 3 lost 0; rcv 487 rtt 25.546ms; loss rate: 0.000000
+2024/10/26 06:08:39 Congestion Window: 46720
+2024/10/26 06:08:39 Info for stream 5 of 4fe4016155419bae
+2024/10/26 06:08:39 Path 3: sent 602 retrans 7 lost 0; rcv 1152 rtt 26.006ms; loss rate: 0.000000
+2024/10/26 06:08:39 Congestion Window: 46720
+2024/10/26 06:08:39 Path 0: sent 10 retrans 2 lost 0; rcv 9 rtt 38.851ms; loss rate: 0.000000
+2024/10/26 06:08:39 Congestion Window: 46720
+2024/10/26 06:08:39 Path 1: sent 256 retrans 4 lost 0; rcv 487 rtt 25.546ms; loss rate: 0.000000
+2024/10/26 06:08:39 Congestion Window: 46720
+2024/10/26 06:08:39 Info for stream 5 of 4fe4016155419bae
+2024/10/26 06:08:39 Path 1: sent 256 retrans 5 lost 1; rcv 487 rtt 25.546ms; loss rate: 0.003906
+2024/10/26 06:08:39 Congestion Window: 2920
+2024/10/26 06:08:39 Path 3: sent 603 retrans 7 lost 0; rcv 1152 rtt 26.006ms; loss rate: 0.000000
+2024/10/26 06:08:39 Congestion Window: 46720
+2024/10/26 06:08:39 Path 0: sent 10 retrans 2 lost 0; rcv 9 rtt 38.851ms; loss rate: 0.000000
+2024/10/26 06:08:39 Congestion Window: 46720
+2024/10/26 06:08:39 Info for stream 5 of 4fe4016155419bae
+2024/10/26 06:08:39 Path 0: sent 10 retrans 2 lost 0; rcv 9 rtt 38.851ms; loss rate: 0.000000
+2024/10/26 06:08:39 Congestion Window: 46720
+2024/10/26 06:08:39 Path 1: sent 257 retrans 5 lost 1; rcv 487 rtt 25.546ms; loss rate: 0.003891
+2024/10/26 06:08:39 Congestion Window: 2920
+2024/10/26 06:08:39 Path 3: sent 604 retrans 8 lost 0; rcv 1152 rtt 26.006ms; loss rate: 0.000000
+2024/10/26 06:08:39 Congestion Window: 46720
+2024/10/26 06:08:39 Info for stream 5 of 4fe4016155419bae
+2024/10/26 06:08:39 Path 0: sent 10 retrans 2 lost 0; rcv 9 rtt 38.851ms; loss rate: 0.000000
+2024/10/26 06:08:39 Congestion Window: 46720
+2024/10/26 06:08:39 Path 1: sent 257 retrans 5 lost 1; rcv 487 rtt 25.546ms; loss rate: 0.003891
+2024/10/26 06:08:39 Congestion Window: 2920
+2024/10/26 06:08:39 Path 3: sent 605 retrans 9 lost 0; rcv 1152 rtt 26.006ms; loss rate: 0.000000
+2024/10/26 06:08:39 Congestion Window: 46720
+2024/10/26 06:08:51 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:08:51 Starting new connection to 171.244.134.9 ([::]:47795 -> 171.244.134.9:6124), connectionID 98a9b995a0ba0102, version 512
+2024/10/26 06:08:51 Queueing packet 0x7 for later decryption
+2024/10/26 06:08:52 Info for stream 5 of 98a9b995a0ba0102
+2024/10/26 06:08:52 Path 1: sent 298 retrans 3 lost 0; rcv 556; loss rate: 0.000000
+2024/10/26 06:08:52 Path 3: sent 546 retrans 6 lost 0; rcv 1077; loss rate: 0.000000
+2024/10/26 06:08:52 Path 0: sent 7 retrans 0 lost 0; rcv 9; loss rate: 0.000000
+2024/10/26 06:08:52 1641.835521
+2024/10/26 06:08:52 Info for stream 5 of 98a9b995a0ba0102
+2024/10/26 06:08:52 Path 0: sent 7 retrans 0 lost 0; rcv 9 rtt 224.833ms; loss rate: 0.000000
+2024/10/26 06:08:52 Congestion Window: 46720
+2024/10/26 06:08:52 Path 1: sent 300 retrans 3 lost 0; rcv 557 rtt 39.569ms; loss rate: 0.000000
+2024/10/26 06:08:52 Congestion Window: 46720
+2024/10/26 06:08:52 Path 3: sent 549 retrans 6 lost 0; rcv 1084 rtt 66.472ms; loss rate: 0.000000
+2024/10/26 06:08:52 Congestion Window: 46720
+2024/10/26 06:09:01 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:09:01 Starting new connection to 171.244.134.9 ([::]:54846 -> 171.244.134.9:6124), connectionID bd66812b3d1bc19b, version 512
+2024/10/26 06:09:02 Queueing packet 0x7 for later decryption
+2024/10/26 06:09:03 Info for stream 5 of bd66812b3d1bc19b
+2024/10/26 06:09:03 Path 3: sent 413 retrans 8 lost 1; rcv 794; loss rate: 0.002421
+2024/10/26 06:09:03 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:09:03 Path 1: sent 457 retrans 3 lost 0; rcv 854; loss rate: 0.000000
+2024/10/26 06:09:03 1930.514597
+2024/10/26 06:09:03 Info for stream 5 of bd66812b3d1bc19b
+2024/10/26 06:09:03 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 181.008ms; loss rate: 0.000000
+2024/10/26 06:09:03 Congestion Window: 46720
+2024/10/26 06:09:03 Path 1: sent 459 retrans 3 lost 0; rcv 856 rtt 69.957ms; loss rate: 0.000000
+2024/10/26 06:09:03 Congestion Window: 46720
+2024/10/26 06:09:03 Path 3: sent 413 retrans 8 lost 1; rcv 795 rtt 158.892ms; loss rate: 0.002421
+2024/10/26 06:09:03 Congestion Window: 39420
+2024/10/26 06:09:13 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:09:13 Starting new connection to 171.244.134.9 ([::]:41398 -> 171.244.134.9:6124), connectionID a6553fd0b1ebec0b, version 512
+2024/10/26 06:09:13 Queueing packet 0x7 for later decryption
+2024/10/26 06:09:15 Info for stream 5 of a6553fd0b1ebec0b
+2024/10/26 06:09:15 Path 1: sent 249 retrans 7 lost 4; rcv 480; loss rate: 0.016064
+2024/10/26 06:09:15 Path 3: sent 619 retrans 10 lost 3; rcv 1159; loss rate: 0.004847
+2024/10/26 06:09:15 Path 0: sent 7 retrans 0 lost 0; rcv 10; loss rate: 0.000000
+2024/10/26 06:09:15 2203.524771
+2024/10/26 06:09:15 Info for stream 5 of a6553fd0b1ebec0b
+2024/10/26 06:09:15 Path 0: sent 7 retrans 0 lost 0; rcv 10 rtt 269.557ms; loss rate: 0.000000
+2024/10/26 06:09:15 Congestion Window: 46720
+2024/10/26 06:09:15 Path 1: sent 249 retrans 7 lost 4; rcv 481 rtt 35.004ms; loss rate: 0.016064
+2024/10/26 06:09:15 Congestion Window: 2920
+2024/10/26 06:09:15 Path 3: sent 621 retrans 10 lost 3; rcv 1159 rtt 20.058ms; loss rate: 0.004831
+2024/10/26 06:09:15 Congestion Window: 5840
+2024/10/26 06:09:26 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:09:26 Starting new connection to 171.244.134.9 ([::]:59658 -> 171.244.134.9:6124), connectionID c90f1e6396ac6400, version 512
+2024/10/26 06:09:27 Queueing packet 0x7 for later decryption
+2024/10/26 06:09:28 Info for stream 5 of c90f1e6396ac6400
+2024/10/26 06:09:28 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:09:28 Path 1: sent 215 retrans 6 lost 1; rcv 388; loss rate: 0.004651
+2024/10/26 06:09:28 Path 3: sent 634 retrans 5 lost 0; rcv 1245; loss rate: 0.000000
+2024/10/26 06:09:28 1618.957818
+2024/10/26 06:09:28 Info for stream 5 of c90f1e6396ac6400
+2024/10/26 06:09:28 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 300.678ms; loss rate: 0.000000
+2024/10/26 06:09:28 Congestion Window: 46720
+2024/10/26 06:09:28 Path 1: sent 219 retrans 6 lost 1; rcv 392 rtt 42.975ms; loss rate: 0.004566
+2024/10/26 06:09:28 Congestion Window: 5840
+2024/10/26 06:09:28 Path 3: sent 634 retrans 5 lost 0; rcv 1246 rtt 71.139ms; loss rate: 0.000000
+2024/10/26 06:09:28 Congestion Window: 46720
+2024/10/26 06:09:36 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:09:36 Starting new connection to 171.244.134.9 ([::]:35405 -> 171.244.134.9:6124), connectionID 8ca4685a2c388a4f, version 512
+2024/10/26 06:09:36 Queueing packet 0x7 for later decryption
+2024/10/26 06:09:37 Info for stream 5 of 8ca4685a2c388a4f
+2024/10/26 06:09:37 Path 1: sent 230 retrans 0 lost 0; rcv 442; loss rate: 0.000000
+2024/10/26 06:09:37 Path 3: sent 630 retrans 4 lost 0; rcv 1201; loss rate: 0.000000
+2024/10/26 06:09:37 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:09:37 1417.732396
+2024/10/26 06:09:37 Info for stream 5 of 8ca4685a2c388a4f
+2024/10/26 06:09:37 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 222.373ms; loss rate: 0.000000
+2024/10/26 06:09:37 Congestion Window: 46720
+2024/10/26 06:09:37 Path 1: sent 230 retrans 0 lost 0; rcv 442 rtt 155.492ms; loss rate: 0.000000
+2024/10/26 06:09:37 Congestion Window: 46720
+2024/10/26 06:09:37 Path 3: sent 632 retrans 4 lost 0; rcv 1201 rtt 69.593ms; loss rate: 0.000000
+2024/10/26 06:09:37 Congestion Window: 46720
+2024/10/26 06:09:38 Info for stream 5 of 8ca4685a2c388a4f
+2024/10/26 06:09:38 Path 3: sent 633 retrans 5 lost 0; rcv 1201 rtt 69.593ms; loss rate: 0.000000
+2024/10/26 06:09:38 Congestion Window: 46720
+2024/10/26 06:09:38 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 222.373ms; loss rate: 0.000000
+2024/10/26 06:09:38 Congestion Window: 46720
+2024/10/26 06:09:38 Path 1: sent 230 retrans 0 lost 0; rcv 442 rtt 155.492ms; loss rate: 0.000000
+2024/10/26 06:09:38 Congestion Window: 46720
+2024/10/26 06:09:44 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:09:44 Starting new connection to 171.244.134.9 ([::]:43030 -> 171.244.134.9:6124), connectionID dde48fd999d6451a, version 512
+2024/10/26 06:09:44 Queueing packet 0x7 for later decryption
+2024/10/26 06:09:46 Info for stream 5 of dde48fd999d6451a
+2024/10/26 06:09:46 Path 1: sent 252 retrans 2 lost 0; rcv 469; loss rate: 0.000000
+2024/10/26 06:09:46 Path 3: sent 596 retrans 4 lost 0; rcv 1168; loss rate: 0.000000
+2024/10/26 06:09:46 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:09:46 1577.673589
+2024/10/26 06:09:46 Info for stream 5 of dde48fd999d6451a
+2024/10/26 06:09:46 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 250.129ms; loss rate: 0.000000
+2024/10/26 06:09:46 Congestion Window: 46720
+2024/10/26 06:09:46 Path 1: sent 253 retrans 2 lost 0; rcv 469 rtt 34.766ms; loss rate: 0.000000
+2024/10/26 06:09:46 Congestion Window: 46720
+2024/10/26 06:09:46 Path 3: sent 597 retrans 4 lost 0; rcv 1169 rtt 35.367ms; loss rate: 0.000000
+2024/10/26 06:09:46 Congestion Window: 46720
+2024/10/26 06:09:55 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:09:55 Starting new connection to 171.244.134.9 ([::]:40761 -> 171.244.134.9:6124), connectionID 666297861e531feb, version 512
+2024/10/26 06:09:55 Queueing packet 0x8 for later decryption
+2024/10/26 06:09:56 Info for stream 5 of 666297861e531feb
+2024/10/26 06:09:56 Path 0: sent 10 retrans 2 lost 0; rcv 10; loss rate: 0.000000
+2024/10/26 06:09:56 Path 1: sent 269 retrans 1 lost 0; rcv 516; loss rate: 0.000000
+2024/10/26 06:09:56 Path 3: sent 563 retrans 7 lost 1; rcv 1059; loss rate: 0.001776
+2024/10/26 06:09:57 1947.008724
+2024/10/26 06:09:57 Info for stream 5 of 666297861e531feb
+2024/10/26 06:09:57 Path 1: sent 271 retrans 1 lost 0; rcv 518 rtt 92.998ms; loss rate: 0.000000
+2024/10/26 06:09:57 Congestion Window: 46720
+2024/10/26 06:09:57 Path 3: sent 602 retrans 7 lost 1; rcv 1138 rtt 132.234ms; loss rate: 0.001661
+2024/10/26 06:09:57 Congestion Window: 39420
+2024/10/26 06:09:57 Path 0: sent 10 retrans 2 lost 0; rcv 10 rtt 132.843ms; loss rate: 0.000000
+2024/10/26 06:09:57 Congestion Window: 46720
+2024/10/26 06:09:57 Info for stream 5 of 666297861e531feb
+2024/10/26 06:09:57 Path 0: sent 10 retrans 2 lost 0; rcv 10 rtt 132.843ms; loss rate: 0.000000
+2024/10/26 06:09:57 Congestion Window: 46720
+2024/10/26 06:09:57 Path 1: sent 272 retrans 2 lost 0; rcv 518 rtt 92.998ms; loss rate: 0.000000
+2024/10/26 06:09:57 Congestion Window: 46720
+2024/10/26 06:09:57 Path 3: sent 602 retrans 7 lost 1; rcv 1138 rtt 132.234ms; loss rate: 0.001661
+2024/10/26 06:09:57 Congestion Window: 39420
+2024/10/26 06:10:15 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:10:15 Starting new connection to 171.244.134.9 ([::]:33348 -> 171.244.134.9:6124), connectionID b0cbf983e4c372db, version 512
+2024/10/26 06:10:15 Queueing packet 0x7 for later decryption
+2024/10/26 06:10:17 Info for stream 5 of b0cbf983e4c372db
+2024/10/26 06:10:17 Path 1: sent 288 retrans 3 lost 0; rcv 526; loss rate: 0.000000
+2024/10/26 06:10:17 Path 3: sent 574 retrans 6 lost 0; rcv 1116; loss rate: 0.000000
+2024/10/26 06:10:17 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:10:17 1698.752618
+2024/10/26 06:10:17 Info for stream 5 of b0cbf983e4c372db
+2024/10/26 06:10:17 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 283.776ms; loss rate: 0.000000
+2024/10/26 06:10:17 Congestion Window: 46720
+2024/10/26 06:10:17 Path 1: sent 291 retrans 3 lost 0; rcv 526 rtt 34.34ms; loss rate: 0.000000
+2024/10/26 06:10:17 Congestion Window: 46720
+2024/10/26 06:10:17 Path 3: sent 575 retrans 6 lost 0; rcv 1117 rtt 131.918ms; loss rate: 0.000000
+2024/10/26 06:10:17 Congestion Window: 46720
+2024/10/26 06:10:26 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:10:26 Starting new connection to 171.244.134.9 ([::]:43843 -> 171.244.134.9:6124), connectionID d1ae216d289f5de7, version 512
+2024/10/26 06:10:26 Queueing packet 0x7 for later decryption
+2024/10/26 06:10:27 Info for stream 5 of d1ae216d289f5de7
+2024/10/26 06:10:27 Path 0: sent 7 retrans 0 lost 0; rcv 9; loss rate: 0.000000
+2024/10/26 06:10:27 Path 1: sent 233 retrans 1 lost 0; rcv 445; loss rate: 0.000000
+2024/10/26 06:10:27 Path 3: sent 615 retrans 7 lost 0; rcv 1162; loss rate: 0.000000
+2024/10/26 06:10:27 1211.702578
+2024/10/26 06:10:27 Info for stream 5 of d1ae216d289f5de7
+2024/10/26 06:10:27 Path 0: sent 7 retrans 0 lost 0; rcv 9 rtt 163.425ms; loss rate: 0.000000
+2024/10/26 06:10:27 Congestion Window: 46720
+2024/10/26 06:10:27 Path 1: sent 233 retrans 1 lost 0; rcv 445 rtt 27.964ms; loss rate: 0.000000
+2024/10/26 06:10:27 Congestion Window: 46720
+2024/10/26 06:10:27 Path 3: sent 634 retrans 7 lost 0; rcv 1197 rtt 18.945ms; loss rate: 0.000000
+2024/10/26 06:10:27 Congestion Window: 46720
+2024/10/26 06:10:27 Info for stream 5 of d1ae216d289f5de7
+2024/10/26 06:10:27 Path 3: sent 635 retrans 8 lost 0; rcv 1197 rtt 18.945ms; loss rate: 0.000000
+2024/10/26 06:10:27 Congestion Window: 46720
+2024/10/26 06:10:27 Path 0: sent 7 retrans 0 lost 0; rcv 9 rtt 163.425ms; loss rate: 0.000000
+2024/10/26 06:10:27 Congestion Window: 46720
+2024/10/26 06:10:27 Path 1: sent 234 retrans 1 lost 0; rcv 445 rtt 27.964ms; loss rate: 0.000000
+2024/10/26 06:10:27 Congestion Window: 46720
+2024/10/26 06:10:30 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:10:30 Starting new connection to 171.244.134.9 ([::]:51377 -> 171.244.134.9:6124), connectionID 6b0f283b43a2d3e7, version 512
+2024/10/26 06:10:31 Queueing packet 0x7 for later decryption
+2024/10/26 06:10:33 Info for stream 5 of 6b0f283b43a2d3e7
+2024/10/26 06:10:33 Path 3: sent 515 retrans 15 lost 5; rcv 961; loss rate: 0.009709
+2024/10/26 06:10:33 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:10:33 Path 1: sent 357 retrans 2 lost 0; rcv 689; loss rate: 0.000000
+2024/10/26 06:10:33 2443.705005
+2024/10/26 06:10:33 Info for stream 5 of 6b0f283b43a2d3e7
+2024/10/26 06:10:33 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 168.918ms; loss rate: 0.000000
+2024/10/26 06:10:33 Congestion Window: 46720
+2024/10/26 06:10:33 Path 1: sent 357 retrans 2 lost 0; rcv 689 rtt 114.872ms; loss rate: 0.000000
+2024/10/26 06:10:33 Congestion Window: 46720
+2024/10/26 06:10:33 Path 3: sent 516 retrans 15 lost 5; rcv 962 rtt 21.829ms; loss rate: 0.009690
+2024/10/26 06:10:33 Congestion Window: 2920
+2024/10/26 06:10:33 Info for stream 5 of 6b0f283b43a2d3e7
+2024/10/26 06:10:33 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 168.918ms; loss rate: 0.000000
+2024/10/26 06:10:33 Congestion Window: 46720
+2024/10/26 06:10:33 Path 1: sent 357 retrans 2 lost 0; rcv 689 rtt 114.872ms; loss rate: 0.000000
+2024/10/26 06:10:33 Congestion Window: 46720
+2024/10/26 06:10:33 Path 3: sent 517 retrans 16 lost 5; rcv 962 rtt 21.829ms; loss rate: 0.009671
+2024/10/26 06:10:33 Congestion Window: 2920
+2024/10/26 06:10:47 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:10:47 Starting new connection to 171.244.134.9 ([::]:50223 -> 171.244.134.9:6124), connectionID 6a0ac605be3af3e8, version 512
+2024/10/26 06:10:48 Queueing packet 0x7 for later decryption
+2024/10/26 06:10:49 Info for stream 5 of 6a0ac605be3af3e8
+2024/10/26 06:10:49 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:10:49 Path 1: sent 234 retrans 3 lost 0; rcv 436; loss rate: 0.000000
+2024/10/26 06:10:49 Path 3: sent 629 retrans 12 lost 4; rcv 1205; loss rate: 0.006359
+2024/10/26 06:10:49 2043.916309
+2024/10/26 06:10:49 Info for stream 5 of 6a0ac605be3af3e8
+2024/10/26 06:10:49 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 314.982ms; loss rate: 0.000000
+2024/10/26 06:10:49 Congestion Window: 46720
+2024/10/26 06:10:49 Path 1: sent 235 retrans 3 lost 0; rcv 436 rtt 34.394ms; loss rate: 0.000000
+2024/10/26 06:10:49 Congestion Window: 46720
+2024/10/26 06:10:49 Path 3: sent 629 retrans 12 lost 4; rcv 1206 rtt 71.318ms; loss rate: 0.006359
+2024/10/26 06:10:49 Congestion Window: 5840
+2024/10/26 06:10:55 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:10:55 Starting new connection to 171.244.134.9 ([::]:39891 -> 171.244.134.9:6124), connectionID b0b0bcc08409e632, version 512
+2024/10/26 06:10:55 Queueing packet 0x7 for later decryption
+2024/10/26 06:10:56 Info for stream 5 of b0b0bcc08409e632
+2024/10/26 06:10:56 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:10:56 Path 1: sent 275 retrans 0 lost 0; rcv 494; loss rate: 0.000000
+2024/10/26 06:10:56 Path 3: sent 576 retrans 4 lost 0; rcv 1142; loss rate: 0.000000
+2024/10/26 06:10:56 1345.953776
+2024/10/26 06:10:56 Info for stream 5 of b0b0bcc08409e632
+2024/10/26 06:10:56 Path 1: sent 276 retrans 0 lost 0; rcv 494 rtt 125.175ms; loss rate: 0.000000
+2024/10/26 06:10:56 Congestion Window: 46720
+2024/10/26 06:10:56 Path 3: sent 576 retrans 4 lost 0; rcv 1143 rtt 205.51ms; loss rate: 0.000000
+2024/10/26 06:10:56 Congestion Window: 46720
+2024/10/26 06:10:56 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 279.581ms; loss rate: 0.000000
+2024/10/26 06:10:56 Congestion Window: 46720
+2024/10/26 06:10:57 Info for stream 5 of b0b0bcc08409e632
+2024/10/26 06:10:57 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 279.581ms; loss rate: 0.000000
+2024/10/26 06:10:57 Congestion Window: 46720
+2024/10/26 06:10:57 Path 1: sent 278 retrans 1 lost 0; rcv 494 rtt 125.175ms; loss rate: 0.000000
+2024/10/26 06:10:57 Congestion Window: 46720
+2024/10/26 06:10:57 Path 3: sent 577 retrans 4 lost 0; rcv 1143 rtt 205.51ms; loss rate: 0.000000
+2024/10/26 06:10:57 Congestion Window: 46720
+2024/10/26 06:11:10 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:11:10 Starting new connection to 171.244.134.9 ([::]:54424 -> 171.244.134.9:6124), connectionID 2cd13f257b035094, version 512
+2024/10/26 06:11:11 Queueing packet 0x7 for later decryption
+2024/10/26 06:11:12 Info for stream 5 of 2cd13f257b035094
+2024/10/26 06:11:12 Path 1: sent 242 retrans 2 lost 0; rcv 443; loss rate: 0.000000
+2024/10/26 06:11:12 Path 3: sent 616 retrans 4 lost 0; rcv 1201; loss rate: 0.000000
+2024/10/26 06:11:12 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:11:12 1684.834003
+2024/10/26 06:11:12 Info for stream 5 of 2cd13f257b035094
+2024/10/26 06:11:12 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 260.584ms; loss rate: 0.000000
+2024/10/26 06:11:12 Congestion Window: 46720
+2024/10/26 06:11:12 Path 1: sent 243 retrans 2 lost 0; rcv 443 rtt 60.469ms; loss rate: 0.000000
+2024/10/26 06:11:12 Congestion Window: 46720
+2024/10/26 06:11:12 Path 3: sent 616 retrans 4 lost 0; rcv 1201 rtt 83.233ms; loss rate: 0.000000
+2024/10/26 06:11:12 Congestion Window: 46720
+2024/10/26 06:11:21 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:11:21 Starting new connection to 171.244.134.9 ([::]:52528 -> 171.244.134.9:6124), connectionID c8e95b433ad1c6c0, version 512
+2024/10/26 06:11:22 Queueing packet 0x7 for later decryption
+2024/10/26 06:11:23 Info for stream 5 of c8e95b433ad1c6c0
+2024/10/26 06:11:23 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:11:23 Path 1: sent 206 retrans 5 lost 2; rcv 393; loss rate: 0.009709
+2024/10/26 06:11:23 Path 3: sent 634 retrans 13 lost 5; rcv 1208; loss rate: 0.007886
+2024/10/26 06:11:23 2027.878502
+2024/10/26 06:11:23 Info for stream 5 of c8e95b433ad1c6c0
+2024/10/26 06:11:23 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 147.796ms; loss rate: 0.000000
+2024/10/26 06:11:23 Congestion Window: 46720
+2024/10/26 06:11:23 Path 1: sent 209 retrans 5 lost 2; rcv 396 rtt 28.971ms; loss rate: 0.009569
+2024/10/26 06:11:23 Congestion Window: 4380
+2024/10/26 06:11:23 Path 3: sent 656 retrans 13 lost 5; rcv 1253 rtt 107.053ms; loss rate: 0.007622
+2024/10/26 06:11:23 Congestion Window: 5840
+2024/10/26 06:11:32 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:11:32 Starting new connection to 171.244.134.9 ([::]:45781 -> 171.244.134.9:6124), connectionID 8dd6c4f60e6f7e5e, version 512
+2024/10/26 06:11:33 Queueing packet 0x7 for later decryption
+2024/10/26 06:11:34 Info for stream 5 of 8dd6c4f60e6f7e5e
+2024/10/26 06:11:34 Path 1: sent 287 retrans 4 lost 0; rcv 542; loss rate: 0.000000
+2024/10/26 06:11:34 Path 3: sent 569 retrans 10 lost 2; rcv 1095; loss rate: 0.003515
+2024/10/26 06:11:34 Path 0: sent 7 retrans 0 lost 0; rcv 10; loss rate: 0.000000
+2024/10/26 06:11:34 1809.313872
+2024/10/26 06:11:34 Info for stream 5 of 8dd6c4f60e6f7e5e
+2024/10/26 06:11:34 Path 0: sent 7 retrans 0 lost 0; rcv 10 rtt 135.452ms; loss rate: 0.000000
+2024/10/26 06:11:34 Congestion Window: 46720
+2024/10/26 06:11:34 Path 1: sent 289 retrans 4 lost 0; rcv 543 rtt 32.648ms; loss rate: 0.000000
+2024/10/26 06:11:34 Congestion Window: 46720
+2024/10/26 06:11:34 Path 3: sent 569 retrans 10 lost 2; rcv 1096 rtt 34.317ms; loss rate: 0.003515
+2024/10/26 06:11:34 Congestion Window: 5840
+2024/10/26 06:11:43 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:11:43 Starting new connection to 171.244.134.9 ([::]:51220 -> 171.244.134.9:6124), connectionID ed4f7d422aff49ca, version 512
+2024/10/26 06:11:43 Queueing packet 0x7 for later decryption
+2024/10/26 06:11:44 Info for stream 5 of ed4f7d422aff49ca
+2024/10/26 06:11:44 Path 0: sent 7 retrans 0 lost 0; rcv 10; loss rate: 0.000000
+2024/10/26 06:11:44 Path 1: sent 232 retrans 0 lost 0; rcv 452; loss rate: 0.000000
+2024/10/26 06:11:44 Path 3: sent 610 retrans 8 lost 0; rcv 1153; loss rate: 0.000000
+2024/10/26 06:11:44 1275.063930
+2024/10/26 06:11:44 Info for stream 5 of ed4f7d422aff49ca
+2024/10/26 06:11:44 Path 3: sent 625 retrans 8 lost 0; rcv 1181 rtt 44.896ms; loss rate: 0.000000
+2024/10/26 06:11:44 Congestion Window: 46720
+2024/10/26 06:11:44 Path 0: sent 7 retrans 0 lost 0; rcv 10 rtt 369.408367ms; loss rate: 0.000000
+2024/10/26 06:11:44 Congestion Window: 46720
+2024/10/26 06:11:44 Path 1: sent 233 retrans 0 lost 0; rcv 453 rtt 318.738ms; loss rate: 0.000000
+2024/10/26 06:11:44 Congestion Window: 46720
+2024/10/26 06:11:57 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:11:57 Starting new connection to 171.244.134.9 ([::]:60450 -> 171.244.134.9:6124), connectionID 7b148892c430a623, version 512
+2024/10/26 06:11:57 Queueing packet 0x7 for later decryption
+2024/10/26 06:11:58 Info for stream 5 of 7b148892c430a623
+2024/10/26 06:11:58 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:11:58 Path 1: sent 192 retrans 3 lost 0; rcv 352; loss rate: 0.000000
+2024/10/26 06:11:58 Path 3: sent 648 retrans 3 lost 0; rcv 1259; loss rate: 0.000000
+2024/10/26 06:11:58 1559.388478
+2024/10/26 06:11:58 Info for stream 5 of 7b148892c430a623
+2024/10/26 06:11:58 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 184.802ms; loss rate: 0.000000
+2024/10/26 06:11:58 Congestion Window: 46720
+2024/10/26 06:11:58 Path 1: sent 193 retrans 3 lost 0; rcv 353 rtt 79.231ms; loss rate: 0.000000
+2024/10/26 06:11:58 Congestion Window: 46720
+2024/10/26 06:11:58 Path 3: sent 664 retrans 3 lost 0; rcv 1291 rtt 50.96ms; loss rate: 0.000000
+2024/10/26 06:11:58 Congestion Window: 46720
+2024/10/26 06:11:58 Info for stream 5 of 7b148892c430a623
+2024/10/26 06:11:58 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 184.802ms; loss rate: 0.000000
+2024/10/26 06:11:58 Congestion Window: 46720
+2024/10/26 06:11:58 Path 1: sent 193 retrans 3 lost 0; rcv 353 rtt 79.231ms; loss rate: 0.000000
+2024/10/26 06:11:58 Congestion Window: 46720
+2024/10/26 06:11:58 Path 3: sent 666 retrans 4 lost 0; rcv 1291 rtt 50.96ms; loss rate: 0.000000
+2024/10/26 06:11:58 Congestion Window: 46720
+2024/10/26 06:11:59 Info for stream 5 of 7b148892c430a623
+2024/10/26 06:11:59 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 184.802ms; loss rate: 0.000000
+2024/10/26 06:11:59 Congestion Window: 46720
+2024/10/26 06:11:59 Path 1: sent 193 retrans 3 lost 0; rcv 353 rtt 79.231ms; loss rate: 0.000000
+2024/10/26 06:11:59 Congestion Window: 46720
+2024/10/26 06:11:59 Path 3: sent 667 retrans 5 lost 0; rcv 1291 rtt 50.96ms; loss rate: 0.000000
+2024/10/26 06:11:59 Congestion Window: 46720
+2024/10/26 06:11:59 Info for stream 5 of 7b148892c430a623
+2024/10/26 06:11:59 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 184.802ms; loss rate: 0.000000
+2024/10/26 06:11:59 Congestion Window: 46720
+2024/10/26 06:11:59 Path 1: sent 193 retrans 3 lost 0; rcv 353 rtt 79.231ms; loss rate: 0.000000
+2024/10/26 06:11:59 Congestion Window: 46720
+2024/10/26 06:11:59 Path 3: sent 668 retrans 6 lost 1; rcv 1292 rtt 50.96ms; loss rate: 0.001497
+2024/10/26 06:11:59 Congestion Window: 2920
+2024/10/26 06:12:06 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:12:06 Starting new connection to 171.244.134.9 ([::]:41249 -> 171.244.134.9:6124), connectionID 3f4e6e10809cb348, version 512
+2024/10/26 06:12:06 Queueing packet 0x7 for later decryption
+2024/10/26 06:12:07 Internal error: Session BUG: expected ping packet not to be nil
+2024/10/26 06:12:07 Closing session with error: Session BUG: expected ping packet not to be nil
+2024/10/26 06:12:07 Error copying response body: InternalError: Session BUG: expected ping packet not to be nil
+2024/10/26 06:12:07 30000.000000
+2024/10/26 06:12:07 Connection 3f4e6e10809cb348 closed.
+2024/10/26 06:12:15 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:12:15 Starting new connection to 171.244.134.9 ([::]:59580 -> 171.244.134.9:6124), connectionID 335d9c9d98814316, version 512
+2024/10/26 06:12:15 Queueing packet 0x7 for later decryption
+2024/10/26 06:12:17 Info for stream 5 of 335d9c9d98814316
+2024/10/26 06:12:17 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:12:17 Path 1: sent 250 retrans 0 lost 0; rcv 476; loss rate: 0.000000
+2024/10/26 06:12:17 Path 3: sent 616 retrans 7 lost 0; rcv 1167; loss rate: 0.000000
+2024/10/26 06:12:17 1668.546077
+2024/10/26 06:12:17 Info for stream 5 of 335d9c9d98814316
+2024/10/26 06:12:17 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 392.370856ms; loss rate: 0.000000
+2024/10/26 06:12:17 Congestion Window: 46720
+2024/10/26 06:12:17 Path 1: sent 250 retrans 0 lost 0; rcv 476 rtt 265.335ms; loss rate: 0.000000
+2024/10/26 06:12:17 Congestion Window: 46720
+2024/10/26 06:12:17 Path 3: sent 617 retrans 7 lost 0; rcv 1168 rtt 92.943ms; loss rate: 0.000000
+2024/10/26 06:12:17 Congestion Window: 46720
+2024/10/26 06:12:28 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:12:28 Starting new connection to 171.244.134.9 ([::]:47889 -> 171.244.134.9:6124), connectionID 15307ee0432d76f3, version 512
+2024/10/26 06:12:28 Queueing packet 0x7 for later decryption
+2024/10/26 06:12:29 Info for stream 5 of 15307ee0432d76f3
+2024/10/26 06:12:29 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:12:29 Path 1: sent 200 retrans 2 lost 0; rcv 358; loss rate: 0.000000
+2024/10/26 06:12:29 Path 3: sent 654 retrans 1 lost 0; rcv 1280; loss rate: 0.000000
+2024/10/26 06:12:29 965.697021
+2024/10/26 06:12:29 Info for stream 5 of 15307ee0432d76f3
+2024/10/26 06:12:29 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 102.041ms; loss rate: 0.000000
+2024/10/26 06:12:29 Congestion Window: 46720
+2024/10/26 06:12:29 Path 1: sent 203 retrans 2 lost 0; rcv 358 rtt 52.871ms; loss rate: 0.000000
+2024/10/26 06:12:29 Congestion Window: 46720
+2024/10/26 06:12:29 Path 3: sent 656 retrans 1 lost 0; rcv 1285 rtt 58.811ms; loss rate: 0.000000
+2024/10/26 06:12:29 Congestion Window: 46720
+2024/10/26 06:12:33 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:12:33 Starting new connection to 171.244.134.9 ([::]:55447 -> 171.244.134.9:6124), connectionID ee6c953fd42b75dd, version 512
+2024/10/26 06:12:34 Queueing packet 0x7 for later decryption
+2024/10/26 06:12:35 Info for stream 5 of ee6c953fd42b75dd
+2024/10/26 06:12:35 Path 0: sent 7 retrans 0 lost 0; rcv 10; loss rate: 0.000000
+2024/10/26 06:12:35 Path 1: sent 302 retrans 6 lost 1; rcv 546; loss rate: 0.003311
+2024/10/26 06:12:35 Path 3: sent 549 retrans 4 lost 0; rcv 1092; loss rate: 0.000000
+2024/10/26 06:12:35 1927.286599
+2024/10/26 06:12:35 Info for stream 5 of ee6c953fd42b75dd
+2024/10/26 06:12:35 Path 0: sent 7 retrans 0 lost 0; rcv 10 rtt 294.344ms; loss rate: 0.000000
+2024/10/26 06:12:35 Congestion Window: 46720
+2024/10/26 06:12:35 Path 1: sent 303 retrans 6 lost 1; rcv 546 rtt 53.853ms; loss rate: 0.003300
+2024/10/26 06:12:35 Congestion Window: 5840
+2024/10/26 06:12:35 Path 3: sent 549 retrans 4 lost 0; rcv 1092 rtt 0s; loss rate: 0.000000
+2024/10/26 06:12:35 Congestion Window: 46720
+2024/10/26 06:12:46 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:12:46 Starting new connection to 171.244.134.9 ([::]:51128 -> 171.244.134.9:6124), connectionID 11f879dbb4d9a5b2, version 512
+2024/10/26 06:12:46 Queueing packet 0x8 for later decryption
+2024/10/26 06:12:47 Info for stream 5 of 11f879dbb4d9a5b2
+2024/10/26 06:12:47 Path 0: sent 12 retrans 3 lost 1; rcv 11; loss rate: 0.083333
+2024/10/26 06:12:47 Path 1: sent 200 retrans 5 lost 0; rcv 360; loss rate: 0.000000
+2024/10/26 06:12:47 Path 3: sent 657 retrans 5 lost 0; rcv 1278; loss rate: 0.000000
+2024/10/26 06:12:47 1634.016799
+2024/10/26 06:12:47 Info for stream 5 of 11f879dbb4d9a5b2
+2024/10/26 06:12:47 Path 0: sent 12 retrans 3 lost 1; rcv 11 rtt 120.502ms; loss rate: 0.083333
+2024/10/26 06:12:47 Congestion Window: 5840
+2024/10/26 06:12:47 Path 1: sent 201 retrans 5 lost 0; rcv 360 rtt 84.414ms; loss rate: 0.000000
+2024/10/26 06:12:47 Congestion Window: 46720
+2024/10/26 06:12:47 Path 3: sent 657 retrans 5 lost 0; rcv 1279 rtt 109.174ms; loss rate: 0.000000
+2024/10/26 06:12:47 Congestion Window: 46720
+2024/10/26 06:12:48 Info for stream 5 of 11f879dbb4d9a5b2
+2024/10/26 06:12:48 Path 0: sent 12 retrans 3 lost 1; rcv 11 rtt 120.502ms; loss rate: 0.083333
+2024/10/26 06:12:48 Congestion Window: 5840
+2024/10/26 06:12:48 Path 1: sent 202 retrans 6 lost 0; rcv 360 rtt 84.414ms; loss rate: 0.000000
+2024/10/26 06:12:48 Congestion Window: 46720
+2024/10/26 06:12:48 Path 3: sent 657 retrans 5 lost 0; rcv 1279 rtt 109.174ms; loss rate: 0.000000
+2024/10/26 06:12:48 Congestion Window: 46720
+2024/10/26 06:12:48 Info for stream 5 of 11f879dbb4d9a5b2
+2024/10/26 06:12:48 Path 0: sent 12 retrans 3 lost 1; rcv 11 rtt 120.502ms; loss rate: 0.083333
+2024/10/26 06:12:48 Congestion Window: 5840
+2024/10/26 06:12:48 Path 1: sent 203 retrans 7 lost 0; rcv 360 rtt 84.414ms; loss rate: 0.000000
+2024/10/26 06:12:48 Congestion Window: 46720
+2024/10/26 06:12:48 Path 3: sent 658 retrans 5 lost 0; rcv 1279 rtt 109.174ms; loss rate: 0.000000
+2024/10/26 06:12:48 Congestion Window: 46720
+2024/10/26 06:12:58 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:12:58 Starting new connection to 171.244.134.9 ([::]:59209 -> 171.244.134.9:6124), connectionID 4964ee6f3ea41c80, version 512
+2024/10/26 06:12:58 Queueing packet 0x8 for later decryption
+2024/10/26 06:12:59 Info for stream 5 of 4964ee6f3ea41c80
+2024/10/26 06:12:59 Path 0: sent 12 retrans 3 lost 1; rcv 12; loss rate: 0.083333
+2024/10/26 06:12:59 Path 1: sent 377 retrans 4 lost 0; rcv 695; loss rate: 0.000000
+2024/10/26 06:12:59 Path 3: sent 445 retrans 2 lost 0; rcv 886; loss rate: 0.000000
+2024/10/26 06:12:59 1490.016631
+2024/10/26 06:12:59 Info for stream 5 of 4964ee6f3ea41c80
+2024/10/26 06:12:59 Path 0: sent 12 retrans 3 lost 1; rcv 12 rtt 56.947ms; loss rate: 0.083333
+2024/10/26 06:12:59 Congestion Window: 5840
+2024/10/26 06:12:59 Path 1: sent 407 retrans 4 lost 0; rcv 750 rtt 43.007ms; loss rate: 0.000000
+2024/10/26 06:12:59 Congestion Window: 46720
+2024/10/26 06:12:59 Path 3: sent 446 retrans 2 lost 0; rcv 887 rtt 0s; loss rate: 0.000000
+2024/10/26 06:12:59 Congestion Window: 46720
+2024/10/26 06:13:00 Info for stream 5 of 4964ee6f3ea41c80
+2024/10/26 06:13:00 Path 0: sent 12 retrans 3 lost 1; rcv 12 rtt 56.947ms; loss rate: 0.083333
+2024/10/26 06:13:00 Congestion Window: 5840
+2024/10/26 06:13:00 Path 1: sent 409 retrans 5 lost 0; rcv 750 rtt 43.007ms; loss rate: 0.000000
+2024/10/26 06:13:00 Congestion Window: 46720
+2024/10/26 06:13:00 Path 3: sent 447 retrans 2 lost 0; rcv 887 rtt 0s; loss rate: 0.000000
+2024/10/26 06:13:00 Congestion Window: 46720
+2024/10/26 06:13:00 Info for stream 5 of 4964ee6f3ea41c80
+2024/10/26 06:13:00 Path 0: sent 12 retrans 3 lost 1; rcv 12 rtt 56.947ms; loss rate: 0.083333
+2024/10/26 06:13:00 Congestion Window: 5840
+2024/10/26 06:13:00 Path 1: sent 410 retrans 6 lost 0; rcv 750 rtt 43.007ms; loss rate: 0.000000
+2024/10/26 06:13:00 Congestion Window: 46720
+2024/10/26 06:13:00 Path 3: sent 447 retrans 2 lost 0; rcv 887 rtt 0s; loss rate: 0.000000
+2024/10/26 06:13:00 Congestion Window: 46720
+2024/10/26 06:13:15 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:13:15 Starting new connection to 171.244.134.9 ([::]:51960 -> 171.244.134.9:6124), connectionID 93baaa49793d85b5, version 512
+2024/10/26 06:13:15 Queueing packet 0x7 for later decryption
+2024/10/26 06:13:16 Info for stream 5 of 93baaa49793d85b5
+2024/10/26 06:13:16 Path 3: sent 630 retrans 7 lost 0; rcv 1191; loss rate: 0.000000
+2024/10/26 06:13:16 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:13:16 Path 1: sent 234 retrans 0 lost 0; rcv 456; loss rate: 0.000000
+2024/10/26 06:13:16 1605.680479
+2024/10/26 06:13:16 Info for stream 5 of 93baaa49793d85b5
+2024/10/26 06:13:16 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 419.772777ms; loss rate: 0.000000
+2024/10/26 06:13:16 Congestion Window: 46720
+2024/10/26 06:13:16 Path 1: sent 234 retrans 0 lost 0; rcv 457 rtt 366.19ms; loss rate: 0.000000
+2024/10/26 06:13:16 Congestion Window: 46720
+2024/10/26 06:13:16 Path 3: sent 632 retrans 7 lost 0; rcv 1192 rtt 21.517ms; loss rate: 0.000000
+2024/10/26 06:13:16 Congestion Window: 46720
+2024/10/26 06:13:16 Info for stream 5 of 93baaa49793d85b5
+2024/10/26 06:13:16 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 419.772777ms; loss rate: 0.000000
+2024/10/26 06:13:16 Congestion Window: 46720
+2024/10/26 06:13:16 Path 1: sent 235 retrans 0 lost 0; rcv 457 rtt 366.19ms; loss rate: 0.000000
+2024/10/26 06:13:16 Congestion Window: 46720
+2024/10/26 06:13:16 Path 3: sent 633 retrans 8 lost 0; rcv 1193 rtt 19.852ms; loss rate: 0.000000
+2024/10/26 06:13:16 Congestion Window: 46720
+2024/10/26 06:13:16 Info for stream 5 of 93baaa49793d85b5
+2024/10/26 06:13:16 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 419.772777ms; loss rate: 0.000000
+2024/10/26 06:13:16 Congestion Window: 46720
+2024/10/26 06:13:16 Path 1: sent 235 retrans 0 lost 0; rcv 457 rtt 366.19ms; loss rate: 0.000000
+2024/10/26 06:13:16 Congestion Window: 46720
+2024/10/26 06:13:16 Path 3: sent 634 retrans 9 lost 0; rcv 1193 rtt 19.852ms; loss rate: 0.000000
+2024/10/26 06:13:16 Congestion Window: 46720
+2024/10/26 06:13:17 Info for stream 5 of 93baaa49793d85b5
+2024/10/26 06:13:17 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 419.772777ms; loss rate: 0.000000
+2024/10/26 06:13:17 Congestion Window: 46720
+2024/10/26 06:13:17 Path 1: sent 236 retrans 0 lost 0; rcv 457 rtt 366.19ms; loss rate: 0.000000
+2024/10/26 06:13:17 Congestion Window: 46720
+2024/10/26 06:13:17 Path 3: sent 634 retrans 10 lost 1; rcv 1193 rtt 19.852ms; loss rate: 0.001577
+2024/10/26 06:13:17 Congestion Window: 2920
+2024/10/26 06:13:21 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:13:21 Starting new connection to 171.244.134.9 ([::]:56111 -> 171.244.134.9:6124), connectionID 45b980c5637fd819, version 512
+2024/10/26 06:13:22 Queueing packet 0x8 for later decryption
+2024/10/26 06:13:23 Info for stream 5 of 45b980c5637fd819
+2024/10/26 06:13:23 Path 0: sent 12 retrans 5 lost 3; rcv 10; loss rate: 0.250000
+2024/10/26 06:13:23 Path 1: sent 266 retrans 3 lost 0; rcv 476; loss rate: 0.000000
+2024/10/26 06:13:23 Path 3: sent 585 retrans 2 lost 0; rcv 1165; loss rate: 0.000000
+2024/10/26 06:13:23 1794.091358
+2024/10/26 06:13:23 Info for stream 5 of 45b980c5637fd819
+2024/10/26 06:13:23 Path 3: sent 585 retrans 2 lost 0; rcv 1166 rtt 0s; loss rate: 0.000000
+2024/10/26 06:13:23 Congestion Window: 46720
+2024/10/26 06:13:23 Path 0: sent 12 retrans 5 lost 3; rcv 10 rtt 77.248ms; loss rate: 0.250000
+2024/10/26 06:13:23 Congestion Window: 2920
+2024/10/26 06:13:23 Path 1: sent 267 retrans 3 lost 0; rcv 476 rtt 77.248ms; loss rate: 0.000000
+2024/10/26 06:13:23 Congestion Window: 46720
+2024/10/26 06:13:34 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:13:34 Starting new connection to 171.244.134.9 ([::]:42356 -> 171.244.134.9:6124), connectionID b58d82008de54138, version 512
+2024/10/26 06:13:35 Queueing packet 0x7 for later decryption
+2024/10/26 06:13:37 Info for stream 5 of b58d82008de54138
+2024/10/26 06:13:37 Path 0: sent 7 retrans 0 lost 0; rcv 9; loss rate: 0.000000
+2024/10/26 06:13:37 Path 1: sent 279 retrans 3 lost 1; rcv 532; loss rate: 0.003584
+2024/10/26 06:13:37 Path 3: sent 587 retrans 14 lost 6; rcv 1117; loss rate: 0.010221
+2024/10/26 06:13:37 2776.331596
+2024/10/26 06:13:37 Info for stream 5 of b58d82008de54138
+2024/10/26 06:13:37 Path 3: sent 587 retrans 14 lost 6; rcv 1118 rtt 89.563ms; loss rate: 0.010221
+2024/10/26 06:13:37 Congestion Window: 5840
+2024/10/26 06:13:37 Path 0: sent 7 retrans 0 lost 0; rcv 9 rtt 294.399ms; loss rate: 0.000000
+2024/10/26 06:13:37 Congestion Window: 46720
+2024/10/26 06:13:37 Path 1: sent 280 retrans 3 lost 1; rcv 533 rtt 65.921ms; loss rate: 0.003571
+2024/10/26 06:13:37 Congestion Window: 5840
+2024/10/26 06:13:44 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:13:44 Starting new connection to 171.244.134.9 ([::]:47635 -> 171.244.134.9:6124), connectionID 3dc51f754b57ecbb, version 512
+2024/10/26 06:13:45 Queueing packet 0x8 for later decryption
+2024/10/26 06:13:46 Info for stream 5 of 3dc51f754b57ecbb
+2024/10/26 06:13:46 Path 0: sent 10 retrans 2 lost 0; rcv 9; loss rate: 0.000000
+2024/10/26 06:13:46 Path 1: sent 272 retrans 0 lost 0; rcv 539; loss rate: 0.000000
+2024/10/26 06:13:46 Path 3: sent 587 retrans 8 lost 1; rcv 1109; loss rate: 0.001704
+2024/10/26 06:13:46 1600.551148
+2024/10/26 06:13:46 Info for stream 5 of 3dc51f754b57ecbb
+2024/10/26 06:13:46 Path 0: sent 10 retrans 2 lost 0; rcv 9 rtt 46.631ms; loss rate: 0.000000
+2024/10/26 06:13:46 Congestion Window: 46720
+2024/10/26 06:13:46 Path 1: sent 273 retrans 0 lost 0; rcv 539 rtt 33.902ms; loss rate: 0.000000
+2024/10/26 06:13:46 Congestion Window: 46720
+2024/10/26 06:13:46 Path 3: sent 588 retrans 8 lost 1; rcv 1109 rtt 16.21ms; loss rate: 0.001701
+2024/10/26 06:13:46 Congestion Window: 5840
+2024/10/26 06:13:46 Info for stream 5 of 3dc51f754b57ecbb
+2024/10/26 06:13:46 Path 3: sent 589 retrans 9 lost 1; rcv 1109 rtt 16.21ms; loss rate: 0.001698
+2024/10/26 06:13:46 Congestion Window: 5840
+2024/10/26 06:13:46 Path 0: sent 10 retrans 2 lost 0; rcv 9 rtt 46.631ms; loss rate: 0.000000
+2024/10/26 06:13:46 Congestion Window: 46720
+2024/10/26 06:13:46 Path 1: sent 273 retrans 0 lost 0; rcv 540 rtt 33.902ms; loss rate: 0.000000
+2024/10/26 06:13:46 Congestion Window: 46720
+2024/10/26 06:13:55 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:13:55 Starting new connection to 171.244.134.9 ([::]:34605 -> 171.244.134.9:6124), connectionID 3f3279c5f4f944d7, version 512
+2024/10/26 06:13:55 Queueing packet 0x7 for later decryption
+2024/10/26 06:13:57 Info for stream 5 of 3f3279c5f4f944d7
+2024/10/26 06:13:57 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:13:57 Path 1: sent 216 retrans 3 lost 0; rcv 393; loss rate: 0.000000
+2024/10/26 06:13:57 Path 3: sent 632 retrans 3 lost 0; rcv 1247; loss rate: 0.000000
+2024/10/26 06:13:57 1624.907880
+2024/10/26 06:13:57 Info for stream 5 of 3f3279c5f4f944d7
+2024/10/26 06:13:57 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 255.537ms; loss rate: 0.000000
+2024/10/26 06:13:57 Congestion Window: 46720
+2024/10/26 06:13:57 Path 1: sent 217 retrans 3 lost 0; rcv 393 rtt 36.033ms; loss rate: 0.000000
+2024/10/26 06:13:57 Congestion Window: 46720
+2024/10/26 06:13:57 Path 3: sent 632 retrans 3 lost 0; rcv 1248 rtt 94.939ms; loss rate: 0.000000
+2024/10/26 06:13:57 Congestion Window: 46720
+2024/10/26 06:13:57 Info for stream 5 of 3f3279c5f4f944d7
+2024/10/26 06:13:57 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 255.537ms; loss rate: 0.000000
+2024/10/26 06:13:57 Congestion Window: 46720
+2024/10/26 06:13:57 Path 1: sent 219 retrans 4 lost 0; rcv 393 rtt 36.033ms; loss rate: 0.000000
+2024/10/26 06:13:57 Congestion Window: 46720
+2024/10/26 06:13:57 Path 3: sent 633 retrans 3 lost 0; rcv 1248 rtt 94.939ms; loss rate: 0.000000
+2024/10/26 06:13:57 Congestion Window: 46720
+2024/10/26 06:13:57 Info for stream 5 of 3f3279c5f4f944d7
+2024/10/26 06:13:57 Path 3: sent 633 retrans 3 lost 0; rcv 1248 rtt 94.939ms; loss rate: 0.000000
+2024/10/26 06:13:57 Congestion Window: 46720
+2024/10/26 06:13:57 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 255.537ms; loss rate: 0.000000
+2024/10/26 06:13:57 Congestion Window: 46720
+2024/10/26 06:13:57 Path 1: sent 220 retrans 5 lost 0; rcv 393 rtt 36.033ms; loss rate: 0.000000
+2024/10/26 06:13:57 Congestion Window: 46720
+2024/10/26 06:13:57 Info for stream 5 of 3f3279c5f4f944d7
+2024/10/26 06:13:57 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 255.537ms; loss rate: 0.000000
+2024/10/26 06:13:57 Congestion Window: 46720
+2024/10/26 06:13:57 Path 1: sent 220 retrans 6 lost 1; rcv 393 rtt 36.033ms; loss rate: 0.004545
+2024/10/26 06:13:57 Congestion Window: 2920
+2024/10/26 06:13:57 Path 3: sent 634 retrans 3 lost 0; rcv 1248 rtt 94.939ms; loss rate: 0.000000
+2024/10/26 06:13:57 Congestion Window: 46720
+2024/10/26 06:14:11 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:14:11 Starting new connection to 171.244.134.9 ([::]:43890 -> 171.244.134.9:6124), connectionID e0c1b06b1cc86429, version 512
+2024/10/26 06:14:11 Queueing packet 0x7 for later decryption
+2024/10/26 06:14:12 Info for stream 5 of e0c1b06b1cc86429
+2024/10/26 06:14:12 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:14:12 Path 1: sent 231 retrans 4 lost 0; rcv 424; loss rate: 0.000000
+2024/10/26 06:14:12 Path 3: sent 589 retrans 7 lost 0; rcv 1144; loss rate: 0.000000
+2024/10/26 06:14:13 1611.776914
+2024/10/26 06:14:13 Info for stream 5 of e0c1b06b1cc86429
+2024/10/26 06:14:13 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 246.704ms; loss rate: 0.000000
+2024/10/26 06:14:13 Congestion Window: 46720
+2024/10/26 06:14:13 Path 1: sent 236 retrans 4 lost 0; rcv 425 rtt 35.945ms; loss rate: 0.000000
+2024/10/26 06:14:13 Congestion Window: 46720
+2024/10/26 06:14:13 Path 3: sent 623 retrans 7 lost 0; rcv 1214 rtt 106.208ms; loss rate: 0.000000
+2024/10/26 06:14:13 Congestion Window: 46720
+2024/10/26 06:14:23 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:14:23 Starting new connection to 171.244.134.9 ([::]:33246 -> 171.244.134.9:6124), connectionID a118fb57491b1a06, version 512
+2024/10/26 06:14:24 Queueing packet 0x7 for later decryption
+2024/10/26 06:14:25 Info for stream 5 of a118fb57491b1a06
+2024/10/26 06:14:25 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:14:25 Path 1: sent 285 retrans 4 lost 0; rcv 537; loss rate: 0.000000
+2024/10/26 06:14:25 Path 3: sent 553 retrans 9 lost 2; rcv 1063; loss rate: 0.003617
+2024/10/26 06:14:25 2093.426742
+2024/10/26 06:14:25 Info for stream 5 of a118fb57491b1a06
+2024/10/26 06:14:25 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 191.176ms; loss rate: 0.000000
+2024/10/26 06:14:25 Congestion Window: 46720
+2024/10/26 06:14:25 Path 1: sent 304 retrans 4 lost 0; rcv 575 rtt 84.307ms; loss rate: 0.000000
+2024/10/26 06:14:25 Congestion Window: 46720
+2024/10/26 06:14:25 Path 3: sent 555 retrans 9 lost 2; rcv 1064 rtt 52.591ms; loss rate: 0.003604
+2024/10/26 06:14:25 Congestion Window: 5840
+2024/10/26 06:14:37 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:14:37 Starting new connection to 171.244.134.9 ([::]:60461 -> 171.244.134.9:6124), connectionID b2d6fd606b702ed3, version 512
+2024/10/26 06:14:38 Queueing packet 0x7 for later decryption
+2024/10/26 06:14:40 Info for stream 5 of b2d6fd606b702ed3
+2024/10/26 06:14:40 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:14:40 Path 1: sent 303 retrans 5 lost 1; rcv 572; loss rate: 0.003300
+2024/10/26 06:14:40 Path 3: sent 542 retrans 11 lost 6; rcv 1031; loss rate: 0.011070
+2024/10/26 06:14:40 2545.707084
+2024/10/26 06:14:40 Info for stream 5 of b2d6fd606b702ed3
+2024/10/26 06:14:40 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 185.588ms; loss rate: 0.000000
+2024/10/26 06:14:40 Congestion Window: 46720
+2024/10/26 06:14:40 Path 1: sent 305 retrans 5 lost 1; rcv 573 rtt 86.625ms; loss rate: 0.003279
+2024/10/26 06:14:40 Congestion Window: 5840
+2024/10/26 06:14:40 Path 3: sent 561 retrans 11 lost 6; rcv 1070 rtt 98.808ms; loss rate: 0.010695
+2024/10/26 06:14:40 Congestion Window: 4380
+2024/10/26 06:14:40 Info for stream 5 of b2d6fd606b702ed3
+2024/10/26 06:14:40 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 185.588ms; loss rate: 0.000000
+2024/10/26 06:14:40 Congestion Window: 46720
+2024/10/26 06:14:40 Path 1: sent 306 retrans 6 lost 1; rcv 573 rtt 86.625ms; loss rate: 0.003268
+2024/10/26 06:14:40 Congestion Window: 5840
+2024/10/26 06:14:40 Path 3: sent 561 retrans 11 lost 6; rcv 1070 rtt 98.808ms; loss rate: 0.010695
+2024/10/26 06:14:40 Congestion Window: 4380
+2024/10/26 06:14:40 Info for stream 5 of b2d6fd606b702ed3
+2024/10/26 06:14:40 Path 1: sent 307 retrans 7 lost 1; rcv 573 rtt 86.625ms; loss rate: 0.003257
+2024/10/26 06:14:40 Congestion Window: 5840
+2024/10/26 06:14:40 Path 3: sent 562 retrans 11 lost 6; rcv 1070 rtt 98.808ms; loss rate: 0.010676
+2024/10/26 06:14:40 Congestion Window: 4380
+2024/10/26 06:14:40 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 185.588ms; loss rate: 0.000000
+2024/10/26 06:14:40 Congestion Window: 46720
+2024/10/26 06:14:50 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:14:50 Starting new connection to 171.244.134.9 ([::]:55271 -> 171.244.134.9:6124), connectionID d35c46fc760be0f, version 512
+2024/10/26 06:14:51 Queueing packet 0x7 for later decryption
+2024/10/26 06:14:52 Info for stream 5 of d35c46fc760be0f
+2024/10/26 06:14:52 Path 3: sent 714 retrans 8 lost 0; rcv 1347; loss rate: 0.000000
+2024/10/26 06:14:52 Path 0: sent 8 retrans 1 lost 0; rcv 9; loss rate: 0.000000
+2024/10/26 06:14:52 Path 1: sent 166 retrans 2 lost 0; rcv 301; loss rate: 0.000000
+2024/10/26 06:14:52 2225.023939
+2024/10/26 06:14:52 Info for stream 5 of d35c46fc760be0f
+2024/10/26 06:14:52 Path 0: sent 8 retrans 1 lost 0; rcv 9 rtt 454.259ms; loss rate: 0.000000
+2024/10/26 06:14:52 Congestion Window: 46720
+2024/10/26 06:14:52 Path 1: sent 166 retrans 2 lost 0; rcv 301 rtt 176.656ms; loss rate: 0.000000
+2024/10/26 06:14:52 Congestion Window: 46720
+2024/10/26 06:14:52 Path 3: sent 716 retrans 8 lost 0; rcv 1348 rtt 61.211ms; loss rate: 0.000000
+2024/10/26 06:14:52 Congestion Window: 46720
+2024/10/26 06:15:05 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:15:05 Starting new connection to 171.244.134.9 ([::]:48322 -> 171.244.134.9:6124), connectionID e4696ebca47acb2, version 512
+2024/10/26 06:15:06 Queueing packet 0x9 for later decryption
+2024/10/26 06:15:07 Info for stream 5 of e4696ebca47acb2
+2024/10/26 06:15:07 Path 0: sent 12 retrans 3 lost 1; rcv 11; loss rate: 0.083333
+2024/10/26 06:15:07 Path 1: sent 253 retrans 1 lost 0; rcv 479; loss rate: 0.000000
+2024/10/26 06:15:07 Path 3: sent 611 retrans 8 lost 1; rcv 1166; loss rate: 0.001637
+2024/10/26 06:15:07 1804.572746
+2024/10/26 06:15:07 Info for stream 5 of e4696ebca47acb2
+2024/10/26 06:15:07 Path 0: sent 12 retrans 3 lost 1; rcv 11 rtt 68.182ms; loss rate: 0.083333
+2024/10/26 06:15:07 Congestion Window: 5840
+2024/10/26 06:15:07 Path 1: sent 254 retrans 1 lost 0; rcv 480 rtt 31.27ms; loss rate: 0.000000
+2024/10/26 06:15:07 Congestion Window: 46720
+2024/10/26 06:15:07 Path 3: sent 611 retrans 8 lost 1; rcv 1167 rtt 68.182ms; loss rate: 0.001637
+2024/10/26 06:15:07 Congestion Window: 5840
+2024/10/26 06:15:18 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:15:18 Starting new connection to 171.244.134.9 ([::]:39391 -> 171.244.134.9:6124), connectionID 2aef3a053ac217f2, version 512
+2024/10/26 06:15:18 Queueing packet 0x7 for later decryption
+2024/10/26 06:15:20 Info for stream 5 of 2aef3a053ac217f2
+2024/10/26 06:15:20 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:15:20 Path 1: sent 255 retrans 5 lost 1; rcv 467; loss rate: 0.003922
+2024/10/26 06:15:20 Path 3: sent 596 retrans 8 lost 0; rcv 1146; loss rate: 0.000000
+2024/10/26 06:15:20 2692.162918
+2024/10/26 06:15:20 Info for stream 5 of 2aef3a053ac217f2
+2024/10/26 06:15:20 Path 3: sent 597 retrans 8 lost 0; rcv 1147 rtt 151.642ms; loss rate: 0.000000
+2024/10/26 06:15:20 Congestion Window: 46720
+2024/10/26 06:15:20 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 170.869ms; loss rate: 0.000000
+2024/10/26 06:15:20 Congestion Window: 46720
+2024/10/26 06:15:20 Path 1: sent 272 retrans 5 lost 1; rcv 499 rtt 99.723ms; loss rate: 0.003676
+2024/10/26 06:15:20 Congestion Window: 5840
+2024/10/26 06:15:30 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:15:30 Starting new connection to 171.244.134.9 ([::]:47871 -> 171.244.134.9:6124), connectionID 945e94d72c11ab54, version 512
+2024/10/26 06:15:31 Queueing packet 0x7 for later decryption
+2024/10/26 06:15:32 Info for stream 5 of 945e94d72c11ab54
+2024/10/26 06:15:32 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:15:32 Path 1: sent 288 retrans 3 lost 0; rcv 546; loss rate: 0.000000
+2024/10/26 06:15:32 Path 3: sent 567 retrans 4 lost 0; rcv 1090; loss rate: 0.000000
+2024/10/26 06:15:32 1650.216443
+2024/10/26 06:15:32 Info for stream 5 of 945e94d72c11ab54
+2024/10/26 06:15:32 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 273.224ms; loss rate: 0.000000
+2024/10/26 06:15:32 Congestion Window: 46720
+2024/10/26 06:15:32 Path 1: sent 290 retrans 3 lost 0; rcv 546 rtt 40.29ms; loss rate: 0.000000
+2024/10/26 06:15:32 Congestion Window: 46720
+2024/10/26 06:15:32 Path 3: sent 567 retrans 4 lost 0; rcv 1090 rtt 42.38ms; loss rate: 0.000000
+2024/10/26 06:15:32 Congestion Window: 46720
+2024/10/26 06:15:43 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:15:43 Starting new connection to 171.244.134.9 ([::]:40100 -> 171.244.134.9:6124), connectionID f15b180cc732c42, version 512
+2024/10/26 06:15:43 Queueing packet 0x8 for later decryption
+2024/10/26 06:15:44 Info for stream 5 of f15b180cc732c42
+2024/10/26 06:15:44 Path 0: sent 10 retrans 2 lost 0; rcv 9; loss rate: 0.000000
+2024/10/26 06:15:44 Path 1: sent 291 retrans 4 lost 1; rcv 539; loss rate: 0.003436
+2024/10/26 06:15:44 Path 3: sent 553 retrans 6 lost 0; rcv 1068; loss rate: 0.000000
+2024/10/26 06:15:44 1632.958965
+2024/10/26 06:15:44 Info for stream 5 of f15b180cc732c42
+2024/10/26 06:15:44 Path 0: sent 10 retrans 2 lost 0; rcv 9 rtt 64.063ms; loss rate: 0.000000
+2024/10/26 06:15:44 Congestion Window: 46720
+2024/10/26 06:15:44 Path 1: sent 293 retrans 4 lost 1; rcv 540 rtt 26.451ms; loss rate: 0.003413
+2024/10/26 06:15:44 Congestion Window: 5840
+2024/10/26 06:15:44 Path 3: sent 569 retrans 6 lost 0; rcv 1101 rtt 57.332ms; loss rate: 0.000000
+2024/10/26 06:15:44 Congestion Window: 46720
+2024/10/26 06:15:51 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:15:51 Starting new connection to 171.244.134.9 ([::]:52493 -> 171.244.134.9:6124), connectionID 516f4315751dd01, version 512
+2024/10/26 06:15:51 Queueing packet 0x7 for later decryption
+2024/10/26 06:15:52 Info for stream 5 of 516f4315751dd01
+2024/10/26 06:15:52 Path 0: sent 7 retrans 0 lost 0; rcv 9; loss rate: 0.000000
+2024/10/26 06:15:52 Path 1: sent 244 retrans 4 lost 1; rcv 442; loss rate: 0.004098
+2024/10/26 06:15:52 Path 3: sent 612 retrans 6 lost 0; rcv 1196; loss rate: 0.000000
+2024/10/26 06:15:52 1342.236082
+2024/10/26 06:15:52 Info for stream 5 of 516f4315751dd01
+2024/10/26 06:15:52 Path 1: sent 245 retrans 4 lost 1; rcv 442 rtt 38.475ms; loss rate: 0.004082
+2024/10/26 06:15:52 Congestion Window: 5840
+2024/10/26 06:15:52 Path 3: sent 612 retrans 6 lost 0; rcv 1196 rtt 56.887ms; loss rate: 0.000000
+2024/10/26 06:15:52 Congestion Window: 46720
+2024/10/26 06:15:52 Path 0: sent 7 retrans 0 lost 0; rcv 9 rtt 56.887ms; loss rate: 0.000000
+2024/10/26 06:15:52 Congestion Window: 46720
+2024/10/26 06:16:00 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:16:00 Starting new connection to 171.244.134.9 ([::]:39915 -> 171.244.134.9:6124), connectionID cb4ceae758ac3820, version 512
+2024/10/26 06:16:00 Queueing packet 0x7 for later decryption
+2024/10/26 06:16:01 Info for stream 5 of cb4ceae758ac3820
+2024/10/26 06:16:01 Path 3: sent 615 retrans 4 lost 0; rcv 1180; loss rate: 0.000000
+2024/10/26 06:16:01 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:16:01 Path 1: sent 247 retrans 7 lost 3; rcv 460; loss rate: 0.012146
+2024/10/26 06:16:01 1422.865284
+2024/10/26 06:16:01 Info for stream 5 of cb4ceae758ac3820
+2024/10/26 06:16:01 Path 3: sent 616 retrans 4 lost 0; rcv 1181 rtt 31.678ms; loss rate: 0.000000
+2024/10/26 06:16:01 Congestion Window: 46720
+2024/10/26 06:16:01 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 281.871ms; loss rate: 0.000000
+2024/10/26 06:16:01 Congestion Window: 46720
+2024/10/26 06:16:01 Path 1: sent 247 retrans 7 lost 3; rcv 460 rtt 74.794ms; loss rate: 0.012146
+2024/10/26 06:16:01 Congestion Window: 5840
+2024/10/26 06:16:01 Info for stream 5 of cb4ceae758ac3820
+2024/10/26 06:16:01 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 281.871ms; loss rate: 0.000000
+2024/10/26 06:16:01 Congestion Window: 46720
+2024/10/26 06:16:01 Path 1: sent 248 retrans 7 lost 3; rcv 461 rtt 74.794ms; loss rate: 0.012097
+2024/10/26 06:16:01 Congestion Window: 5840
+2024/10/26 06:16:01 Path 3: sent 617 retrans 5 lost 0; rcv 1181 rtt 31.678ms; loss rate: 0.000000
+2024/10/26 06:16:01 Congestion Window: 46720
+2024/10/26 06:16:02 Info for stream 5 of cb4ceae758ac3820
+2024/10/26 06:16:02 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 281.871ms; loss rate: 0.000000
+2024/10/26 06:16:02 Congestion Window: 46720
+2024/10/26 06:16:02 Path 1: sent 248 retrans 7 lost 3; rcv 461 rtt 74.794ms; loss rate: 0.012097
+2024/10/26 06:16:02 Congestion Window: 5840
+2024/10/26 06:16:02 Path 3: sent 618 retrans 6 lost 0; rcv 1181 rtt 31.678ms; loss rate: 0.000000
+2024/10/26 06:16:02 Congestion Window: 46720
+2024/10/26 06:16:02 Info for stream 5 of cb4ceae758ac3820
+2024/10/26 06:16:02 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 281.871ms; loss rate: 0.000000
+2024/10/26 06:16:02 Congestion Window: 46720
+2024/10/26 06:16:02 Path 1: sent 249 retrans 7 lost 3; rcv 461 rtt 74.794ms; loss rate: 0.012048
+2024/10/26 06:16:02 Congestion Window: 5840
+2024/10/26 06:16:02 Path 3: sent 618 retrans 7 lost 1; rcv 1181 rtt 31.678ms; loss rate: 0.001618
+2024/10/26 06:16:02 Congestion Window: 2920
+2024/10/26 06:16:08 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:16:08 Starting new connection to 171.244.134.9 ([::]:37925 -> 171.244.134.9:6124), connectionID de52dca11108e60a, version 512
+2024/10/26 06:16:08 Queueing packet 0x7 for later decryption
+2024/10/26 06:16:09 Info for stream 5 of de52dca11108e60a
+2024/10/26 06:16:09 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:16:09 Path 1: sent 268 retrans 6 lost 1; rcv 487; loss rate: 0.003731
+2024/10/26 06:16:09 Path 3: sent 592 retrans 3 lost 0; rcv 1154; loss rate: 0.000000
+2024/10/26 06:16:09 1407.557991
+2024/10/26 06:16:09 Info for stream 5 of de52dca11108e60a
+2024/10/26 06:16:09 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 153.648ms; loss rate: 0.000000
+2024/10/26 06:16:09 Congestion Window: 46720
+2024/10/26 06:16:09 Path 1: sent 269 retrans 6 lost 1; rcv 487 rtt 40.49ms; loss rate: 0.003717
+2024/10/26 06:16:09 Congestion Window: 5840
+2024/10/26 06:16:09 Path 3: sent 593 retrans 3 lost 0; rcv 1155 rtt 76.257ms; loss rate: 0.000000
+2024/10/26 06:16:09 Congestion Window: 46720
+2024/10/26 06:16:10 Info for stream 5 of de52dca11108e60a
+2024/10/26 06:16:10 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 153.648ms; loss rate: 0.000000
+2024/10/26 06:16:10 Congestion Window: 46720
+2024/10/26 06:16:10 Path 1: sent 270 retrans 7 lost 1; rcv 488 rtt 40.49ms; loss rate: 0.003704
+2024/10/26 06:16:10 Congestion Window: 5840
+2024/10/26 06:16:10 Path 3: sent 593 retrans 3 lost 0; rcv 1155 rtt 76.257ms; loss rate: 0.000000
+2024/10/26 06:16:10 Congestion Window: 46720
+2024/10/26 06:16:10 Info for stream 5 of de52dca11108e60a
+2024/10/26 06:16:10 Path 3: sent 593 retrans 3 lost 0; rcv 1155 rtt 76.257ms; loss rate: 0.000000
+2024/10/26 06:16:10 Congestion Window: 46720
+2024/10/26 06:16:10 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 153.648ms; loss rate: 0.000000
+2024/10/26 06:16:10 Congestion Window: 46720
+2024/10/26 06:16:10 Path 1: sent 271 retrans 8 lost 1; rcv 488 rtt 40.49ms; loss rate: 0.003690
+2024/10/26 06:16:10 Congestion Window: 5840
+2024/10/26 06:16:18 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:16:18 Starting new connection to 171.244.134.9 ([::]:38854 -> 171.244.134.9:6124), connectionID 2a26f9688c1b7ba5, version 512
+2024/10/26 06:16:18 Queueing packet 0x7 for later decryption
+2024/10/26 06:16:19 Info for stream 5 of 2a26f9688c1b7ba5
+2024/10/26 06:16:19 Path 1: sent 307 retrans 7 lost 3; rcv 571; loss rate: 0.009772
+2024/10/26 06:16:19 Path 3: sent 435 retrans 4 lost 0; rcv 844; loss rate: 0.000000
+2024/10/26 06:16:19 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:16:19 1497.675524
+2024/10/26 06:16:19 Info for stream 5 of 2a26f9688c1b7ba5
+2024/10/26 06:16:19 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 284.976ms; loss rate: 0.000000
+2024/10/26 06:16:19 Congestion Window: 46720
+2024/10/26 06:16:19 Path 1: sent 416 retrans 7 lost 3; rcv 792 rtt 86.885ms; loss rate: 0.007212
+2024/10/26 06:16:19 Congestion Window: 5840
+2024/10/26 06:16:19 Path 3: sent 437 retrans 4 lost 0; rcv 846 rtt 75.329ms; loss rate: 0.000000
+2024/10/26 06:16:19 Congestion Window: 46720
+2024/10/26 06:16:19 Info for stream 5 of 2a26f9688c1b7ba5
+2024/10/26 06:16:19 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 284.976ms; loss rate: 0.000000
+2024/10/26 06:16:19 Congestion Window: 46720
+2024/10/26 06:16:19 Path 1: sent 416 retrans 7 lost 3; rcv 792 rtt 86.885ms; loss rate: 0.007212
+2024/10/26 06:16:19 Congestion Window: 5840
+2024/10/26 06:16:19 Path 3: sent 438 retrans 5 lost 0; rcv 846 rtt 75.329ms; loss rate: 0.000000
+2024/10/26 06:16:19 Congestion Window: 46720
+2024/10/26 06:16:19 Info for stream 5 of 2a26f9688c1b7ba5
+2024/10/26 06:16:19 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 284.976ms; loss rate: 0.000000
+2024/10/26 06:16:19 Congestion Window: 46720
+2024/10/26 06:16:19 Path 1: sent 416 retrans 7 lost 3; rcv 792 rtt 86.885ms; loss rate: 0.007212
+2024/10/26 06:16:19 Congestion Window: 5840
+2024/10/26 06:16:19 Path 3: sent 439 retrans 6 lost 0; rcv 846 rtt 75.329ms; loss rate: 0.000000
+2024/10/26 06:16:19 Congestion Window: 46720
+2024/10/26 06:16:26 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:16:26 Starting new connection to 171.244.134.9 ([::]:52627 -> 171.244.134.9:6124), connectionID 3fd62135eb07cea6, version 512
+2024/10/26 06:16:26 Queueing packet 0x7 for later decryption
+2024/10/26 06:16:28 Info for stream 5 of 3fd62135eb07cea6
+2024/10/26 06:16:28 Path 3: sent 582 retrans 6 lost 0; rcv 1130; loss rate: 0.000000
+2024/10/26 06:16:28 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:16:28 Path 1: sent 248 retrans 4 lost 0; rcv 456; loss rate: 0.000000
+2024/10/26 06:16:28 1880.986891
+2024/10/26 06:16:28 Info for stream 5 of 3fd62135eb07cea6
+2024/10/26 06:16:28 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 301.952ms; loss rate: 0.000000
+2024/10/26 06:16:28 Congestion Window: 46720
+2024/10/26 06:16:28 Path 1: sent 248 retrans 4 lost 0; rcv 457 rtt 64.363ms; loss rate: 0.000000
+2024/10/26 06:16:28 Congestion Window: 46720
+2024/10/26 06:16:28 Path 3: sent 609 retrans 6 lost 0; rcv 1181 rtt 43.559ms; loss rate: 0.000000
+2024/10/26 06:16:28 Congestion Window: 46720
+2024/10/26 06:16:37 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:16:37 Starting new connection to 171.244.134.9 ([::]:37585 -> 171.244.134.9:6124), connectionID 42d9a1b4fcadb59a, version 512
+2024/10/26 06:16:37 Queueing packet 0x7 for later decryption
+2024/10/26 06:16:38 Info for stream 5 of 42d9a1b4fcadb59a
+2024/10/26 06:16:38 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:16:38 Path 1: sent 245 retrans 6 lost 1; rcv 440; loss rate: 0.004082
+2024/10/26 06:16:38 Path 3: sent 569 retrans 4 lost 0; rcv 1110; loss rate: 0.000000
+2024/10/26 06:16:38 1426.196778
+2024/10/26 06:16:38 Info for stream 5 of 42d9a1b4fcadb59a
+2024/10/26 06:16:38 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 76.011ms; loss rate: 0.000000
+2024/10/26 06:16:38 Congestion Window: 46720
+2024/10/26 06:16:38 Path 1: sent 247 retrans 6 lost 1; rcv 442 rtt 44.842ms; loss rate: 0.004049
+2024/10/26 06:16:38 Congestion Window: 5840
+2024/10/26 06:16:38 Path 3: sent 612 retrans 4 lost 0; rcv 1197 rtt 61.928ms; loss rate: 0.000000
+2024/10/26 06:16:38 Congestion Window: 46720
+2024/10/26 06:16:45 GET https://171.244.134.9:6124/files/2MB-3
+2024/10/26 06:16:45 Starting new connection to 171.244.134.9 ([::]:37611 -> 171.244.134.9:6124), connectionID dc84fcc90510a415, version 512
+2024/10/26 06:16:45 Queueing packet 0x7 for later decryption
+2024/10/26 06:16:46 Info for stream 5 of dc84fcc90510a415
+2024/10/26 06:16:46 Path 0: sent 7 retrans 0 lost 0; rcv 8; loss rate: 0.000000
+2024/10/26 06:16:46 Path 1: sent 236 retrans 5 lost 0; rcv 432; loss rate: 0.000000
+2024/10/26 06:16:46 Path 3: sent 613 retrans 2 lost 0; rcv 1203; loss rate: 0.000000
+2024/10/26 06:16:46 1808.507024
+2024/10/26 06:16:46 Info for stream 5 of dc84fcc90510a415
+2024/10/26 06:16:46 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 287.862ms; loss rate: 0.000000
+2024/10/26 06:16:46 Congestion Window: 46720
+2024/10/26 06:16:46 Path 1: sent 238 retrans 5 lost 0; rcv 432 rtt 45.268ms; loss rate: 0.000000
+2024/10/26 06:16:46 Congestion Window: 46720
+2024/10/26 06:16:46 Path 3: sent 613 retrans 2 lost 0; rcv 1203 rtt 58.469ms; loss rate: 0.000000
+2024/10/26 06:16:46 Congestion Window: 46720
+2024/10/26 06:16:47 Info for stream 5 of dc84fcc90510a415
+2024/10/26 06:16:47 Path 3: sent 613 retrans 2 lost 0; rcv 1203 rtt 58.469ms; loss rate: 0.000000
+2024/10/26 06:16:47 Congestion Window: 46720
+2024/10/26 06:16:47 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 287.862ms; loss rate: 0.000000
+2024/10/26 06:16:47 Congestion Window: 46720
+2024/10/26 06:16:47 Path 1: sent 239 retrans 6 lost 0; rcv 433 rtt 42.413ms; loss rate: 0.000000
+2024/10/26 06:16:47 Congestion Window: 46720
+2024/10/26 06:16:47 Info for stream 5 of dc84fcc90510a415
+2024/10/26 06:16:47 Path 3: sent 613 retrans 2 lost 0; rcv 1203 rtt 58.469ms; loss rate: 0.000000
+2024/10/26 06:16:47 Congestion Window: 46720
+2024/10/26 06:16:47 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 287.862ms; loss rate: 0.000000
+2024/10/26 06:16:47 Congestion Window: 46720
+2024/10/26 06:16:47 Path 1: sent 240 retrans 7 lost 0; rcv 433 rtt 42.413ms; loss rate: 0.000000
+2024/10/26 06:16:47 Congestion Window: 46720
+2024/10/26 06:16:47 Info for stream 5 of dc84fcc90510a415
+2024/10/26 06:16:47 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 287.862ms; loss rate: 0.000000
+2024/10/26 06:16:47 Congestion Window: 46720
+2024/10/26 06:16:47 Path 1: sent 241 retrans 8 lost 1; rcv 434 rtt 42.413ms; loss rate: 0.004149
+2024/10/26 06:16:47 Congestion Window: 2920
+2024/10/26 06:16:47 Path 3: sent 613 retrans 2 lost 0; rcv 1203 rtt 58.469ms; loss rate: 0.000000
+2024/10/26 06:16:47 Congestion Window: 46720
+2024/10/26 06:16:47 Info for stream 5 of dc84fcc90510a415
+2024/10/26 06:16:47 Path 0: sent 7 retrans 0 lost 0; rcv 8 rtt 287.862ms; loss rate: 0.000000
+2024/10/26 06:16:47 Congestion Window: 46720
+2024/10/26 06:16:47 Path 1: sent 241 retrans 9 lost 2; rcv 434 rtt 42.413ms; loss rate: 0.008299
+2024/10/26 06:16:47 Congestion Window: 2920
+2024/10/26 06:16:47 Path 3: sent 614 retrans 2 lost 0; rcv 1203 rtt 58.469ms; loss rate: 0.000000
+2024/10/26 06:16:47 Congestion Window: 46720
