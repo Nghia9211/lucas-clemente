@@ -46,7 +46,21 @@ class ReplayBuffer:
         else:
             return 0.0  # Avoid division by zero
 
+    def preprocess_state(self, state):
+        # Nếu state là dict, chuyển sang numpy array
+        if isinstance(state, dict):
+            state_array = np.array(list(state.values()), dtype=np.float32)
+        else:
+            state_array = np.array(state, dtype=np.float32)
+        
+        # Chuẩn hóa (normalize)
+        normalized_state = (state_array - np.mean(state_array)) / (np.std(state_array) + 1e-5)
+        return normalized_state
+
+    
+
     def add(self, state, action, reward, next_state, done):
+        state = self.preprocess_state(state)
         state = self.normalize(state)  #  Normalize state
         next_state = self.normalize(next_state)  
         # reward = self.normalize_reward(reward)
@@ -214,11 +228,33 @@ class SACAgent:
         self.rewards_history = []
         self.action_history = []
 
-    def preprocess_state(self, state):
-        state = np.array(state)
-        state = (state - np.mean(state)) / (np.std(state) + 1e-5)  # Add 1e-5 to avoid division by 0
-        return state
+    # def preprocess_state(self, state):
+    #     state = np.array(state)
+    #     state = (state - np.mean(state)) / (np.std(state) + 1e-5)  # Add 1e-5 to avoid division by 0
+    #     return state
+    
+    # def preprocess_state(self, state):
+    #     # Convert dict to numpy array of values if needed
+    #     if isinstance(state, dict):
+    #         state = np.array(list(state.values()), dtype=np.float32)
+    #     elif not isinstance(state, np.ndarray):
+    #         state = np.array(state, dtype=np.float32)
 
+    #     state = (state - np.mean(state)) / (np.std(state) + 1e-5)
+    #     return state
+
+    def preprocess_state(self, state):
+        # Nếu state là dict, chuyển sang numpy array
+        if isinstance(state, dict):
+            state_array = np.array(list(state.values()), dtype=np.float32)
+        else:
+            state_array = np.array(state, dtype=np.float32)
+        
+        # Chuẩn hóa (normalize)
+        normalized_state = (state_array - np.mean(state_array)) / (np.std(state_array) + 1e-5)
+        return normalized_state
+
+    
     def get_action(self, state):
         state = self.preprocess_state(state)  #  Normalize state
         return self.actor.get_action_probability(state)

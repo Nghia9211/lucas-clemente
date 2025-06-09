@@ -238,16 +238,9 @@ func (o *OliaSender) SignalSAC(factor float64) {
 		o.maxTCPCongestionWindow,
 		protocol.PacketNumber(newCwnd),
 	)
-	// if o.InSlowStart() {
-	// 	// TCP slow start, exponential growth, increase by one for each ACK.
-	// 	fmt.Println("Slow Start")
-	// 	// o.congestionWindow++ 
-	// 	return
-	// } else {
-	// 	o.congestionWindow = utils.MinPacketNumber(o.maxTCPCongestionWindow, protocol.PacketNumber((float64(o.congestionWindow) * factor)))
-	// }
-	currentTime := time.Now().Format("2006-01-02 15:04:05.000") // Định dạng: YYYY-MM-DD HH:MM:SS.Milliseconds
-	fmt.Printf("[%s] ChangedCWWND: %d\n", currentTime, o.congestionWindow)
+
+	// currentTime := time.Now().Format("2006-01-02 15:04:05.000") // Định dạng: YYYY-MM-DD HH:MM:SS.Milliseconds
+	// fmt.Printf("[%s] ChangedCWWND: %d\n", currentTime, o.congestionWindow)
 }
 
 func (o *OliaSender) maybeIncreaseCwnd(ackedPacketNumber protocol.PacketNumber, ackedBytes protocol.ByteCount, bytesInFlight protocol.ByteCount) {

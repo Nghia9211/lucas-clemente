@@ -4,12 +4,14 @@ import (
 	"bytes"
 	"crypto/tls"
 	"encoding/csv"
-	"encoding/json"
+	// "encoding/json"
 	"flag"
 	"fmt"
 	"io"
 	"log"
 	"net/http"
+	"bufio"
+	"net"
 	"os"
 	"os/exec"
 	"regexp"
@@ -24,43 +26,102 @@ import (
 	"github.com/lucas-clemente/quic-go/internal/utils"
 )
 
+// Gửi JSON thuần qua UDP socket, có timeout 5s, dùng WaitGroup
 func sendTrainSignal(wg *sync.WaitGroup) {
-	defer wg.Done()
-	data := map[string]interface{}{
-		"train_flag": true,
-	}
+    defer wg.Done()
 
-	jsonData, err := json.Marshal(data)
-	if err != nil {
-		fmt.Println("Error encoding JSON:", err)
-		return
-	}
+    conn, err := net.DialTimeout("udp", "10.0.0.20:8081", 5*time.Second)
+    if err != nil {
+        fmt.Println("sendTrainSignal: error connecting:", err)
+        return
+    }
+    defer conn.Close()
 
-	_, err = http.Post("http://10.0.0.20:8081/flag_training", "application/json", bytes.NewBuffer(jsonData))
-	if err != nil {
-		fmt.Println("Error sending POST request:", err)
-	}
+    jsonStr := `{"command":"flag_training","train_flag":true}` + "\n"
+
+    _, err = conn.Write([]byte(jsonStr))
+    if err != nil {
+        fmt.Println("sendTrainSignal: error sending data:", err)
+        return
+    }
+
+    // Đọc phản hồi từ server
+    reader := bufio.NewReader(conn)
+    response, err := reader.ReadString('\n')
+    if err != nil {
+        fmt.Println("sendTrainSignal: error reading response:", err)
+        return
+    }
+
+    fmt.Println("sendTrainSignal: server response:", response)
 }
 
+// Gửi JSON qua UDP socket trong goroutine riêng, không chờ, có timeout 5s
 func sendTrainSignal2() {
-	go func() {
-		data := map[string]interface{}{
-			"train_flag": true,
-		}
+    go func() {
+        conn, err := net.DialTimeout("udp", "10.0.0.20:8081", 5*time.Second)
+        if err != nil {
+            fmt.Println("sendTrainSignal2: error connecting:", err)
+            return
+        }
+        defer conn.Close()
 
-		jsonData, err := json.Marshal(data)
-		if err != nil {
-			fmt.Println("Error encoding JSON:", err)
-			return
-		}
+        jsonStr := `{"command":"flag_training","train_flag":true}` + "\n"
 
-		_, err = http.Post("http://10.0.0.20:8081/flag_training", "application/json", bytes.NewBuffer(jsonData))
-		if err != nil {
-			fmt.Println("Error sending POST request:", err)
-			return
-		}
-	}()
+        _, err = conn.Write([]byte(jsonStr))
+        if err != nil {
+            fmt.Println("sendTrainSignal2: error sending data:", err)
+            return
+        }
+
+        reader := bufio.NewReader(conn)
+        response, err := reader.ReadString('\n')
+        if err != nil {
+            fmt.Println("sendTrainSignal2: error reading response:", err)
+            return
+        }
+
+        fmt.Println("sendTrainSignal2: server response:", response)
+    }()
 }
+
+// func sendTrainSignal(wg *sync.WaitGroup) {
+// 	defer wg.Done()
+// 	data := map[string]interface{}{
+// 		"train_flag": true,
+// 	}
+
+// 	jsonData, err := json.Marshal(data)
+// 	if err != nil {
+// 		fmt.Println("Error encoding JSON:", err)
+// 		return
+// 	}
+
+// 	_, err = http.Post("http://10.0.0.20:8081/flag_training", "application/json", bytes.NewBuffer(jsonData))
+// 	if err != nil {
+// 		fmt.Println("Error sending POST request:", err)
+// 	}
+// }
+
+// func sendTrainSignal2() {
+// 	go func() {
+// 		data := map[string]interface{}{
+// 			"train_flag": true,
+// 		}
+
+// 		jsonData, err := json.Marshal(data)
+// 		if err != nil {
+// 			fmt.Println("Error encoding JSON:", err)
+// 			return
+// 		}
+
+// 		_, err = http.Post("http://10.0.0.20:8081/flag_training", "application/json", bytes.NewBuffer(jsonData))
+// 		if err != nil {
+// 			fmt.Println("Error sending POST request:", err)
+// 			return
+// 		}
+// 	}()
+// }
 
 func main() {
 	verbose := flag.Bool("v", false, "verbose")

@@ -1,6 +1,7 @@
 package quic
 
 import (
+	"bufio"
 	"bytes"
 	"encoding/json"
 	"fmt"
@@ -8,12 +9,16 @@ import (
 	"net/http"
 	"strconv"
 	"time"
+	"net"
 
 	"github.com/lucas-clemente/quic-go/internal/protocol"
 
 	// "github.com/nguyenthanhtrungbkhn/go-fuzzy-logic"
 	"github.com/lucas-clemente/quic-go/internal/multiclients"
 )
+
+// Địa chỉ socket server
+const socketAddr = "127.0.0.1:8081"
 
 func roundFloat(val float64, precision uint) float64 {
 	ratio := math.Pow(10, float64(precision))
@@ -991,6 +996,7 @@ func updateRewardSACMultiJoinCC(url string, payload RewardPayloadSACMultiJoinCC)
 }
 
 func (sch *scheduler) GetStateAndRewardSACcc(s *session, pth *path, isLoss bool) {
+	// fmt.Println("TEST 1 ")
 	packetNumber := make(map[protocol.PathID]uint64)
 	retransNumber := make(map[protocol.PathID]uint64)
 	lostNumber := make(map[protocol.PathID]uint64)
@@ -1023,20 +1029,22 @@ func (sch *scheduler) GetStateAndRewardSACcc(s *session, pth *path, isLoss bool)
 		}
 	}
 
-	// goodput := NormalizeGoodput(s, packetNumber[firstPath], retransNumber[firstPath])
+	goodput := NormalizeGoodput(s, packetNumber[firstPath], retransNumber[firstPath])
 	// fmt.Println("Goodput: ", goodput)
 	// lostrate := float64(retransNumber[firstPath]) / float64(packetNumber[firstPath])
 	
 	//rttrate := float64(lRTT) / 100.0 / 1000000.0
-
-	// var rttvar float64
-	// if sRTT[firstPath] != 0 {
-	// 	rttvar = math.Abs(float64(lRTT[firstPath]-sRTT[firstPath])) / float64(sRTT[firstPath])
-	// }
+	var rttvar float64
+	if sRTT[firstPath] != 0 {
+		rttvar = math.Abs(float64(lRTT[firstPath]-sRTT[firstPath])) / float64(sRTT[firstPath])
+	}
 
 	// reWard[firstPath] = -2*lostrate
-	// reWard[firstPath] = goodput - 5*lostrate - rttvar
-	reWard[firstPath] = 0
+	// reWard[firstPath] = goodput - 15*lostrate - rttvar 
+
+	reWard[firstPath] = goodput - 5*rttvar
+	// fmt.Println("lRTT",lRTT[firstPath].Seconds())
+	// reWard[firstPath] = 0
 
 	// reWard[firstPath] = goodput - 15 * lostrate - 5 * (float64(INP[firstPath]) / float64(CWND[firstPath]))
 
@@ -1047,28 +1055,32 @@ func (sch *scheduler) GetStateAndRewardSACcc(s *session, pth *path, isLoss bool)
 	connID := fmt.Sprintf("%.6f", old_action.Action1)
 	// fmt.Println("DeBUg")
 
-	if tmp_Reload, ok := multiclients.List_Reward_DQN.Get(connID); ok {
 
+	if tmp_Reload, ok := multiclients.List_Reward_DQN.Get(connID); ok {
+		
 		rewardPayload, ok := tmp_Reload.(RewardPayloadSACcc)
 		if !ok {
 			fmt.Println("Type assertion failed")
 			return
 		}
-		if isLoss {
+		// if isLoss {
 			
-			reWard[firstPath] -= 500
-			// rewardPayload.Reward += 0
-			rewardPayload.Reward += reWard[firstPath]
+		// 	reWard[firstPath] -= 500
+		// 	// rewardPayload.Reward += 0
+		// 	rewardPayload.Reward += reWard[firstPath]
 
-			// rewardPayload.Reward -= 20
-			// fmt.Println("Detect Loss, Decrease Reward : ", rewardPayload.Reward)
-		}
+		// 	// rewardPayload.Reward -= 20
+		// 	// fmt.Println("Detect Loss, Decrease Reward : ", rewardPayload.Reward)
+		// }
 
-		if !isLoss {
-			rewardPayload.Reward += reWard[firstPath]
-			rewardPayload.Reward += 0
-			// fmt.Println("Reward :", rewardPayload.Reward)
-		}
+		// if !isLoss {
+		// 	rewardPayload.Reward += reWard[firstPath]
+		// 	rewardPayload.Reward += 0
+		// 	// fmt.Println("Reward :", rewardPayload.Reward)
+		// }
+
+		// fmt.Println("Reward Count :", rewardPayload.CountReward)
+		rewardPayload.Reward += reWard[firstPath]
 		rewardPayload.CountReward += 1
 
 		if rewardPayload.CountReward == 20 {
@@ -1084,8 +1096,9 @@ func (sch *scheduler) GetStateAndRewardSACcc(s *session, pth *path, isLoss bool)
 				ModelID:   sch.model_id,
 			}
 			// fmt.Println("Update reward to Server")
-			updateRewardSACcc(baseURL+"/update_reward", tmp_Payload)
-
+			// updateRewardSACcc(baseURL+"/update_reward", tmp_Payload)
+			updateRewardSACcc(tmp_Payload)
+			// updateRewardSACcc(sch.conn, tmp_Payload)
 			rewardPayload.Reward = 0
 			rewardPayload.CountReward = 0
 		}
@@ -1094,19 +1107,43 @@ func (sch *scheduler) GetStateAndRewardSACcc(s *session, pth *path, isLoss bool)
 	}
 }
 
-func updateRewardSACcc(url string, payload RewardPayloadSACcc) error {
-	jsonPayload, err := json.Marshal(payload)
+func updateRewardSACcc(payload RewardPayloadSACcc) error {
+	// fmt.Println("In Update")
+	conn, err := net.Dial("udp", "127.0.0.1:8081")
 	if err != nil {
-		return err
+		return fmt.Errorf("failed to connect to socket server: %w", err)
+	}
+	defer conn.Close()
+
+	// Gói tin JSON với lệnh update_reward
+	msg := map[string]interface{}{
+		"command":    "update_reward",
+		"state":      payload.State,
+		"action":     payload.Action,
+		"reward":     payload.Reward,
+		"next_state": payload.NextState,
+		"done":       payload.Done,
 	}
 
-	// Use a goroutine to perform the POST request without waiting for the response
-	go func() {
-		_, err := http.Post(url, "application/json", bytes.NewBuffer(jsonPayload))
-		if err != nil {
-			fmt.Println("Error sending POST request:", err)
-		}
-	}()
+	jsonPayload, err := json.Marshal(msg)
+	if err != nil {
+		return fmt.Errorf("failed to marshal payload: %w", err)
+	}
+
+	// Gửi dữ liệu có newline ở cuối để server nhận biết điểm kết thúc
+	_, err = conn.Write(append(jsonPayload, '\n'))
+	if err != nil {
+		return fmt.Errorf("failed to send data: %w", err)
+	}
+
+	// Đọc phản hồi nếu có
+	reader := bufio.NewReader(conn)
+	response, err := reader.ReadString('\n')
+	if err == nil {
+		fmt.Println("Server response:", response)
+	} else {
+		fmt.Println("No response or error reading response:", err)
+	}
 
 	return nil
 }

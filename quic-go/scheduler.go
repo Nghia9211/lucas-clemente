@@ -9,8 +9,10 @@ import (
 	"math/rand"
 	"net/http"
 	"os"
+	"bufio"
 	"strconv"
 	"time"
+	"net"
 
 	"github.com/lucas-clemente/quic-go/ackhandler"
 	"github.com/lucas-clemente/quic-go/internal/multiclients"
@@ -136,6 +138,8 @@ type scheduler struct {
 	csvwriter_action    *csv.Writer
 	csvwriter_lrtt      *csv.Writer //last rtt
 	csvwriter_flag      bool
+
+
 }
 
 func (sch *scheduler) setup() {
@@ -1849,12 +1853,16 @@ func (sch *scheduler) performPacketSending(s *session, windowUpdateFrames []*wir
 				if s.perspective == protocol.PerspectiveServer && sch.model_id == 3 && sch.csvwriter_flag {
 					sch.csvwriter_statistic.Write([]string{
 						// fmt.Sprintf("%.0f %.0f", float64(firstPath), float64(secondPath)),
-						fmt.Sprintf("%.3f", float64(sRTT[1].Nanoseconds())/1000000),
+						fmt.Sprintf("%x",s.connectionID),
+						// fmt.Sprintf("%.3f", float64(sRTT[1].Nanoseconds())/1000000),
+						fmt.Sprintf("%d", pktNumber[1]),
+						fmt.Sprintf("%d", restranNumber[1]),
+						fmt.Sprintf("%d", lostNumber[1]),
 						fmt.Sprintf("%.3f", 100*float64(restranNumber[1])/float64(pktNumber[1])),
 						fmt.Sprintf("%.3f", 100*float64(lostNumber[1])/float64(pktNumber[1])),
-						fmt.Sprintf("%.3f", float64(sRTT[3].Nanoseconds())/1000000),
-						fmt.Sprintf("%.3f", 100*float64(restranNumber[3])/float64(pktNumber[3])),
-						fmt.Sprintf("%.3f", 100*float64(lostNumber[3])/float64(pktNumber[3])),
+						// fmt.Sprintf("%.3f", float64(sRTT[3].Nanoseconds())/1000000),
+						// fmt.Sprintf("%.3f", 100*float64(restranNumber[3])/float64(pktNumber[3])),
+						// fmt.Sprintf("%.3f", 100*float64(lostNumber[3])/float64(pktNumber[3])),
 					})
 					sch.csvwriter_statistic.Flush()
 					sch.csvwriter_flag = false
@@ -3201,7 +3209,7 @@ func (sch *scheduler) getActionAsyncMulti(url string, state StateSACMulti, model
 }
 
 func (sch *scheduler) selectPathSACcc(s *session, hasRetransmission bool, hasStreamRetransmission bool, fromPth *path) *path {
-	// fmt.Println("SelectPathSAC-cc")
+	
 	if len(s.paths) <= 1 {
 		if !hasRetransmission && !s.paths[protocol.InitialPathID].SendingAllowed() {
 			return nil
@@ -3265,6 +3273,7 @@ func (sch *scheduler) selectPathSACcc(s *session, hasRetransmission bool, hasStr
 	}
 
 	if sch.count_Action == 20 {
+		// fmt.Println("Change Action")
 
 		rewardPayload := sch.list_Reward_SACcc[sch.current_Prob_SACcc.Action1]
 		rewardPayload.NextState = stateData
@@ -3284,13 +3293,16 @@ func (sch *scheduler) selectPathSACcc(s *session, hasRetransmission bool, hasStr
 		sch.current_State_SACcc = stateData
 		done := make(chan bool)
 		// sch.getActionAsyncSACcc(s, baseURL+"/get_action", stateData, sch.model_id)
-		go sch.getActionAsyncSACcc(s, baseURL+"/get_action", stateData, sch.model_id, done)
+		// go sch.getActionAsyncSACcc(s, baseURL+"/get_action", stateData, sch.model_id, done)
+		go sch.getActionAsyncSACcc(s, "127.0.0.1:8081", stateData, sch.model_id, done)
 		sch.count_Action = 0
 		sch.count_Reward = 0
 		sch.current_Reward = 0
 		sch.time_Get_Action = time.Now()
 	} else {
+		
 		sch.count_Action += 1
+		// fmt.Println("Count Action" , sch.count_Action)
 	}
 
 	action := 0
@@ -3307,32 +3319,54 @@ func (sch *scheduler) selectPathSACcc(s *session, hasRetransmission bool, hasStr
 
 }
 
-func (sch *scheduler) getActionAsyncSACcc(s *session, url string, state StateSACcc, model_id uint64, done chan bool) {
+func (sch *scheduler) getActionAsyncSACcc(s *session, addr string, state StateSACcc, model_id uint64, done chan bool) {
 	defer func() { done <- true }()
+
 	go func() {
+		conn, err := net.Dial("udp", addr)
+		if err != nil {
+			fmt.Println("Error connecting to socket server:", err)
+			return
+		}
+		defer conn.Close()
 
-		jsonPayload, err := json.Marshal(map[string]interface{}{
+		// Chuẩn bị message
+		msg := map[string]interface{}{
+			"command":  "get_action",
 			"state":    state,
-			"model_id": model_id,
-		})
+			"model_id": model_id, // Nếu Python server không dùng thì bỏ dòng này
+		}
 
-		// fmt.Println("GetAction: ", model_id)
+		jsonData, err := json.Marshal(msg)
 		if err != nil {
 			fmt.Println("Error encoding JSON:", err)
 			return
 		}
 
-		resp, err := http.Post(url, "application/json", bytes.NewBuffer(jsonPayload))
+		start := time.Now() // Bắt đầu đo thời gian trước khi gửi
+
+		// Gửi JSON + newline để Python server có thể đọc từng message riêng biệt
+		_, err = conn.Write(append(jsonData, '\n'))
 		if err != nil {
-			fmt.Println("Error sending POST request:", err)
+			fmt.Println("Error writing to socket:", err)
 			return
 		}
-		defer resp.Body.Close()
+
+		// Đọc response dòng JSON
+		reader := bufio.NewReader(conn)
+		responseLine, err := reader.ReadString('\n')
+		if err != nil {
+			fmt.Println("Error reading response:", err)
+			return
+		}
+
+		elapsed := time.Since(start) // Tính thời gian trôi qua
+		fmt.Printf("Time elapsed for request-response: %s\n", elapsed)
 
 		var response ActionProbabilityResponse
-		err = json.NewDecoder(resp.Body).Decode(&response)
+		err = json.Unmarshal([]byte(responseLine), &response)
 		if err != nil {
-			fmt.Println("Error decoding response:", err)
+			fmt.Println("Error decoding response JSON:", err)
 			return
 		}
 
@@ -3341,7 +3375,11 @@ func (sch *scheduler) getActionAsyncSACcc(s *session, url string, state StateSAC
 			return
 		}
 
-		// fmt.Println("Received action probability:", response.Probability)
+		if len(response.Probability) == 0 {
+			fmt.Println("Empty probability array received")
+			return
+		}
+
 		sch.current_Prob_SACcc.Action1 = response.Probability[0]
 
 		rewardPayload := RewardPayloadSACcc{
@@ -3353,16 +3391,75 @@ func (sch *scheduler) getActionAsyncSACcc(s *session, url string, state StateSAC
 			ModelID:     sch.model_id,
 			CountReward: 0,
 		}
-		// var connID string = strconv.FormatFloat(sch.current_Prob_SACcc.Action1, 'E', -1, 64)
 		connID := fmt.Sprintf("%.6f", sch.current_Prob_SACcc.Action1)
 		multiclients.List_Reward_DQN.Set(connID, rewardPayload)
 
+		// Áp dụng action lên đường dẫn
 		for pathID, pth := range s.paths {
 			if pathID == 1 {
-				// fmt.Println("Change CWND of Connection ID:%x", s.connectionID)
-				utils.Infof("Change CWND of ConnectionID: %x", s.connectionID)
+				// utils.Infof("Change CWND of ConnectionID: %x", s.connectionID)
 				pth.sentPacketHandler.SignalChangeCWWNDSAC(response.Probability[0])
 			}
 		}
 	}()
 }
+
+// func (sch *scheduler) getActionAsyncSACcc(s *session, url string, state StateSACcc, model_id uint64, done chan bool) {
+// 	defer func() { done <- true }()
+// 	go func() {
+
+// 		jsonPayload, err := json.Marshal(map[string]interface{}{
+// 			"state":    state,
+// 			"model_id": model_id,
+// 		})
+
+// 		// fmt.Println("GetAction: ", model_id)
+// 		if err != nil {
+// 			fmt.Println("Error encoding JSON:", err)
+// 			return
+// 		}
+
+// 		resp, err := http.Post(url, "application/json", bytes.NewBuffer(jsonPayload))
+// 		if err != nil {
+// 			fmt.Println("Error sending POST request:", err)
+// 			return
+// 		}
+// 		defer resp.Body.Close()
+
+// 		var response ActionProbabilityResponse
+// 		err = json.NewDecoder(resp.Body).Decode(&response)
+// 		if err != nil {
+// 			fmt.Println("Error decoding response:", err)
+// 			return
+// 		}
+
+// 		if response.Error != "" {
+// 			fmt.Println("Server returned error:", response.Error)
+// 			return
+// 		}
+
+// 		// fmt.Println("Received action probability:", response.Probability)
+// 		sch.current_Prob_SACcc.Action1 = response.Probability[0]
+
+// 		rewardPayload := RewardPayloadSACcc{
+// 			State:       state,
+// 			NextState:   state,
+// 			Action:      sch.current_Prob_SACcc,
+// 			Reward:      0.0,
+// 			Done:        false,
+// 			ModelID:     sch.model_id,
+// 			CountReward: 0,
+// 		}
+// 		// var connID string = strconv.FormatFloat(sch.current_Prob_SACcc.Action1, 'E', -1, 64)
+// 		connID := fmt.Sprintf("%.6f", sch.current_Prob_SACcc.Action1)
+// 		multiclients.List_Reward_DQN.Set(connID, rewardPayload)
+
+// 		for pathID, pth := range s.paths {
+// 			if pathID == 1 {
+// 				// fmt.Println("Change CWND of Connection ID:%x", s.connectionID)
+// 				utils.Infof("Change CWND of ConnectionID: %x", s.connectionID)
+// 				pth.sentPacketHandler.SignalChangeCWWNDSAC(response.Probability[0])
+// 			}
+// 		}
+// 	}()
+// }

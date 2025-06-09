@@ -22,9 +22,12 @@ from mn_wifi.node import Station
 # SERVER_CMD = "PYTHONPATH=../serverdrl gunicorn -w 12 -b 0.0.0.0:8080 app:app > ./logs/server-gunicorn.logs 2>&1 & ./serverMPQUIC"
 # SERVER_CMD = "PYTHONPATH=../serverdrl gunicorn -w 4 -b 0.0.0.0:8080 app:app --log-file ./logs/server-flask.logs --log-level info & ./serverMPQUIC"
 # SERVER_CMD="export PYTHONPATH=../serverdrl && export CLIENT_NUM={num} && uvicorn app_FASTAPI:app --host 0.0.0.0 --port 8080 --log-level debug > ./logs/server-uvicorn.logs 2>&1 & ./serverMPQUIC"
-SERVER_CMD = "python ../serverdrl/app.py --client {num} > ./logs/server-flask.logs 2>&1 & ./serverMPQUIC"
+# SERVER_CMD = "python ../serverdrl/app.py --client {num} > ./logs/server-flask.logs 2>&1 & ./serverMPQUIC"
 SERVER_CMD_SACMULTI = "python ../serverdrl/app_SACcc.py --client {num} > ./logs/server-flask.logs 2>&1 & ./serverMPQUIC"
-SERVER_CMD_SACMULTIJOINCC = "python ../serverdrl/app_SACcc.py --client {num} > ./logs/server-flask.logs 2>&1 & ./serverMPQUIC"
+# SERVER_CMD = "python ../serverdrl/app_SACcc.py --client {num} > ./logs/server-flask.logs 2>&1 & ./serverMPQUIC"
+
+
+SERVER_CMD = "python3 ../serverdrl/socket_SAC.py > ./logs/server-socket.logs 2>&1 & ./serverMPQUIC"
 
 CERTPATH = "--certpath ./quic/quic_go_certs"
 SCH = "-scheduler %s"
@@ -50,24 +53,38 @@ class LinuxRouter(Node):
         self.cmd('sysctl net.ipv4.ip_forward=0')
         super(LinuxRouter, self).terminate()
 
-def runClient(station, id, client_cmd):
-    global global_flag 
-    # Download Flie 5000 times
-    for i in range(10000):
-        print(client_cmd.format(id=id))
-        station.sendCmd(client_cmd.format(id=id))
-        output = station.monitor(timeoutms=30000)
+# def runClient(station, id, client_cmd):
+#     global global_flag 
+#     # Download Flie 5000 times
+#     for i in range(10000):
+#         print(client_cmd.format(id=id))
+#         station.sendCmd(client_cmd.format(id=id))
+#         output = station.monitor(timeoutms=30000)
 
-        # current_time = time.time()
-        # tmp_time = float(5*(i+1)) - float(current_time - global_variable)
-        # if tmp_time < 0:
-        #     break
-        # print(tmp_time)
-        # time.sleep(tmp_time)
+#         # current_time = time.time()
+#         # tmp_time = float(5*(i+1)) - float(current_time - global_variable)
+#         # if tmp_time < 0:
+#         #     break
+#         # print(tmp_time)
+#         # time.sleep(tmp_time)
+#         time.sleep(1)
+#         if global_flag == True:
+#             break
+#     global_flag = True
+
+def runClient(station, id, client_cmd):
+    for i in range(10000):
+        print(f"[Client {id}] --- Lần {i+1} bắt đầu tải")
+        station.sendCmd(client_cmd.format(id=id))
+        print(f"[Client {id}] --- Đã gửi lệnh, chờ monitor...")
+
+        output = station.monitor(timeoutms=30000)
+        print(f"[Client {id}] --- Kết quả tải:\n{output}")
+
         time.sleep(1)
-        if global_flag == True:
-            break
-    global_flag = True
+
+    print(f"[Client {id}] --- Kết thúc chạy")
+
 
 def configClient(sta, id):
     sta.cmd("ifconfig sta{id}-wlan0 down".format(id=id))
@@ -152,8 +169,8 @@ def topology(args, server_cmd, client_cmd):
     s1.cmd('tc qdisc del dev s1-eth2 root')
     s1.cmd('tc qdisc del dev s1-eth3 root')
     if int(args.var) == 0:
-        r0.cmd('sudo tc qdisc add dev r0-eth2 root handle 1:0 netem delay {}ms'.format(args.los))
-        s1.cmd('sudo tc qdisc add dev s1-eth2 root handle 1:0 netem delay {}ms'.format(args.los))
+        r0.cmd('sudo tc qdisc add dev r0-eth2 root handle 1:0 netem delay {}ms loss {}% '.format(args.owd, args.los))
+        s1.cmd('sudo tc qdisc add dev s1-eth2 root handle 1:0 netem delay {}ms loss {}% '.format(args.owd, args.los))
 
         r0.cmd('sudo tc qdisc add dev r0-eth2 parent 1:1 handle 10:0 tbf rate {}Mbit burst 50kb limit 500kb'.format(args.bwd))
         s1.cmd('sudo tc qdisc add dev s1-eth2 parent 1:1 handle 10:0 tbf rate {}Mbit burst 50kb limit 500kb'.format(args.bwd))
@@ -162,8 +179,8 @@ def topology(args, server_cmd, client_cmd):
         varrate1 = 15.0 * float(args.var) / 100
         varrate2 = float(args.owd) * float(args.var) / 100
 
-        r0.cmd('sudo tc qdisc add dev r0-eth2 root handle 1:0 netem delay {}ms {}ms 75% loss {}% 50%'.format(args.owd, varrate2, args.los))
-        s1.cmd('sudo tc qdisc add dev s1-eth2 root handle 1:0 netem delay {}ms {}ms 75% loss {}% 50%'.format(args.owd, varrate2, args.los))
+        r0.cmd('sudo tc qdisc add dev r0-eth2 root handle 1:0 netem delay {}ms {}ms 75% loss {}% '.format(args.owd, varrate2, args.los))
+        s1.cmd('sudo tc qdisc add dev s1-eth2 root handle 1:0 netem delay {}ms {}ms 75% loss {}% '.format(args.owd, varrate2, args.los))
 
         r0.cmd('sudo tc qdisc add dev r0-eth2 parent 1:1 handle 10:0 tbf rate {}Mbit burst 50kb limit 500kb'.format(args.bwd))
         s1.cmd('sudo tc qdisc add dev s1-eth2 parent 1:1 handle 10:0 tbf rate {}Mbit burst 50kb limit 500kb'.format(args.bwd))
@@ -204,7 +221,7 @@ def do_training(args):
     elif args.sch == "sacmulti" or args.sch == "sacrx":
         server_cmd = " ".join([SERVER_CMD_SACMULTI, CERTPATH, SCH % args.sch, ARGS, END])
     else:
-        server_cmd = " ".join([SERVER_CMD_SACMULTIJOINCC, CERTPATH, SCH % args.sch, ARGS, END])
+        server_cmd = " ".join([SERVER_CMD, CERTPATH, SCH % args.sch, ARGS, END])
 
     client_cmd = " ".join([CLIENT_CMD, CLIENT_FIL % args.fil, CLIENT_END])
     setLogLevel('info')
